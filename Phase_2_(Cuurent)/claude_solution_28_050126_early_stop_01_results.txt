@@ -1,0 +1,118 @@
+C:\Users\acego\PycharmProjects\NeoTFT\NeoTFT\Scripts\python.exe C:\Users\acego\Desktop\INCOMING\TFT\claude_solution_28_050126_01.py 
+Device : cuda
+TFT-P2-R5:   2%|▏         | 10/500 [00:56<48:13,  5.90s/it]
+Epoch 010 | Loss 0.8507 | Train 86.12% | Val 88.02% | Gap -1.89% | Best 88.02% [no_improve 0/50]
+  LR : w 6.925e-05×1.000  t 6.925e-05/6.925e-05/6.925e-05×1.000  [LOCKED]
+  GradN: w 0.9602  t 0.0197/0.0179/0.0181  ratios 0.021/0.019/0.019
+  Diversity: 0.0062/0.0060/0.0086  mean 0.0069
+  cov: BTFT1 99.9% std1.00  BTFT2 100.0% std0.88  BTFT3 100.0% std0.91
+
+TFT-P2-R5:   4%|▍         | 20/500 [01:54<47:09,  5.90s/it]
+Epoch 020 | Loss 0.8037 | Train 87.82% | Val 89.10% | Gap -1.28% | Best 89.10% [no_improve 0/50]
+  LR : w 4.604e-05×1.000  t 4.604e-05/4.604e-05/4.604e-05×1.000  [LOCKED]
+  GradN: w 0.9791  t 0.0215/0.0176/0.0169  ratios 0.022/0.018/0.017
+  Diversity: 0.0088/0.0087/0.0139  mean 0.0105
+  cov: BTFT1 99.9% std0.99  BTFT2 99.9% std0.89  BTFT3 100.0% std0.92
+
+TFT-P2-R5:   6%|▌         | 30/500 [02:51<45:18,  5.78s/it]
+Epoch 030 | Loss 0.7796 | Train 88.92% | Val 89.51% | Gap -0.59% | Best 89.51% [no_improve 0/50]
+  LR : w 3.061e-05×1.000  t 3.061e-05/3.061e-05/3.061e-05×1.000  [LOCKED]
+  GradN: w 0.9909  t 0.0232/0.0175/0.0162  ratios 0.023/0.018/0.016
+  Diversity: 0.0104/0.0104/0.0173  mean 0.0127
+  cov: BTFT1 99.8% std1.00  BTFT2 99.9% std0.89  BTFT3 100.0% std0.92
+
+TFT-P2-R5:   8%|▊         | 40/500 [03:46<42:35,  5.55s/it]
+Epoch 040 | Loss 0.7639 | Train 89.50% | Val 89.65% | Gap -0.15% | Best 89.67% [no_improve 1/50]
+  LR : w 3.861e-05×1.000  t 3.861e-05/3.861e-05/3.861e-05×1.000  [LOCKED]
+  GradN: w 0.9962  t 0.0247/0.0175/0.0157  ratios 0.025/0.018/0.016
+  Diversity: 0.0117/0.0118/0.0200  mean 0.0145
+  cov: BTFT1 99.8% std1.00  BTFT2 99.9% std0.90  BTFT3 100.0% std0.92
+
+TFT-P2-R5:  10%|█         | 50/500 [04:41<42:12,  5.63s/it]
+Epoch 050 | Loss 0.7466 | Train 90.34% | Val 89.63% | Gap +0.70% | Best 89.78% [no_improve 1/50]
+  LR : w 5.715e-05×1.000  t 5.715e-05/5.715e-05/5.715e-05×1.000  [LOCKED]
+  GradN: w 0.9993  t 0.0270/0.0176/0.0153  ratios 0.027/0.018/0.015
+  Diversity: 0.0136/0.0139/0.0237  mean 0.0171
+  cov: BTFT1 99.8% std1.00  BTFT2 99.9% std0.90  BTFT3 100.0% std0.93
+
+TFT-P2-R5:  12%|█▏        | 60/500 [05:36<41:12,  5.62s/it]
+Epoch 060 | Loss 0.7276 | Train 91.10% | Val 89.88% | Gap +1.22% | Best 90.03% [no_improve 5/50]
+  LR : w 7.809e-05×1.000  t 7.809e-05/7.809e-05/7.809e-05×1.000  [LOCKED]
+  GradN: w 1.0000  t 0.0301/0.0178/0.0149  ratios 0.030/0.018/0.015
+  Diversity: 0.0160/0.0167/0.0284  mean 0.0204
+  cov: BTFT1 99.8% std0.99  BTFT2 99.9% std0.90  BTFT3 100.0% std0.93
+
+TFT-P2-R5:  14%|█▍        | 70/500 [06:31<39:28,  5.51s/it]
+Epoch 070 | Loss 0.7062 | Train 92.07% | Val 90.26% | Gap +1.81% | Best 90.26% [no_improve 4/50]
+  LR : w 9.079e-05×1.000  t 9.104e-05/9.104e-05/9.104e-05×1.000  [LOCKED]
+  GradN: w 1.0000  t 0.0345/0.0182/0.0143  ratios 0.034/0.018/0.014
+  Diversity: 0.0190/0.0203/0.0343  mean 0.0245
+  cov: BTFT1 99.8% std0.99  BTFT2 99.9% std0.90  BTFT3 100.0% std0.94
+
+TFT-P2-R5:  16%|█▌        | 80/500 [07:25<38:16,  5.47s/it]
+Epoch 080 | Loss 0.6805 | Train 93.18% | Val 90.16% | Gap +3.02% | Best 90.52% [no_improve 3/50]
+  LR : w 1.041e-04×0.952  t 1.482e-04/1.482e-04/1.482e-04×1.051  [div 8.26e-02]
+  GradN: w 1.0000  t 0.0387/0.0184/0.0136  ratios 0.039/0.018/0.014
+  Diversity: 0.0225/0.0247/0.0417  mean 0.0296
+  cov: BTFT1 99.8% std0.99  BTFT2 99.8% std0.91  BTFT3 100.0% std0.95
+
+TFT-P2-R5:  18%|█▊        | 90/500 [08:19<37:34,  5.50s/it]
+Epoch 090 | Loss 0.6492 | Train 94.58% | Val 90.72% | Gap +3.86% | Best 90.72% [no_improve 0/50]
+  LR : w 7.763e-05×0.915  t 3.000e-04/3.000e-04/3.000e-04×1.093  [div 4.83e-02]
+  GradN: w 1.0000  t 0.0447/0.0188/0.0125  ratios 0.045/0.019/0.013
+  Diversity: 0.0296/0.0333/0.0563  mean 0.0397
+  cov: BTFT1 99.8% std0.98  BTFT2 99.8% std0.89  BTFT3 100.0% std0.94
+
+TFT-P2-R5:  20%|██        | 100/500 [09:13<36:34,  5.49s/it]
+Epoch 100 | Loss 0.6117 | Train 96.20% | Val 90.93% | Gap +5.27% | Best 90.98% [no_improve 2/50]
+  LR : w 3.156e-05×0.860  t 3.000e-04/3.000e-04/3.000e-04×1.163  [div 1.06e-01]
+  GradN: w 1.0000  t 0.0466/0.0177/0.0107  ratios 0.047/0.018/0.011
+  Diversity: 0.0380/0.0423/0.0730  mean 0.0511
+  cov: BTFT1 99.8% std0.97  BTFT2 99.8% std0.89  BTFT3 100.0% std0.94
+
+TFT-P2-R5:  22%|██▏       | 110/500 [10:08<35:44,  5.50s/it]
+Epoch 110 | Loss 0.5924 | Train 97.05% | Val 90.88% | Gap +6.18% | Best 90.99% [no_improve 2/50]
+  LR : w 1.000e-05×0.827  t 3.000e-04/3.000e-04/3.000e-04×1.209  [LOCKED]
+  GradN: w 1.0000  t 0.0466/0.0170/0.0096  ratios 0.047/0.017/0.010
+  Diversity: 0.0458/0.0502/0.0872  mean 0.0610
+  cov: BTFT1 99.8% std0.96  BTFT2 99.7% std0.89  BTFT3 100.0% std0.94
+
+TFT-P2-R5:  24%|██▍       | 120/500 [11:02<34:27,  5.44s/it]
+Epoch 120 | Loss 0.5827 | Train 97.45% | Val 90.95% | Gap +6.50% | Best 90.99% [no_improve 12/50]
+  LR : w 1.000e-05×0.816  t 3.000e-04/3.000e-04/3.000e-04×1.225  [LOCKED]
+  GradN: w 1.0000  t 0.0466/0.0166/0.0090  ratios 0.047/0.017/0.009
+  Diversity: 0.0534/0.0572/0.0993  mean 0.0700
+  cov: BTFT1 99.8% std0.97  BTFT2 99.7% std0.89  BTFT3 100.0% std0.94
+
+TFT-P2-R5:  26%|██▌       | 130/500 [11:56<33:24,  5.42s/it]
+Epoch 130 | Loss 0.5770 | Train 97.59% | Val 90.91% | Gap +6.68% | Best 90.99% [no_improve 22/50]
+  LR : w 1.000e-05×0.810  t 3.000e-04/3.000e-04/3.000e-04×1.234  [LOCKED]
+  GradN: w 1.0000  t 0.0477/0.0166/0.0087  ratios 0.048/0.017/0.009
+  Diversity: 0.0606/0.0637/0.1101  mean 0.0782
+  cov: BTFT1 99.8% std0.97  BTFT2 99.7% std0.89  BTFT3 100.0% std0.94
+
+TFT-P2-R5:  28%|██▊       | 140/500 [12:50<32:38,  5.44s/it]
+Epoch 140 | Loss 0.5715 | Train 97.78% | Val 90.94% | Gap +6.83% | Best 90.99% [no_improve 32/50]
+  LR : w 1.000e-05×0.805  t 3.000e-04/3.000e-04/3.000e-04×1.242  [LOCKED]
+  GradN: w 1.0000  t 0.0474/0.0164/0.0083  ratios 0.047/0.016/0.008
+  Diversity: 0.0672/0.0698/0.1193  mean 0.0855
+  cov: BTFT1 99.8% std0.97  BTFT2 99.7% std0.89  BTFT3 100.0% std0.95
+
+TFT-P2-R5:  30%|███       | 150/500 [13:44<32:08,  5.51s/it]
+Epoch 150 | Loss 0.5685 | Train 97.89% | Val 90.80% | Gap +7.09% | Best 90.99% [no_improve 42/50]
+  LR : w 1.000e-05×0.797  t 3.000e-04/3.000e-04/3.000e-04×1.254  [LOCKED]
+  GradN: w 1.0000  t 0.0494/0.0164/0.0081  ratios 0.049/0.016/0.008
+  Diversity: 0.0739/0.0755/0.1272  mean 0.0922
+  cov: BTFT1 99.8% std0.97  BTFT2 99.7% std0.89  BTFT3 100.0% std0.96
+
+TFT-P2-R5:  31%|███▏      | 157/500 [14:28<31:36,  5.53s/it]
+
+*** Early stop epoch 158: 50 epochs without improvement. Best 90.99% ***
+
+============================================================
+  Final Test Accuracy (TFT Phase 2 R5) : 90.11%
+  Best Val  Accuracy (TFT Phase 2 R5)  : 90.99%
+============================================================
+
+
+Process finished with exit code 0

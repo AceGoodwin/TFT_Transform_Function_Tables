@@ -1,0 +1,2611 @@
+C:\Users\acego\PycharmProjects\NeoTFT\NeoTFT\Scripts\python.exe C:\Users\acego\Desktop\INCOMING\TFT\claude_solution_22_042926_01.py 
+Device : cuda
+TFT-1.5 training:   0%|          | 10/2000 [00:50<2:52:24,  5.20s/it]
+Epoch 010 | Loss 0.3375 | Train 88.25% | Val 88.72% | Gap -0.47% | Best 88.80%
+  LR  : w 6.925e-05 ×1.000  t1 6.925e-05  t2 6.925e-05  t3 6.925e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.0364  t2 0.0227  t3 0.0225  ratios 0.036/0.023/0.023
+  Update: w 3.30e-03  t1 4.81e-04  t2 2.98e-04  t3 3.34e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.316,3.519]  std 1.204  mono 0.83  curve 0.0056
+  TFT2[th] [-0.971,0.971]  std 0.806  mono 0.78  curve 0.0056
+  TFT3[rl] [-0.093,3.066]  std 1.027  mono 0.68  curve 0.0032
+  TFT1 input [-6.12,5.33]  std 1.00  cov 99.9%
+  TFT2 input [-6.61,5.42]  std 0.90  cov 99.8%
+  TFT3 input [-2.56,3.73]  std 1.05  cov 99.8%
+
+TFT-1.5 training:   1%|          | 20/2000 [01:42<2:50:50,  5.18s/it]
+Epoch 020 | Loss 0.2641 | Train 90.63% | Val 89.90% | Gap +0.73% | Best 89.90%
+  LR  : w 4.604e-05 ×1.000  t1 4.604e-05  t2 4.604e-05  t3 4.604e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.0455  t2 0.0239  t3 0.0205  ratios 0.045/0.024/0.020
+  Update: w 2.19e-03  t1 2.83e-04  t2 1.97e-04  t3 2.29e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.303,3.552]  std 1.202  mono 0.78  curve 0.0068
+  TFT2[th] [-0.960,0.952]  std 0.798  mono 0.76  curve 0.0077
+  TFT3[rl] [-0.133,3.084]  std 1.047  mono 0.70  curve 0.0045
+  TFT1 input [-6.91,6.02]  std 1.01  cov 99.8%
+  TFT2 input [-8.17,6.11]  std 0.93  cov 99.5%
+  TFT3 input [-2.91,3.78]  std 1.09  cov 99.8%
+
+TFT-1.5 training:   2%|▏         | 30/2000 [02:34<2:53:19,  5.28s/it]
+Epoch 030 | Loss 0.2225 | Train 92.11% | Val 90.23% | Gap +1.88% | Best 90.27%
+  LR  : w 3.061e-05 ×1.000  t1 3.061e-05  t2 3.061e-05  t3 3.061e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.0514  t2 0.0248  t3 0.0197  ratios 0.051/0.025/0.020
+  Update: w 1.47e-03  t1 1.76e-04  t2 1.34e-04  t3 1.60e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.299,3.574]  std 1.200  mono 0.78  curve 0.0077
+  TFT2[th] [-0.957,0.944]  std 0.794  mono 0.71  curve 0.0080
+  TFT3[rl] [-0.161,3.096]  std 1.060  mono 0.71  curve 0.0051
+  TFT1 input [-7.16,6.15]  std 1.00  cov 99.7%
+  TFT2 input [-8.42,5.93]  std 0.92  cov 99.3%
+  TFT3 input [-2.99,3.80]  std 1.09  cov 99.8%
+
+TFT-1.5 training:   2%|▏         | 40/2000 [03:26<2:50:30,  5.22s/it]
+Epoch 040 | Loss 0.1972 | Train 93.00% | Val 90.39% | Gap +2.61% | Best 90.51%
+  LR  : w 3.248e-05 ×0.970  t1 4.589e-05  t2 4.589e-05  t3 4.589e-05 ×1.031  [div 6.28e-02]
+  GradN: w 1.0000  t1 0.0569  t2 0.0254  t3 0.0190  ratios 0.057/0.025/0.019
+  Update: w 1.47e-03  t1 2.32e-04  t2 1.68e-04  t3 2.07e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.303,3.596]  std 1.199  mono 0.79  curve 0.0079
+  TFT2[th] [-0.951,0.941]  std 0.790  mono 0.71  curve 0.0083
+  TFT3[rl] [-0.183,3.111]  std 1.070  mono 0.71  curve 0.0055
+  TFT1 input [-7.67,6.75]  std 1.01  cov 99.7%
+  TFT2 input [-8.20,6.20]  std 0.93  cov 99.2%
+  TFT3 input [-3.13,3.67]  std 1.10  cov 99.8%
+
+TFT-1.5 training:   2%|▎         | 50/2000 [04:17<2:49:57,  5.23s/it]
+Epoch 050 | Loss 0.1713 | Train 93.99% | Val 90.28% | Gap +3.71% | Best 90.57%
+  LR  : w 2.786e-05 ×0.921  t1 1.000e-04  t2 1.000e-04  t3 1.000e-04 ×1.086  [div 4.19e-02]
+  GradN: w 1.0000  t1 0.0647  t2 0.0259  t3 0.0180  ratios 0.065/0.026/0.018
+  Update: w 1.31e-03  t1 4.85e-04  t2 3.84e-04  t3 4.41e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.371,3.646]  std 1.196  mono 0.80  curve 0.0091
+  TFT2[th] [-0.946,0.939]  std 0.785  mono 0.72  curve 0.0104
+  TFT3[rl] [-0.221,3.131]  std 1.090  mono 0.71  curve 0.0072
+  TFT1 input [-7.02,6.60]  std 1.02  cov 99.6%
+  TFT2 input [-8.23,6.53]  std 0.95  cov 99.0%
+  TFT3 input [-3.11,3.67]  std 1.11  cov 99.8%
+
+TFT-1.5 training:   3%|▎         | 60/2000 [05:09<2:47:50,  5.19s/it]
+Epoch 060 | Loss 0.1597 | Train 94.42% | Val 90.46% | Gap +3.96% | Best 90.57%
+  LR  : w 1.723e-05 ×0.911  t1 1.000e-04  t2 1.000e-04  t3 1.000e-04 ×1.098  [div 5.04e-02]
+  GradN: w 1.0000  t1 0.0799  t2 0.0274  t3 0.0175  ratios 0.080/0.027/0.018
+  Update: w 7.92e-04  t1 4.80e-04  t2 4.02e-04  t3 4.37e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.443,3.728]  std 1.191  mono 0.77  curve 0.0123
+  TFT2[th] [-0.932,0.923]  std 0.779  mono 0.69  curve 0.0126
+  TFT3[rl] [-0.270,3.150]  std 1.113  mono 0.71  curve 0.0093
+  TFT1 input [-7.25,6.82]  std 1.01  cov 99.6%
+  TFT2 input [-7.99,6.98]  std 0.95  cov 98.9%
+  TFT3 input [-3.11,3.55]  std 1.11  cov 99.8%
+
+TFT-1.5 training:   4%|▎         | 70/2000 [06:00<2:47:01,  5.19s/it]
+Epoch 070 | Loss 0.1571 | Train 94.50% | Val 90.34% | Gap +4.15% | Best 90.57%
+  LR  : w 1.000e-05 ×0.903  t1 1.000e-04  t2 1.000e-04  t3 1.000e-04 ×1.108  [div 4.04e-02]
+  GradN: w 1.0000  t1 0.1023  t2 0.0286  t3 0.0174  ratios 0.102/0.029/0.017
+  Update: w 4.45e-04  t1 4.33e-04  t2 3.82e-04  t3 4.08e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.478,3.809]  std 1.188  mono 0.77  curve 0.0146
+  TFT2[th] [-0.937,0.918]  std 0.777  mono 0.68  curve 0.0144
+  TFT3[rl] [-0.313,3.169]  std 1.133  mono 0.71  curve 0.0121
+  TFT1 input [-7.43,7.66]  std 1.01  cov 99.6%
+  TFT2 input [-8.03,7.58]  std 0.94  cov 98.8%
+  TFT3 input [-3.11,3.54]  std 1.11  cov 99.8%
+
+TFT-1.5 training:   4%|▍         | 80/2000 [06:52<2:47:39,  5.24s/it]
+Epoch 080 | Loss 0.1634 | Train 94.25% | Val 90.10% | Gap +4.15% | Best 90.57%
+  LR  : w 1.000e-05 ×0.903  t1 1.000e-04  t2 1.000e-04  t3 1.000e-04 ×1.107  [LOCKED]
+  GradN: w 1.0000  t1 0.1515  t2 0.0307  t3 0.0179  ratios 0.151/0.031/0.018
+  Update: w 4.22e-04  t1 4.65e-04  t2 3.94e-04  t3 3.97e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.495,3.892]  std 1.184  mono 0.76  curve 0.0165
+  TFT2[th] [-0.928,0.910]  std 0.776  mono 0.65  curve 0.0171
+  TFT3[rl] [-0.346,3.181]  std 1.148  mono 0.74  curve 0.0137
+  TFT1 input [-7.67,7.98]  std 1.02  cov 99.5%
+  TFT2 input [-8.40,8.58]  std 0.95  cov 98.8%
+  TFT3 input [-3.24,3.65]  std 1.10  cov 99.8%
+
+TFT-1.5 training:   4%|▍         | 90/2000 [07:43<2:47:00,  5.25s/it]
+Epoch 090 | Loss 0.1841 | Train 93.48% | Val 90.03% | Gap +3.46% | Best 90.57%
+  LR  : w 1.000e-05 ×0.932  t1 1.000e-04  t2 1.000e-04  t3 1.000e-04 ×1.073  [LOCKED]
+  GradN: w 1.0000  t1 0.2113  t2 0.0336  t3 0.0189  ratios 0.211/0.034/0.019
+  Update: w 4.20e-04  t1 4.68e-04  t2 4.00e-04  t3 3.84e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.489,3.981]  std 1.179  mono 0.75  curve 0.0186
+  TFT2[th] [-0.927,0.910]  std 0.776  mono 0.64  curve 0.0187
+  TFT3[rl] [-0.375,3.192]  std 1.158  mono 0.71  curve 0.0145
+  TFT1 input [-8.38,8.22]  std 1.03  cov 99.5%
+  TFT2 input [-8.90,9.11]  std 0.96  cov 98.7%
+  TFT3 input [-3.41,3.68]  std 1.11  cov 99.8%
+
+TFT-1.5 training:   5%|▌         | 100/2000 [08:34<2:43:51,  5.17s/it]
+Epoch 100 | Loss 0.3398 | Train 88.71% | Val 86.29% | Gap +2.42% | Best 90.57%
+  LR  : w 1.000e-05 ×0.979  t1 5.629e-05  t2 5.629e-05  t3 5.629e-05 ×1.021  [div 1.32e-01]
+  GradN: w 1.0000  t1 0.4529  t2 0.0601  t3 0.0270  ratios 0.453/0.060/0.027
+  Update: w 5.32e-04  t1 6.83e-04  t2 4.29e-04  t3 4.21e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.434,4.092]  std 1.173  mono 0.76  curve 0.0198
+  TFT2[th] [-0.912,0.894]  std 0.774  mono 0.64  curve 0.0204
+  TFT3[rl] [-0.389,3.188]  std 1.158  mono 0.69  curve 0.0162
+  TFT1 input [-8.71,7.27]  std 1.03  cov 99.4%
+  TFT2 input [-8.42,9.20]  std 0.96  cov 98.5%
+  TFT3 input [-3.67,3.82]  std 1.09  cov 99.7%
+
+TFT-1.5 training:   6%|▌         | 110/2000 [09:26<2:45:42,  5.26s/it]
+Epoch 110 | Loss 0.9911 | Train 71.95% | Val 77.95% | Gap -6.00% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.602e-05  t2 1.602e-05  t3 1.602e-05 ×1.000  [div 4.00e-02]
+  GradN: w 1.0000  t1 0.5000  t2 0.1466  t3 0.0629  ratios 0.500/0.147/0.063
+  Update: w 5.59e-04  t1 1.49e-04  t2 9.84e-05  t3 1.66e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.365,4.170]  std 1.167  mono 0.76  curve 0.0199
+  TFT2[th] [-0.896,0.902]  std 0.770  mono 0.62  curve 0.0214
+  TFT3[rl] [-0.336,3.084]  std 1.104  mono 0.68  curve 0.0162
+  TFT1 input [-9.07,8.15]  std 1.06  cov 98.8%
+  TFT2 input [-8.84,8.07]  std 1.16  cov 96.0%
+  TFT3 input [-4.43,4.25]  std 1.02  cov 99.6%
+
+TFT-1.5 training:   6%|▌         | 120/2000 [10:17<2:41:54,  5.17s/it]
+Epoch 120 | Loss 1.1661 | Train 67.88% | Val 74.39% | Gap -6.51% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.1617  t3 0.0616  ratios 0.500/0.162/0.062
+  Update: w 6.60e-04  t1 8.99e-05  t2 6.05e-05  t3 1.10e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.361,4.190]  std 1.166  mono 0.76  curve 0.0198
+  TFT2[th] [-0.901,0.912]  std 0.770  mono 0.61  curve 0.0214
+  TFT3[rl] [-0.325,3.068]  std 1.093  mono 0.68  curve 0.0162
+  TFT1 input [-10.07,9.01]  std 1.10  cov 98.6%
+  TFT2 input [-8.32,8.02]  std 1.21  cov 95.5%
+  TFT3 input [-4.65,4.34]  std 1.02  cov 99.6%
+
+TFT-1.5 training:   6%|▋         | 130/2000 [11:09<2:42:05,  5.20s/it]
+Epoch 130 | Loss 1.0876 | Train 67.49% | Val 74.36% | Gap -6.87% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.1191  t3 0.0585  ratios 0.500/0.119/0.058
+  Update: w 8.77e-04  t1 7.70e-05  t2 5.60e-05  t3 1.10e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.361,4.197]  std 1.166  mono 0.75  curve 0.0198
+  TFT2[th] [-0.906,0.916]  std 0.772  mono 0.61  curve 0.0213
+  TFT3[rl] [-0.318,3.063]  std 1.087  mono 0.68  curve 0.0161
+  TFT1 input [-8.26,8.60]  std 1.06  cov 99.1%
+  TFT2 input [-8.25,8.47]  std 1.09  cov 96.7%
+  TFT3 input [-3.52,4.21]  std 1.04  cov 99.7%
+
+TFT-1.5 training:   7%|▋         | 140/2000 [12:01<2:43:09,  5.26s/it]
+Epoch 140 | Loss 1.0979 | Train 62.87% | Val 71.41% | Gap -8.54% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.0944  t3 0.0563  ratios 0.500/0.094/0.056
+  Update: w 6.47e-04  t1 5.89e-05  t2 4.94e-05  t3 7.34e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.359,4.213]  std 1.165  mono 0.75  curve 0.0198
+  TFT2[th] [-0.914,0.925]  std 0.773  mono 0.61  curve 0.0214
+  TFT3[rl] [-0.305,3.043]  std 1.075  mono 0.68  curve 0.0161
+  TFT1 input [-8.67,8.20]  std 1.07  cov 98.9%
+  TFT2 input [-8.96,8.36]  std 1.11  cov 96.2%
+  TFT3 input [-4.73,4.54]  std 0.99  cov 99.6%
+
+TFT-1.5 training:   8%|▊         | 150/2000 [12:52<2:37:43,  5.12s/it]
+Epoch 150 | Loss 1.0281 | Train 65.62% | Val 73.99% | Gap -8.38% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.4999  t2 0.0812  t3 0.0467  ratios 0.500/0.081/0.047
+  Update: w 5.67e-04  t1 5.26e-05  t2 3.91e-05  t3 5.13e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.356,4.225]  std 1.165  mono 0.76  curve 0.0198
+  TFT2[th] [-0.920,0.930]  std 0.775  mono 0.62  curve 0.0215
+  TFT3[rl] [-0.303,3.030]  std 1.068  mono 0.68  curve 0.0160
+  TFT1 input [-9.23,8.15]  std 1.06  cov 98.9%
+  TFT2 input [-8.75,8.70]  std 1.07  cov 96.5%
+  TFT3 input [-3.93,4.44]  std 0.98  cov 99.8%
+
+TFT-1.5 training:   8%|▊         | 160/2000 [13:43<2:44:31,  5.36s/it]
+Epoch 160 | Loss 1.0335 | Train 65.64% | Val 73.65% | Gap -8.01% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.0995  t3 0.0442  ratios 0.500/0.099/0.044
+  Update: w 6.86e-04  t1 6.41e-05  t2 4.61e-05  t3 5.21e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.355,4.234]  std 1.165  mono 0.75  curve 0.0198
+  TFT2[th] [-0.923,0.932]  std 0.775  mono 0.62  curve 0.0215
+  TFT3[rl] [-0.306,3.023]  std 1.066  mono 0.68  curve 0.0159
+  TFT1 input [-9.60,9.12]  std 1.07  cov 98.9%
+  TFT2 input [-8.17,8.76]  std 1.09  cov 96.7%
+  TFT3 input [-4.07,3.62]  std 1.01  cov 99.8%
+
+TFT-1.5 training:   8%|▊         | 170/2000 [14:34<2:37:04,  5.15s/it]
+Epoch 170 | Loss 1.0763 | Train 62.55% | Val 71.95% | Gap -9.40% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.0870  t3 0.0478  ratios 0.500/0.087/0.048
+  Update: w 6.57e-04  t1 4.69e-05  t2 5.11e-05  t3 5.49e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.354,4.251]  std 1.164  mono 0.75  curve 0.0197
+  TFT2[th] [-0.928,0.937]  std 0.777  mono 0.62  curve 0.0215
+  TFT3[rl] [-0.306,3.010]  std 1.061  mono 0.68  curve 0.0159
+  TFT1 input [-9.55,8.63]  std 1.06  cov 98.9%
+  TFT2 input [-8.34,8.20]  std 1.08  cov 96.5%
+  TFT3 input [-4.61,4.62]  std 0.97  cov 99.7%
+
+TFT-1.5 training:   9%|▉         | 180/2000 [15:25<2:37:10,  5.18s/it]
+Epoch 180 | Loss 1.0601 | Train 61.99% | Val 72.75% | Gap -10.76% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.0910  t3 0.0501  ratios 0.500/0.091/0.050
+  Update: w 5.59e-04  t1 6.03e-05  t2 4.76e-05  t3 5.98e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.353,4.266]  std 1.164  mono 0.75  curve 0.0197
+  TFT2[th] [-0.934,0.942]  std 0.780  mono 0.61  curve 0.0216
+  TFT3[rl] [-0.309,2.991]  std 1.056  mono 0.68  curve 0.0158
+  TFT1 input [-9.19,8.54]  std 1.07  cov 98.8%
+  TFT2 input [-8.40,8.45]  std 1.10  cov 96.2%
+  TFT3 input [-4.39,3.93]  std 0.96  cov 99.8%
+
+TFT-1.5 training:  10%|▉         | 190/2000 [16:17<2:38:06,  5.24s/it]
+Epoch 190 | Loss 1.0234 | Train 64.98% | Val 72.32% | Gap -7.34% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.0987  t3 0.0423  ratios 0.500/0.099/0.042
+  Update: w 6.54e-04  t1 6.58e-05  t2 4.71e-05  t3 4.53e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.353,4.274]  std 1.164  mono 0.74  curve 0.0197
+  TFT2[th] [-0.936,0.945]  std 0.780  mono 0.62  curve 0.0217
+  TFT3[rl] [-0.316,2.985]  std 1.057  mono 0.68  curve 0.0157
+  TFT1 input [-9.50,8.76]  std 1.06  cov 98.8%
+  TFT2 input [-9.38,9.22]  std 1.06  cov 96.6%
+  TFT3 input [-3.75,4.39]  std 0.96  cov 99.8%
+
+TFT-1.5 training:  10%|█         | 200/2000 [17:09<2:36:51,  5.23s/it]
+Epoch 200 | Loss 1.0726 | Train 62.40% | Val 72.03% | Gap -9.63% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.0979  t3 0.0442  ratios 0.500/0.098/0.044
+  Update: w 6.58e-04  t1 6.73e-05  t2 6.23e-05  t3 5.72e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.352,4.285]  std 1.164  mono 0.74  curve 0.0196
+  TFT2[th] [-0.940,0.946]  std 0.781  mono 0.62  curve 0.0216
+  TFT3[rl] [-0.318,2.976]  std 1.055  mono 0.67  curve 0.0156
+  TFT1 input [-10.04,9.10]  std 1.08  cov 98.7%
+  TFT2 input [-8.88,8.07]  std 1.12  cov 96.1%
+  TFT3 input [-4.78,4.73]  std 0.96  cov 99.7%
+
+TFT-1.5 training:  10%|█         | 210/2000 [18:01<2:38:25,  5.31s/it]
+Epoch 210 | Loss 0.8744 | Train 68.46% | Val 76.39% | Gap -7.93% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.4996  t2 0.0650  t3 0.0388  ratios 0.500/0.065/0.039
+  Update: w 5.86e-04  t1 4.58e-05  t2 3.97e-05  t3 4.13e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.351,4.294]  std 1.164  mono 0.74  curve 0.0196
+  TFT2[th] [-0.941,0.950]  std 0.782  mono 0.63  curve 0.0217
+  TFT3[rl] [-0.324,2.967]  std 1.055  mono 0.68  curve 0.0155
+  TFT1 input [-9.31,8.76]  std 1.06  cov 98.8%
+  TFT2 input [-7.66,8.08]  std 1.04  cov 96.7%
+  TFT3 input [-4.62,4.33]  std 0.96  cov 99.8%
+
+TFT-1.5 training:  11%|█         | 220/2000 [18:55<2:45:44,  5.59s/it]
+Epoch 220 | Loss 0.9216 | Train 67.32% | Val 75.87% | Gap -8.54% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.0792  t3 0.0445  ratios 0.500/0.079/0.044
+  Update: w 5.71e-04  t1 5.19e-05  t2 5.64e-05  t3 6.06e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.351,4.311]  std 1.163  mono 0.75  curve 0.0196
+  TFT2[th] [-0.945,0.952]  std 0.786  mono 0.62  curve 0.0217
+  TFT3[rl] [-0.332,2.966]  std 1.056  mono 0.68  curve 0.0156
+  TFT1 input [-9.62,9.43]  std 1.10  cov 98.5%
+  TFT2 input [-8.63,8.20]  std 1.12  cov 96.0%
+  TFT3 input [-5.15,4.36]  std 0.97  cov 99.7%
+
+TFT-1.5 training:  12%|█▏        | 230/2000 [19:48<2:35:32,  5.27s/it]
+Epoch 230 | Loss 0.8509 | Train 68.62% | Val 75.42% | Gap -6.80% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.4999  t2 0.0687  t3 0.0386  ratios 0.500/0.069/0.039
+  Update: w 5.89e-04  t1 4.94e-05  t2 4.70e-05  t3 4.44e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.352,4.321]  std 1.162  mono 0.75  curve 0.0196
+  TFT2[th] [-0.946,0.953]  std 0.787  mono 0.62  curve 0.0216
+  TFT3[rl] [-0.338,2.958]  std 1.057  mono 0.69  curve 0.0154
+  TFT1 input [-9.90,9.59]  std 1.10  cov 98.6%
+  TFT2 input [-9.11,9.22]  std 1.12  cov 96.2%
+  TFT3 input [-5.59,4.57]  std 0.97  cov 99.8%
+
+TFT-1.5 training:  12%|█▏        | 240/2000 [20:40<2:34:08,  5.25s/it]
+Epoch 240 | Loss 0.8547 | Train 69.24% | Val 76.67% | Gap -7.43% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.0755  t3 0.0423  ratios 0.500/0.075/0.042
+  Update: w 5.58e-04  t1 4.95e-05  t2 5.79e-05  t3 5.82e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.351,4.332]  std 1.162  mono 0.75  curve 0.0196
+  TFT2[th] [-0.949,0.953]  std 0.790  mono 0.62  curve 0.0216
+  TFT3[rl] [-0.346,2.954]  std 1.058  mono 0.68  curve 0.0154
+  TFT1 input [-10.40,9.71]  std 1.10  cov 98.5%
+  TFT2 input [-8.04,8.28]  std 1.11  cov 96.2%
+  TFT3 input [-5.26,3.80]  std 0.96  cov 99.8%
+
+TFT-1.5 training:  12%|█▎        | 250/2000 [21:32<2:34:00,  5.28s/it]
+Epoch 250 | Loss 0.8298 | Train 70.17% | Val 77.29% | Gap -7.12% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.0844  t3 0.0423  ratios 0.500/0.084/0.042
+  Update: w 5.33e-04  t1 4.98e-05  t2 6.58e-05  t3 5.68e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.352,4.346]  std 1.162  mono 0.74  curve 0.0196
+  TFT2[th] [-0.953,0.955]  std 0.793  mono 0.62  curve 0.0217
+  TFT3[rl] [-0.356,2.950]  std 1.059  mono 0.68  curve 0.0153
+  TFT1 input [-10.34,10.04]  std 1.09  cov 98.4%
+  TFT2 input [-8.00,8.14]  std 1.08  cov 96.2%
+  TFT3 input [-6.38,5.17]  std 0.97  cov 99.6%
+
+TFT-1.5 training:  13%|█▎        | 260/2000 [22:25<2:35:42,  5.37s/it]
+Epoch 260 | Loss 0.8146 | Train 70.83% | Val 77.98% | Gap -7.15% | Best 90.57%
+  LR  : w 1.038e-05 ×1.000  t1 1.038e-05  t2 1.038e-05  t3 1.038e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.0800  t3 0.0410  ratios 0.500/0.080/0.041
+  Update: w 5.85e-04  t1 4.59e-05  t2 6.62e-05  t3 5.64e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.355,4.356]  std 1.161  mono 0.75  curve 0.0196
+  TFT2[th] [-0.955,0.958]  std 0.795  mono 0.62  curve 0.0217
+  TFT3[rl] [-0.366,2.944]  std 1.061  mono 0.69  curve 0.0153
+  TFT1 input [-10.24,9.40]  std 1.10  cov 98.4%
+  TFT2 input [-8.33,8.23]  std 1.08  cov 96.4%
+  TFT3 input [-5.93,5.27]  std 0.97  cov 99.7%
+
+TFT-1.5 training:  14%|█▎        | 270/2000 [23:18<2:33:14,  5.31s/it]
+Epoch 270 | Loss 0.9356 | Train 67.30% | Val 77.45% | Gap -10.15% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.1426  t3 0.0579  ratios 0.500/0.143/0.058
+  Update: w 5.42e-04  t1 5.64e-05  t2 7.40e-05  t3 7.45e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.357,4.375]  std 1.160  mono 0.75  curve 0.0196
+  TFT2[th] [-0.960,0.964]  std 0.800  mono 0.63  curve 0.0219
+  TFT3[rl] [-0.373,2.926]  std 1.059  mono 0.69  curve 0.0152
+  TFT1 input [-9.25,9.54]  std 1.08  cov 98.3%
+  TFT2 input [-7.96,8.48]  std 1.10  cov 95.9%
+  TFT3 input [-6.61,5.31]  std 0.95  cov 99.1%
+
+TFT-1.5 training:  14%|█▍        | 280/2000 [24:10<2:31:26,  5.28s/it]
+Epoch 280 | Loss 0.7978 | Train 72.33% | Val 78.28% | Gap -5.95% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.1018  t3 0.0453  ratios 0.500/0.102/0.045
+  Update: w 5.17e-04  t1 4.28e-05  t2 4.71e-05  t3 5.57e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.359,4.384]  std 1.159  mono 0.75  curve 0.0197
+  TFT2[th] [-0.962,0.968]  std 0.802  mono 0.64  curve 0.0219
+  TFT3[rl] [-0.386,2.918]  std 1.060  mono 0.69  curve 0.0152
+  TFT1 input [-10.15,10.14]  std 1.14  cov 98.1%
+  TFT2 input [-8.36,8.26]  std 1.18  cov 95.7%
+  TFT3 input [-5.74,5.60]  std 0.96  cov 99.5%
+
+TFT-1.5 training:  14%|█▍        | 290/2000 [25:02<2:29:29,  5.25s/it]
+Epoch 290 | Loss 1.0029 | Train 66.49% | Val 73.92% | Gap -7.42% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.1263  t3 0.0479  ratios 0.500/0.126/0.048
+  Update: w 6.36e-04  t1 6.16e-05  t2 6.50e-05  t3 7.04e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.358,4.395]  std 1.159  mono 0.75  curve 0.0198
+  TFT2[th] [-0.963,0.971]  std 0.804  mono 0.65  curve 0.0219
+  TFT3[rl] [-0.390,2.911]  std 1.060  mono 0.69  curve 0.0151
+  TFT1 input [-11.25,9.70]  std 1.13  cov 98.3%
+  TFT2 input [-7.95,8.89]  std 1.16  cov 96.0%
+  TFT3 input [-4.96,5.46]  std 0.96  cov 99.6%
+
+TFT-1.5 training:  15%|█▌        | 300/2000 [25:54<2:29:23,  5.27s/it]
+Epoch 300 | Loss 1.0916 | Train 64.74% | Val 75.03% | Gap -10.29% | Best 90.57%
+  LR  : w 1.001e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [div 1.54e-03]
+  GradN: w 1.0000  t1 0.5000  t2 0.2518  t3 0.0678  ratios 0.500/0.252/0.068
+  Update: w 5.51e-04  t1 7.46e-05  t2 8.32e-05  t3 6.32e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.359,4.416]  std 1.156  mono 0.75  curve 0.0198
+  TFT2[th] [-0.967,0.982]  std 0.809  mono 0.65  curve 0.0220
+  TFT3[rl] [-0.394,2.901]  std 1.056  mono 0.69  curve 0.0149
+  TFT1 input [-10.37,10.03]  std 1.15  cov 97.7%
+  TFT2 input [-7.72,8.82]  std 1.24  cov 94.8%
+  TFT3 input [-7.06,6.52]  std 0.95  cov 98.5%
+
+TFT-1.5 training:  16%|█▌        | 310/2000 [26:46<2:28:59,  5.29s/it]
+Epoch 310 | Loss 0.9949 | Train 67.24% | Val 75.42% | Gap -8.18% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.2749  t3 0.0589  ratios 0.500/0.275/0.059
+  Update: w 5.14e-04  t1 6.78e-05  t2 6.28e-05  t3 5.66e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.362,4.432]  std 1.155  mono 0.75  curve 0.0198
+  TFT2[th] [-0.971,0.987]  std 0.811  mono 0.65  curve 0.0220
+  TFT3[rl] [-0.402,2.895]  std 1.057  mono 0.68  curve 0.0148
+  TFT1 input [-10.07,9.72]  std 1.15  cov 97.5%
+  TFT2 input [-8.25,8.09]  std 1.22  cov 95.1%
+  TFT3 input [-7.53,6.83]  std 0.95  cov 98.2%
+
+TFT-1.5 training:  16%|█▌        | 320/2000 [27:38<2:29:18,  5.33s/it]
+Epoch 320 | Loss 0.8890 | Train 69.14% | Val 76.00% | Gap -6.86% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.2219  t3 0.0493  ratios 0.500/0.222/0.049
+  Update: w 4.91e-04  t1 5.44e-05  t2 5.36e-05  t3 4.66e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.366,4.444]  std 1.154  mono 0.75  curve 0.0199
+  TFT2[th] [-0.973,0.989]  std 0.813  mono 0.64  curve 0.0220
+  TFT3[rl] [-0.410,2.890]  std 1.057  mono 0.68  curve 0.0147
+  TFT1 input [-10.10,9.74]  std 1.15  cov 97.5%
+  TFT2 input [-8.27,9.36]  std 1.22  cov 95.4%
+  TFT3 input [-7.16,6.14]  std 0.96  cov 98.4%
+
+TFT-1.5 training:  16%|█▋        | 330/2000 [28:30<2:25:25,  5.22s/it]
+Epoch 330 | Loss 0.9006 | Train 69.41% | Val 76.47% | Gap -7.06% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.2732  t3 0.0512  ratios 0.500/0.273/0.051
+  Update: w 5.15e-04  t1 5.89e-05  t2 5.55e-05  t3 5.06e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.371,4.459]  std 1.153  mono 0.75  curve 0.0200
+  TFT2[th] [-0.976,0.992]  std 0.814  mono 0.65  curve 0.0220
+  TFT3[rl] [-0.416,2.886]  std 1.058  mono 0.68  curve 0.0147
+  TFT1 input [-9.72,8.98]  std 1.11  cov 97.7%
+  TFT2 input [-7.72,7.84]  std 1.14  cov 95.7%
+  TFT3 input [-7.07,6.78]  std 0.95  cov 98.2%
+
+TFT-1.5 training:  17%|█▋        | 340/2000 [29:22<2:25:25,  5.26s/it]
+Epoch 340 | Loss 0.9257 | Train 68.05% | Val 76.11% | Gap -8.06% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.2797  t3 0.0514  ratios 0.500/0.280/0.051
+  Update: w 4.81e-04  t1 5.91e-05  t2 4.56e-05  t3 4.59e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.376,4.474]  std 1.152  mono 0.76  curve 0.0201
+  TFT2[th] [-0.978,0.994]  std 0.815  mono 0.65  curve 0.0221
+  TFT3[rl] [-0.421,2.881]  std 1.057  mono 0.67  curve 0.0147
+  TFT1 input [-10.42,9.99]  std 1.17  cov 97.5%
+  TFT2 input [-8.21,7.99]  std 1.24  cov 95.4%
+  TFT3 input [-7.24,6.28]  std 0.97  cov 98.3%
+
+TFT-1.5 training:  18%|█▊        | 350/2000 [30:14<2:24:24,  5.25s/it]
+Epoch 350 | Loss 0.8726 | Train 69.48% | Val 77.09% | Gap -7.61% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.2262  t3 0.0464  ratios 0.500/0.226/0.046
+  Update: w 5.27e-04  t1 4.70e-05  t2 4.54e-05  t3 4.35e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.380,4.486]  std 1.151  mono 0.77  curve 0.0202
+  TFT2[th] [-0.979,0.995]  std 0.816  mono 0.65  curve 0.0220
+  TFT3[rl] [-0.427,2.878]  std 1.058  mono 0.68  curve 0.0148
+  TFT1 input [-10.78,9.98]  std 1.19  cov 97.4%
+  TFT2 input [-8.03,8.30]  std 1.24  cov 95.5%
+  TFT3 input [-7.40,5.77]  std 0.94  cov 98.8%
+
+TFT-1.5 training:  18%|█▊        | 360/2000 [31:06<2:26:49,  5.37s/it]
+Epoch 360 | Loss 1.0104 | Train 64.30% | Val 73.51% | Gap -9.20% | Best 90.57%
+  LR  : w 1.015e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [div 1.21e-03]
+  GradN: w 1.0000  t1 0.5000  t2 0.4137  t3 0.0583  ratios 0.500/0.414/0.058
+  Update: w 6.22e-04  t1 8.89e-05  t2 8.44e-05  t3 5.63e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.384,4.508]  std 1.148  mono 0.77  curve 0.0203
+  TFT2[th] [-0.981,0.997]  std 0.818  mono 0.65  curve 0.0221
+  TFT3[rl] [-0.434,2.876]  std 1.060  mono 0.68  curve 0.0148
+  TFT1 input [-10.58,10.07]  std 1.19  cov 97.3%
+  TFT2 input [-7.89,8.64]  std 1.30  cov 94.9%
+  TFT3 input [-8.37,6.09]  std 0.93  cov 98.7%
+
+TFT-1.5 training:  18%|█▊        | 370/2000 [31:58<2:22:27,  5.24s/it]
+Epoch 370 | Loss 1.0261 | Train 63.56% | Val 76.33% | Gap -12.77% | Best 90.57%
+  LR  : w 1.038e-05 ×1.000  t1 1.038e-05  t2 1.038e-05  t3 1.038e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.4834  t3 0.0696  ratios 0.500/0.483/0.070
+  Update: w 5.32e-04  t1 8.97e-05  t2 7.83e-05  t3 5.67e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.388,4.527]  std 1.145  mono 0.77  curve 0.0205
+  TFT2[th] [-0.983,1.000]  std 0.819  mono 0.66  curve 0.0223
+  TFT3[rl] [-0.438,2.873]  std 1.061  mono 0.67  curve 0.0148
+  TFT1 input [-10.46,9.98]  std 1.18  cov 97.2%
+  TFT2 input [-7.58,8.83]  std 1.27  cov 95.0%
+  TFT3 input [-9.17,7.42]  std 1.01  cov 98.2%
+
+TFT-1.5 training:  19%|█▉        | 380/2000 [32:50<2:21:56,  5.26s/it]
+Epoch 380 | Loss 0.9807 | Train 65.57% | Val 76.71% | Gap -11.14% | Best 90.57%
+  LR  : w 1.040e-05 ×1.000  t1 1.040e-05  t2 1.040e-05  t3 1.040e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.4874  t3 0.0836  ratios 0.500/0.487/0.084
+  Update: w 4.78e-04  t1 6.16e-05  t2 7.18e-05  t3 6.28e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.391,4.540]  std 1.144  mono 0.78  curve 0.0206
+  TFT2[th] [-0.985,1.001]  std 0.820  mono 0.65  curve 0.0224
+  TFT3[rl] [-0.448,2.870]  std 1.064  mono 0.67  curve 0.0149
+  TFT1 input [-10.58,10.49]  std 1.18  cov 97.2%
+  TFT2 input [-7.79,9.46]  std 1.28  cov 95.0%
+  TFT3 input [-8.72,7.48]  std 0.99  cov 98.2%
+
+TFT-1.5 training:  20%|█▉        | 390/2000 [33:43<2:23:40,  5.35s/it]
+Epoch 390 | Loss 1.0291 | Train 64.90% | Val 75.87% | Gap -10.97% | Best 90.57%
+  LR  : w 1.125e-05 ×1.000  t1 1.125e-05  t2 1.125e-05  t3 1.125e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.4968  t3 0.1087  ratios 0.500/0.497/0.109
+  Update: w 5.18e-04  t1 6.12e-05  t2 7.70e-05  t3 7.17e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.394,4.545]  std 1.144  mono 0.78  curve 0.0205
+  TFT2[th] [-0.988,1.004]  std 0.822  mono 0.66  curve 0.0225
+  TFT3[rl] [-0.459,2.864]  std 1.066  mono 0.67  curve 0.0149
+  TFT1 input [-10.20,10.26]  std 1.15  cov 97.6%
+  TFT2 input [-7.30,7.60]  std 1.24  cov 95.2%
+  TFT3 input [-9.19,8.04]  std 1.04  cov 97.8%
+
+TFT-1.5 training:  20%|██        | 400/2000 [34:34<2:19:47,  5.24s/it]
+Epoch 400 | Loss 1.0026 | Train 65.82% | Val 76.01% | Gap -10.19% | Best 90.57%
+  LR  : w 1.070e-05 ×1.000  t1 1.070e-05  t2 1.070e-05  t3 1.070e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.4907  t3 0.0859  ratios 0.500/0.491/0.086
+  Update: w 5.30e-04  t1 6.08e-05  t2 6.96e-05  t3 6.12e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.398,4.554]  std 1.144  mono 0.78  curve 0.0205
+  TFT2[th] [-0.992,1.006]  std 0.824  mono 0.64  curve 0.0225
+  TFT3[rl] [-0.468,2.860]  std 1.067  mono 0.67  curve 0.0149
+  TFT1 input [-9.75,10.20]  std 1.15  cov 97.7%
+  TFT2 input [-7.96,7.88]  std 1.25  cov 95.1%
+  TFT3 input [-10.81,9.33]  std 1.10  cov 97.8%
+
+TFT-1.5 training:  20%|██        | 410/2000 [35:26<2:17:07,  5.17s/it]
+Epoch 410 | Loss 0.9911 | Train 65.84% | Val 75.40% | Gap -9.56% | Best 90.57%
+  LR  : w 1.170e-05 ×1.000  t1 1.170e-05  t2 1.170e-05  t3 1.170e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.4815  t3 0.0670  ratios 0.500/0.482/0.067
+  Update: w 5.38e-04  t1 6.56e-05  t2 6.05e-05  t3 5.05e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.404,4.564]  std 1.143  mono 0.78  curve 0.0206
+  TFT2[th] [-0.995,1.007]  std 0.826  mono 0.64  curve 0.0226
+  TFT3[rl] [-0.474,2.856]  std 1.068  mono 0.67  curve 0.0149
+  TFT1 input [-10.35,10.52]  std 1.20  cov 97.6%
+  TFT2 input [-8.88,8.26]  std 1.32  cov 94.8%
+  TFT3 input [-9.54,8.20]  std 0.98  cov 98.0%
+
+TFT-1.5 training:  21%|██        | 420/2000 [36:18<2:17:46,  5.23s/it]
+Epoch 420 | Loss 1.0088 | Train 65.12% | Val 75.12% | Gap -10.00% | Best 90.57%
+  LR  : w 1.257e-05 ×1.000  t1 1.257e-05  t2 1.257e-05  t3 1.257e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.4785  t3 0.0658  ratios 0.500/0.478/0.066
+  Update: w 5.75e-04  t1 7.11e-05  t2 6.61e-05  t3 5.71e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.410,4.575]  std 1.142  mono 0.78  curve 0.0208
+  TFT2[th] [-0.998,1.009]  std 0.827  mono 0.64  curve 0.0227
+  TFT3[rl] [-0.480,2.852]  std 1.068  mono 0.67  curve 0.0148
+  TFT1 input [-9.66,9.76]  std 1.17  cov 97.7%
+  TFT2 input [-8.05,9.01]  std 1.28  cov 95.1%
+  TFT3 input [-10.41,9.55]  std 1.07  cov 97.9%
+
+TFT-1.5 training:  22%|██▏       | 430/2000 [37:09<2:16:06,  5.20s/it]
+Epoch 430 | Loss 1.0507 | Train 63.89% | Val 72.39% | Gap -8.50% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.4835  t3 0.0687  ratios 0.500/0.484/0.069
+  Update: w 4.80e-04  t1 5.58e-05  t2 5.70e-05  t3 5.12e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.416,4.586]  std 1.141  mono 0.77  curve 0.0208
+  TFT2[th] [-1.002,1.015]  std 0.829  mono 0.64  curve 0.0227
+  TFT3[rl] [-0.485,2.848]  std 1.067  mono 0.66  curve 0.0148
+  TFT1 input [-10.35,10.23]  std 1.21  cov 97.5%
+  TFT2 input [-8.68,9.29]  std 1.31  cov 95.0%
+  TFT3 input [-10.93,8.22]  std 0.97  cov 98.1%
+
+TFT-1.5 training:  22%|██▏       | 440/2000 [38:00<2:15:02,  5.19s/it]
+Epoch 440 | Loss 1.0871 | Train 62.76% | Val 71.72% | Gap -8.95% | Best 90.57%
+  LR  : w 1.082e-05 ×1.000  t1 1.082e-05  t2 1.082e-05  t3 1.082e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.4889  t3 0.0699  ratios 0.500/0.489/0.070
+  Update: w 5.04e-04  t1 5.47e-05  t2 5.77e-05  t3 5.79e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.423,4.596]  std 1.140  mono 0.77  curve 0.0208
+  TFT2[th] [-1.005,1.023]  std 0.830  mono 0.65  curve 0.0227
+  TFT3[rl] [-0.489,2.843]  std 1.066  mono 0.67  curve 0.0148
+  TFT1 input [-9.78,10.05]  std 1.18  cov 97.6%
+  TFT2 input [-8.85,10.06]  std 1.23  cov 95.3%
+  TFT3 input [-10.96,9.00]  std 1.02  cov 98.0%
+
+TFT-1.5 training:  22%|██▎       | 450/2000 [38:52<2:14:57,  5.22s/it]
+Epoch 450 | Loss 1.1303 | Train 61.78% | Val 71.78% | Gap -10.00% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.4904  t3 0.0710  ratios 0.500/0.490/0.071
+  Update: w 5.44e-04  t1 6.50e-05  t2 6.64e-05  t3 6.53e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.428,4.605]  std 1.140  mono 0.77  curve 0.0208
+  TFT2[th] [-1.009,1.030]  std 0.831  mono 0.65  curve 0.0228
+  TFT3[rl] [-0.496,2.839]  std 1.064  mono 0.66  curve 0.0148
+  TFT1 input [-10.14,10.39]  std 1.18  cov 97.6%
+  TFT2 input [-9.39,10.67]  std 1.24  cov 95.5%
+  TFT3 input [-10.43,8.14]  std 0.99  cov 97.9%
+
+TFT-1.5 training:  23%|██▎       | 460/2000 [39:45<2:15:56,  5.30s/it]
+Epoch 460 | Loss 1.1746 | Train 60.03% | Val 70.77% | Gap -10.74% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.4967  t3 0.0760  ratios 0.500/0.497/0.076
+  Update: w 4.93e-04  t1 5.84e-05  t2 5.37e-05  t3 6.21e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.433,4.615]  std 1.139  mono 0.78  curve 0.0209
+  TFT2[th] [-1.011,1.036]  std 0.833  mono 0.66  curve 0.0227
+  TFT3[rl] [-0.504,2.834]  std 1.063  mono 0.66  curve 0.0149
+  TFT1 input [-10.09,10.56]  std 1.17  cov 97.7%
+  TFT2 input [-9.51,10.68]  std 1.23  cov 95.6%
+  TFT3 input [-10.68,7.94]  std 1.01  cov 97.8%
+
+TFT-1.5 training:  24%|██▎       | 470/2000 [40:36<2:12:29,  5.20s/it]
+Epoch 470 | Loss 1.2386 | Train 58.42% | Val 70.45% | Gap -12.03% | Best 90.57%
+  LR  : w 1.168e-05 ×1.000  t1 1.168e-05  t2 1.168e-05  t3 1.168e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.4943  t3 0.0807  ratios 0.500/0.494/0.081
+  Update: w 5.54e-04  t1 6.16e-05  t2 6.28e-05  t3 7.01e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.439,4.625]  std 1.139  mono 0.77  curve 0.0209
+  TFT2[th] [-1.014,1.042]  std 0.834  mono 0.66  curve 0.0228
+  TFT3[rl] [-0.513,2.830]  std 1.061  mono 0.66  curve 0.0150
+  TFT1 input [-11.18,11.46]  std 1.24  cov 97.5%
+  TFT2 input [-9.99,10.95]  std 1.30  cov 95.3%
+  TFT3 input [-11.24,7.82]  std 1.02  cov 97.6%
+
+TFT-1.5 training:  24%|██▍       | 480/2000 [41:29<2:13:52,  5.28s/it]
+Epoch 480 | Loss 1.3582 | Train 54.99% | Val 69.03% | Gap -14.04% | Best 90.57%
+  LR  : w 1.082e-05 ×1.000  t1 1.082e-05  t2 1.082e-05  t3 1.082e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.4971  t3 0.0807  ratios 0.500/0.497/0.081
+  Update: w 5.03e-04  t1 5.55e-05  t2 5.89e-05  t3 6.55e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.444,4.636]  std 1.138  mono 0.76  curve 0.0209
+  TFT2[th] [-1.018,1.046]  std 0.836  mono 0.66  curve 0.0228
+  TFT3[rl] [-0.520,2.824]  std 1.057  mono 0.67  curve 0.0150
+  TFT1 input [-11.30,11.21]  std 1.23  cov 97.6%
+  TFT2 input [-11.55,11.70]  std 1.27  cov 95.4%
+  TFT3 input [-10.58,8.73]  std 1.11  cov 97.0%
+
+TFT-1.5 training:  24%|██▍       | 490/2000 [42:20<2:10:53,  5.20s/it]
+Epoch 490 | Loss 1.3440 | Train 54.23% | Val 67.83% | Gap -13.61% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.4931  t3 0.0747  ratios 0.500/0.493/0.075
+  Update: w 5.00e-04  t1 5.96e-05  t2 6.12e-05  t3 6.23e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.450,4.644]  std 1.138  mono 0.76  curve 0.0210
+  TFT2[th] [-1.022,1.050]  std 0.837  mono 0.65  curve 0.0228
+  TFT3[rl] [-0.528,2.818]  std 1.054  mono 0.66  curve 0.0150
+  TFT1 input [-10.35,10.23]  std 1.14  cov 98.2%
+  TFT2 input [-12.63,12.06]  std 1.14  cov 96.2%
+  TFT3 input [-10.78,8.66]  std 1.16  cov 96.4%
+
+TFT-1.5 training:  25%|██▌       | 500/2000 [43:12<2:10:12,  5.21s/it]
+Epoch 500 | Loss 1.4242 | Train 51.94% | Val 64.77% | Gap -12.83% | Best 90.57%
+  LR  : w 1.076e-05 ×1.000  t1 1.076e-05  t2 1.076e-05  t3 1.076e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.4967  t3 0.0784  ratios 0.500/0.497/0.078
+  Update: w 6.20e-04  t1 7.67e-05  t2 7.67e-05  t3 7.88e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.452,4.654]  std 1.138  mono 0.77  curve 0.0210
+  TFT2[th] [-1.026,1.055]  std 0.838  mono 0.67  curve 0.0228
+  TFT3[rl] [-0.535,2.810]  std 1.051  mono 0.66  curve 0.0150
+  TFT1 input [-11.60,11.13]  std 1.16  cov 98.3%
+  TFT2 input [-10.28,11.32]  std 1.19  cov 96.2%
+  TFT3 input [-10.48,8.53]  std 1.10  cov 96.5%
+
+TFT-1.5 training:  26%|██▌       | 510/2000 [44:04<2:09:23,  5.21s/it]
+Epoch 510 | Loss 1.4728 | Train 50.71% | Val 63.78% | Gap -13.07% | Best 90.57%
+  LR  : w 1.082e-05 ×1.000  t1 1.082e-05  t2 1.082e-05  t3 1.082e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.4995  t3 0.0835  ratios 0.500/0.499/0.084
+  Update: w 4.97e-04  t1 6.28e-05  t2 6.85e-05  t3 6.72e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.453,4.664]  std 1.138  mono 0.77  curve 0.0210
+  TFT2[th] [-1.031,1.059]  std 0.840  mono 0.68  curve 0.0228
+  TFT3[rl] [-0.539,2.802]  std 1.046  mono 0.65  curve 0.0151
+  TFT1 input [-10.85,9.97]  std 1.13  cov 98.7%
+  TFT2 input [-10.26,11.80]  std 1.16  cov 96.4%
+  TFT3 input [-11.11,8.69]  std 1.17  cov 96.2%
+
+TFT-1.5 training:  26%|██▌       | 520/2000 [44:55<2:08:53,  5.23s/it]
+Epoch 520 | Loss 1.5220 | Train 48.70% | Val 60.54% | Gap -11.84% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0932  ratios 0.500/0.500/0.093
+  Update: w 5.05e-04  t1 6.33e-05  t2 7.33e-05  t3 6.80e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.452,4.673]  std 1.138  mono 0.76  curve 0.0210
+  TFT2[th] [-1.037,1.065]  std 0.842  mono 0.69  curve 0.0229
+  TFT3[rl] [-0.542,2.792]  std 1.040  mono 0.66  curve 0.0150
+  TFT1 input [-11.87,10.40]  std 1.12  cov 99.0%
+  TFT2 input [-11.39,12.54]  std 1.21  cov 96.4%
+  TFT3 input [-11.46,9.38]  std 1.15  cov 96.6%
+
+TFT-1.5 training:  26%|██▋       | 530/2000 [45:47<2:08:16,  5.24s/it]
+Epoch 530 | Loss 1.7180 | Train 42.91% | Val 57.68% | Gap -14.77% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.1111  ratios 0.500/0.500/0.111
+  Update: w 5.23e-04  t1 7.12e-05  t2 7.54e-05  t3 8.33e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.448,4.675]  std 1.140  mono 0.75  curve 0.0210
+  TFT2[th] [-1.044,1.071]  std 0.844  mono 0.69  curve 0.0230
+  TFT3[rl] [-0.542,2.782]  std 1.035  mono 0.66  curve 0.0150
+  TFT1 input [-12.01,10.42]  std 1.10  cov 99.3%
+  TFT2 input [-12.74,13.48]  std 1.21  cov 96.6%
+  TFT3 input [-11.44,9.62]  std 1.12  cov 96.9%
+
+TFT-1.5 training:  27%|██▋       | 540/2000 [46:39<2:08:42,  5.29s/it]
+Epoch 540 | Loss 1.7747 | Train 41.00% | Val 55.07% | Gap -14.06% | Best 90.57%
+  LR  : w 1.168e-05 ×1.000  t1 1.168e-05  t2 1.168e-05  t3 1.168e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.1148  ratios 0.500/0.500/0.115
+  Update: w 6.03e-04  t1 8.32e-05  t2 7.77e-05  t3 9.31e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.443,4.669]  std 1.141  mono 0.75  curve 0.0208
+  TFT2[th] [-1.052,1.076]  std 0.846  mono 0.69  curve 0.0231
+  TFT3[rl] [-0.541,2.771]  std 1.029  mono 0.66  curve 0.0150
+  TFT1 input [-10.44,9.32]  std 1.08  cov 99.5%
+  TFT2 input [-12.26,13.63]  std 1.14  cov 97.0%
+  TFT3 input [-10.65,8.55]  std 1.10  cov 97.2%
+
+TFT-1.5 training:  28%|██▊       | 550/2000 [47:31<2:06:40,  5.24s/it]
+Epoch 550 | Loss 1.7199 | Train 41.31% | Val 52.62% | Gap -11.31% | Best 90.57%
+  LR  : w 1.255e-05 ×1.000  t1 1.255e-05  t2 1.255e-05  t3 1.255e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0961  ratios 0.500/0.500/0.096
+  Update: w 6.13e-04  t1 8.21e-05  t2 7.31e-05  t3 8.32e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.438,4.659]  std 1.142  mono 0.75  curve 0.0206
+  TFT2[th] [-1.058,1.080]  std 0.848  mono 0.69  curve 0.0234
+  TFT3[rl] [-0.535,2.762]  std 1.024  mono 0.65  curve 0.0151
+  TFT1 input [-8.64,9.05]  std 1.08  cov 99.6%
+  TFT2 input [-12.96,14.20]  std 1.18  cov 97.3%
+  TFT3 input [-10.65,10.04]  std 1.05  cov 97.8%
+
+TFT-1.5 training:  28%|██▊       | 560/2000 [48:23<2:10:08,  5.42s/it]
+Epoch 560 | Loss 1.7092 | Train 40.58% | Val 50.49% | Gap -9.91% | Best 90.57%
+  LR  : w 1.858e-05 ×1.000  t1 1.858e-05  t2 1.858e-05  t3 1.858e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0889  ratios 0.500/0.500/0.089
+  Update: w 8.99e-04  t1 1.18e-04  t2 1.04e-04  t3 1.13e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.431,4.650]  std 1.143  mono 0.73  curve 0.0204
+  TFT2[th] [-1.062,1.084]  std 0.848  mono 0.70  curve 0.0234
+  TFT3[rl] [-0.527,2.751]  std 1.018  mono 0.65  curve 0.0151
+  TFT1 input [-8.27,6.34]  std 1.06  cov 99.7%
+  TFT2 input [-13.49,14.61]  std 1.20  cov 97.2%
+  TFT3 input [-10.72,11.16]  std 1.09  cov 97.6%
+
+TFT-1.5 training:  28%|██▊       | 570/2000 [49:15<2:04:22,  5.22s/it]
+Epoch 570 | Loss 1.8122 | Train 37.66% | Val 48.86% | Gap -11.20% | Best 90.57%
+  LR  : w 1.003e-05 ×1.000  t1 1.003e-05  t2 1.003e-05  t3 1.003e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0940  ratios 0.500/0.500/0.094
+  Update: w 6.02e-04  t1 7.20e-05  t2 7.51e-05  t3 8.46e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.427,4.641]  std 1.143  mono 0.75  curve 0.0201
+  TFT2[th] [-1.066,1.091]  std 0.848  mono 0.70  curve 0.0235
+  TFT3[rl] [-0.524,2.740]  std 1.012  mono 0.65  curve 0.0150
+  TFT1 input [-8.06,4.94]  std 1.05  cov 99.8%
+  TFT2 input [-12.48,15.21]  std 1.12  cov 97.3%
+  TFT3 input [-11.51,10.92]  std 1.07  cov 97.3%
+
+TFT-1.5 training:  29%|██▉       | 580/2000 [50:06<2:03:16,  5.21s/it]
+Epoch 580 | Loss 1.9175 | Train 34.38% | Val 45.85% | Gap -11.48% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0961  ratios 0.500/0.500/0.096
+  Update: w 5.16e-04  t1 6.70e-05  t2 6.24e-05  t3 7.54e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.426,4.636]  std 1.142  mono 0.74  curve 0.0200
+  TFT2[th] [-1.068,1.096]  std 0.848  mono 0.70  curve 0.0237
+  TFT3[rl] [-0.520,2.729]  std 1.007  mono 0.66  curve 0.0150
+  TFT1 input [-9.07,4.49]  std 1.05  cov 99.8%
+  TFT2 input [-14.80,17.89]  std 1.22  cov 97.1%
+  TFT3 input [-12.24,10.73]  std 1.07  cov 97.5%
+
+TFT-1.5 training:  30%|██▉       | 590/2000 [50:58<2:02:13,  5.20s/it]
+Epoch 590 | Loss 2.0523 | Train 30.47% | Val 40.38% | Gap -9.92% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0985  ratios 0.500/0.500/0.098
+  Update: w 4.99e-04  t1 6.98e-05  t2 6.25e-05  t3 8.06e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.423,4.635]  std 1.142  mono 0.72  curve 0.0197
+  TFT2[th] [-1.069,1.100]  std 0.847  mono 0.70  curve 0.0238
+  TFT3[rl] [-0.515,2.719]  std 1.001  mono 0.65  curve 0.0150
+  TFT1 input [-9.14,5.83]  std 1.04  cov 99.8%
+  TFT2 input [-14.64,17.18]  std 1.18  cov 97.3%
+  TFT3 input [-12.71,11.71]  std 1.06  cov 97.4%
+
+TFT-1.5 training:  30%|███       | 600/2000 [51:51<2:03:54,  5.31s/it]
+Epoch 600 | Loss 2.1745 | Train 27.21% | Val 37.64% | Gap -10.43% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.1060  ratios 0.500/0.500/0.106
+  Update: w 4.83e-04  t1 6.58e-05  t2 5.95e-05  t3 8.30e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.418,4.634]  std 1.142  mono 0.72  curve 0.0195
+  TFT2[th] [-1.070,1.102]  std 0.847  mono 0.71  curve 0.0239
+  TFT3[rl] [-0.510,2.708]  std 0.994  mono 0.65  curve 0.0150
+  TFT1 input [-8.88,4.92]  std 1.03  cov 99.9%
+  TFT2 input [-15.28,19.24]  std 1.15  cov 97.5%
+  TFT3 input [-11.89,9.17]  std 1.05  cov 97.1%
+
+TFT-1.5 training:  30%|███       | 610/2000 [52:43<2:02:15,  5.28s/it]
+Epoch 610 | Loss 2.3410 | Train 23.15% | Val 33.42% | Gap -10.27% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.1231  ratios 0.500/0.500/0.123
+  Update: w 4.79e-04  t1 6.67e-05  t2 6.08e-05  t3 9.78e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.412,4.634]  std 1.142  mono 0.73  curve 0.0192
+  TFT2[th] [-1.072,1.103]  std 0.846  mono 0.71  curve 0.0240
+  TFT3[rl] [-0.503,2.694]  std 0.985  mono 0.65  curve 0.0150
+  TFT1 input [-7.61,3.79]  std 1.02  cov 99.9%
+  TFT2 input [-15.50,19.21]  std 1.08  cov 97.7%
+  TFT3 input [-10.73,9.38]  std 1.06  cov 97.0%
+
+TFT-1.5 training:  31%|███       | 620/2000 [53:35<2:00:09,  5.22s/it]
+Epoch 620 | Loss 2.4605 | Train 20.39% | Val 29.45% | Gap -9.06% | Best 90.57%
+  LR  : w 1.040e-05 ×1.000  t1 1.040e-05  t2 1.040e-05  t3 1.040e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.1444  ratios 0.500/0.500/0.144
+  Update: w 4.80e-04  t1 6.42e-05  t2 7.48e-05  t3 1.15e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.406,4.634]  std 1.142  mono 0.73  curve 0.0189
+  TFT2[th] [-1.075,1.100]  std 0.845  mono 0.69  curve 0.0241
+  TFT3[rl] [-0.492,2.680]  std 0.975  mono 0.65  curve 0.0150
+  TFT1 input [-6.47,3.09]  std 1.01  cov 99.9%
+  TFT2 input [-18.49,20.40]  std 1.09  cov 97.8%
+  TFT3 input [-8.99,7.80]  std 1.01  cov 97.1%
+
+TFT-1.5 training:  32%|███▏      | 630/2000 [54:27<1:57:55,  5.16s/it]
+Epoch 630 | Loss 2.5665 | Train 17.96% | Val 22.27% | Gap -4.32% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.1869  ratios 0.500/0.500/0.187
+  Update: w 5.02e-04  t1 6.73e-05  t2 9.35e-05  t3 1.31e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.399,4.635]  std 1.142  mono 0.72  curve 0.0186
+  TFT2[th] [-1.082,1.095]  std 0.844  mono 0.67  curve 0.0243
+  TFT3[rl] [-0.477,2.663]  std 0.962  mono 0.65  curve 0.0151
+  TFT1 input [-5.58,2.80]  std 1.01  cov 99.9%
+  TFT2 input [-19.50,20.95]  std 1.00  cov 98.2%
+  TFT3 input [-9.33,8.66]  std 0.96  cov 97.4%
+
+TFT-1.5 training:  32%|███▏      | 640/2000 [55:18<1:58:25,  5.22s/it]
+Epoch 640 | Loss 2.5864 | Train 16.29% | Val 19.28% | Gap -3.00% | Best 90.57%
+  LR  : w 1.125e-05 ×1.000  t1 1.125e-05  t2 1.125e-05  t3 1.125e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.2133  ratios 0.500/0.500/0.213
+  Update: w 5.13e-04  t1 5.83e-05  t2 9.81e-05  t3 1.30e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.394,4.634]  std 1.142  mono 0.72  curve 0.0184
+  TFT2[th] [-1.088,1.086]  std 0.841  mono 0.65  curve 0.0244
+  TFT3[rl] [-0.462,2.648]  std 0.951  mono 0.65  curve 0.0151
+  TFT1 input [-5.33,2.41]  std 1.00  cov 99.9%
+  TFT2 input [-23.54,25.51]  std 1.07  cov 98.1%
+  TFT3 input [-10.88,10.29]  std 1.04  cov 96.7%
+
+TFT-1.5 training:  32%|███▎      | 650/2000 [56:11<1:58:43,  5.28s/it]
+Epoch 650 | Loss 2.4080 | Train 16.59% | Val 18.77% | Gap -2.18% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.1630  ratios 0.500/0.500/0.163
+  Update: w 4.22e-04  t1 4.94e-05  t2 7.45e-05  t3 9.63e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.389,4.634]  std 1.142  mono 0.71  curve 0.0180
+  TFT2[th] [-1.091,1.074]  std 0.838  mono 0.66  curve 0.0246
+  TFT3[rl] [-0.447,2.637]  std 0.941  mono 0.65  curve 0.0152
+  TFT1 input [-5.84,3.03]  std 0.99  cov 99.9%
+  TFT2 input [-19.84,21.81]  std 1.21  cov 97.4%
+  TFT3 input [-12.04,11.66]  std 1.22  cov 95.5%
+
+TFT-1.5 training:  33%|███▎      | 660/2000 [57:03<1:57:14,  5.25s/it]
+Epoch 660 | Loss 2.3926 | Train 15.97% | Val 19.30% | Gap -3.33% | Best 90.57%
+  LR  : w 1.215e-05 ×1.000  t1 1.215e-05  t2 1.215e-05  t3 1.215e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.1325  ratios 0.500/0.500/0.132
+  Update: w 6.24e-04  t1 6.08e-05  t2 7.23e-05  t3 1.23e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.389,4.631]  std 1.141  mono 0.74  curve 0.0176
+  TFT2[th] [-1.089,1.064]  std 0.833  mono 0.65  curve 0.0247
+  TFT3[rl] [-0.431,2.626]  std 0.932  mono 0.65  curve 0.0152
+  TFT1 input [-5.47,3.38]  std 0.99  cov 100.0%
+  TFT2 input [-16.77,18.20]  std 1.11  cov 97.7%
+  TFT3 input [-11.27,11.92]  std 1.18  cov 96.1%
+
+TFT-1.5 training:  34%|███▎      | 670/2000 [57:54<1:55:42,  5.22s/it]
+Epoch 670 | Loss 2.3324 | Train 15.95% | Val 18.37% | Gap -2.42% | Best 90.57%
+  LR  : w 1.112e-05 ×1.000  t1 1.112e-05  t2 1.112e-05  t3 1.112e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.1169  ratios 0.500/0.500/0.117
+  Update: w 5.83e-04  t1 5.38e-05  t2 8.13e-05  t3 9.87e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.389,4.627]  std 1.140  mono 0.74  curve 0.0171
+  TFT2[th] [-1.081,1.052]  std 0.826  mono 0.65  curve 0.0248
+  TFT3[rl] [-0.414,2.613]  std 0.923  mono 0.65  curve 0.0152
+  TFT1 input [-4.52,3.50]  std 0.97  cov 100.0%
+  TFT2 input [-16.58,18.29]  std 1.28  cov 97.6%
+  TFT3 input [-14.90,16.08]  std 1.27  cov 95.6%
+
+TFT-1.5 training:  34%|███▍      | 680/2000 [58:47<1:56:55,  5.32s/it]
+Epoch 680 | Loss 2.3119 | Train 16.06% | Val 18.70% | Gap -2.64% | Best 90.57%
+  LR  : w 1.125e-05 ×1.000  t1 1.125e-05  t2 1.125e-05  t3 1.125e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.1143  ratios 0.500/0.500/0.114
+  Update: w 5.28e-04  t1 4.93e-05  t2 9.47e-05  t3 9.30e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.390,4.623]  std 1.139  mono 0.73  curve 0.0167
+  TFT2[th] [-1.073,1.040]  std 0.818  mono 0.64  curve 0.0248
+  TFT3[rl] [-0.402,2.603]  std 0.916  mono 0.65  curve 0.0152
+  TFT1 input [-4.16,3.70]  std 0.98  cov 100.0%
+  TFT2 input [-15.56,18.40]  std 1.25  cov 97.5%
+  TFT3 input [-12.07,15.16]  std 1.26  cov 95.9%
+
+TFT-1.5 training:  34%|███▍      | 690/2000 [59:39<1:55:33,  5.29s/it]
+Epoch 690 | Loss 2.2866 | Train 16.52% | Val 18.43% | Gap -1.91% | Best 90.57%
+  LR  : w 1.537e-05 ×1.000  t1 1.537e-05  t2 1.537e-05  t3 1.537e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.1075  ratios 0.500/0.500/0.108
+  Update: w 7.35e-04  t1 6.23e-05  t2 1.41e-04  t3 1.20e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.392,4.619]  std 1.137  mono 0.75  curve 0.0164
+  TFT2[th] [-1.061,1.024]  std 0.806  mono 0.63  curve 0.0248
+  TFT3[rl] [-0.387,2.588]  std 0.906  mono 0.65  curve 0.0153
+  TFT1 input [-4.30,3.23]  std 0.97  cov 100.0%
+  TFT2 input [-15.75,18.16]  std 1.34  cov 97.6%
+  TFT3 input [-10.55,10.42]  std 1.25  cov 96.3%
+
+TFT-1.5 training:  35%|███▌      | 700/2000 [1:00:30<1:52:40,  5.20s/it]
+Epoch 700 | Loss 2.2585 | Train 16.64% | Val 18.48% | Gap -1.84% | Best 90.57%
+  LR  : w 1.652e-05 ×1.000  t1 1.652e-05  t2 1.652e-05  t3 1.652e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0967  ratios 0.500/0.500/0.097
+  Update: w 8.45e-04  t1 6.68e-05  t2 1.71e-04  t3 1.30e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.395,4.619]  std 1.136  mono 0.75  curve 0.0162
+  TFT2[th] [-1.045,1.004]  std 0.792  mono 0.60  curve 0.0248
+  TFT3[rl] [-0.371,2.573]  std 0.896  mono 0.65  curve 0.0154
+  TFT1 input [-4.58,2.97]  std 0.97  cov 100.0%
+  TFT2 input [-14.04,17.03]  std 1.20  cov 97.7%
+  TFT3 input [-11.12,9.91]  std 1.28  cov 96.3%
+
+TFT-1.5 training:  36%|███▌      | 710/2000 [1:01:23<1:52:54,  5.25s/it]
+Epoch 710 | Loss 2.2356 | Train 17.14% | Val 18.85% | Gap -1.71% | Best 90.57%
+  LR  : w 2.257e-05 ×1.000  t1 2.257e-05  t2 2.257e-05  t3 2.257e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0924  ratios 0.500/0.500/0.092
+  Update: w 1.05e-03  t1 9.26e-05  t2 2.13e-04  t3 1.62e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.402,4.619]  std 1.135  mono 0.74  curve 0.0160
+  TFT2[th] [-1.025,0.980]  std 0.774  mono 0.60  curve 0.0250
+  TFT3[rl] [-0.356,2.554]  std 0.886  mono 0.65  curve 0.0153
+  TFT1 input [-4.84,2.89]  std 0.96  cov 100.0%
+  TFT2 input [-14.63,18.72]  std 1.35  cov 97.6%
+  TFT3 input [-12.01,9.35]  std 1.36  cov 96.2%
+
+TFT-1.5 training:  36%|███▌      | 720/2000 [1:02:14<1:53:20,  5.31s/it]
+Epoch 720 | Loss 2.1962 | Train 17.54% | Val 18.12% | Gap -0.59% | Best 90.57%
+  LR  : w 2.847e-05 ×1.000  t1 2.847e-05  t2 2.847e-05  t3 2.847e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0958  ratios 0.500/0.500/0.096
+  Update: w 1.40e-03  t1 1.33e-04  t2 3.24e-04  t3 2.19e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.420,4.619]  std 1.135  mono 0.76  curve 0.0160
+  TFT2[th] [-0.993,0.945]  std 0.746  mono 0.60  curve 0.0252
+  TFT3[rl] [-0.340,2.526]  std 0.871  mono 0.65  curve 0.0156
+  TFT1 input [-4.88,2.15]  std 0.95  cov 100.0%
+  TFT2 input [-13.69,18.94]  std 1.39  cov 97.5%
+  TFT3 input [-12.24,9.42]  std 1.41  cov 96.1%
+
+TFT-1.5 training:  36%|███▋      | 730/2000 [1:03:07<1:51:24,  5.26s/it]
+Epoch 730 | Loss 2.1451 | Train 19.78% | Val 22.65% | Gap -2.87% | Best 90.57%
+  LR  : w 1.893e-05 ×1.000  t1 1.893e-05  t2 1.893e-05  t3 1.893e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.1126  ratios 0.500/0.500/0.113
+  Update: w 9.43e-04  t1 8.99e-05  t2 2.31e-04  t3 1.60e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.435,4.619]  std 1.134  mono 0.75  curve 0.0159
+  TFT2[th] [-0.959,0.914]  std 0.719  mono 0.60  curve 0.0254
+  TFT3[rl] [-0.327,2.499]  std 0.858  mono 0.64  curve 0.0155
+  TFT1 input [-5.03,2.52]  std 0.93  cov 100.0%
+  TFT2 input [-12.14,21.93]  std 1.45  cov 97.4%
+  TFT3 input [-12.25,10.84]  std 1.48  cov 95.9%
+
+TFT-1.5 training:  37%|███▋      | 740/2000 [1:03:59<1:51:05,  5.29s/it]
+Epoch 740 | Loss 2.1092 | Train 21.43% | Val 24.57% | Gap -3.15% | Best 90.57%
+  LR  : w 1.258e-05 ×1.000  t1 1.258e-05  t2 1.258e-05  t3 1.258e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.1195  ratios 0.500/0.500/0.119
+  Update: w 6.42e-04  t1 5.88e-05  t2 1.52e-04  t3 1.13e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.437,4.619]  std 1.135  mono 0.72  curve 0.0159
+  TFT2[th] [-0.937,0.892]  std 0.701  mono 0.60  curve 0.0255
+  TFT3[rl] [-0.318,2.479]  std 0.849  mono 0.64  curve 0.0157
+  TFT1 input [-5.30,2.65]  std 0.94  cov 99.9%
+  TFT2 input [-11.64,21.42]  std 1.42  cov 97.2%
+  TFT3 input [-12.75,9.09]  std 1.55  cov 95.4%
+
+TFT-1.5 training:  38%|███▊      | 750/2000 [1:04:50<1:48:23,  5.20s/it]
+Epoch 750 | Loss 2.0967 | Train 22.07% | Val 26.40% | Gap -4.33% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.1222  ratios 0.500/0.500/0.122
+  Update: w 4.82e-04  t1 4.36e-05  t2 1.15e-04  t3 8.78e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.438,4.618]  std 1.135  mono 0.70  curve 0.0159
+  TFT2[th] [-0.922,0.877]  std 0.688  mono 0.59  curve 0.0255
+  TFT3[rl] [-0.313,2.466]  std 0.842  mono 0.65  curve 0.0158
+  TFT1 input [-5.82,2.84]  std 0.93  cov 99.9%
+  TFT2 input [-12.70,22.64]  std 1.46  cov 97.2%
+  TFT3 input [-13.32,9.61]  std 1.61  cov 95.3%
+
+TFT-1.5 training:  38%|███▊      | 760/2000 [1:05:43<1:50:02,  5.32s/it]
+Epoch 760 | Loss 2.0718 | Train 23.03% | Val 26.37% | Gap -3.34% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.1263  ratios 0.500/0.500/0.126
+  Update: w 4.81e-04  t1 4.58e-05  t2 1.20e-04  t3 9.20e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.438,4.618]  std 1.135  mono 0.69  curve 0.0159
+  TFT2[th] [-0.908,0.864]  std 0.677  mono 0.58  curve 0.0255
+  TFT3[rl] [-0.308,2.453]  std 0.836  mono 0.65  curve 0.0159
+  TFT1 input [-6.56,3.06]  std 0.93  cov 99.9%
+  TFT2 input [-11.87,22.63]  std 1.45  cov 97.1%
+  TFT3 input [-12.05,7.70]  std 1.63  cov 95.3%
+
+TFT-1.5 training:  38%|███▊      | 770/2000 [1:06:34<1:48:15,  5.28s/it]
+Epoch 770 | Loss 2.0443 | Train 24.22% | Val 26.82% | Gap -2.61% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.1293  ratios 0.500/0.500/0.129
+  Update: w 4.69e-04  t1 4.26e-05  t2 1.15e-04  t3 8.55e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.437,4.616]  std 1.135  mono 0.69  curve 0.0159
+  TFT2[th] [-0.895,0.850]  std 0.666  mono 0.58  curve 0.0256
+  TFT3[rl] [-0.302,2.439]  std 0.830  mono 0.65  curve 0.0161
+  TFT1 input [-7.09,3.73]  std 0.94  cov 99.8%
+  TFT2 input [-12.15,22.08]  std 1.46  cov 96.9%
+  TFT3 input [-12.47,7.94]  std 1.70  cov 95.1%
+
+TFT-1.5 training:  39%|███▉      | 780/2000 [1:07:25<1:43:26,  5.09s/it]
+Epoch 780 | Loss 2.0269 | Train 24.64% | Val 27.36% | Gap -2.72% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.1296  ratios 0.500/0.500/0.130
+  Update: w 4.85e-04  t1 4.37e-05  t2 1.17e-04  t3 9.16e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.436,4.616]  std 1.135  mono 0.72  curve 0.0159
+  TFT2[th] [-0.908,0.836]  std 0.655  mono 0.58  curve 0.0257
+  TFT3[rl] [-0.295,2.424]  std 0.823  mono 0.65  curve 0.0161
+  TFT1 input [-7.18,4.04]  std 0.94  cov 99.9%
+  TFT2 input [-11.92,20.46]  std 1.43  cov 96.8%
+  TFT3 input [-11.87,7.38]  std 1.69  cov 95.2%
+
+TFT-1.5 training:  40%|███▉      | 790/2000 [1:08:15<1:42:28,  5.08s/it]
+Epoch 790 | Loss 1.9974 | Train 25.62% | Val 28.37% | Gap -2.74% | Best 90.57%
+  LR  : w 1.080e-05 ×1.000  t1 1.080e-05  t2 1.080e-05  t3 1.080e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.1275  ratios 0.500/0.500/0.128
+  Update: w 5.23e-04  t1 4.63e-05  t2 1.26e-04  t3 9.76e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.436,4.615]  std 1.135  mono 0.73  curve 0.0158
+  TFT2[th] [-0.928,0.822]  std 0.644  mono 0.58  curve 0.0257
+  TFT3[rl] [-0.289,2.410]  std 0.817  mono 0.64  curve 0.0162
+  TFT1 input [-6.91,4.13]  std 0.93  cov 99.9%
+  TFT2 input [-13.22,18.97]  std 1.42  cov 96.8%
+  TFT3 input [-13.30,9.57]  std 1.68  cov 95.2%
+
+TFT-1.5 training:  40%|████      | 800/2000 [1:09:06<1:45:38,  5.28s/it]
+Epoch 800 | Loss 1.9753 | Train 26.43% | Val 28.94% | Gap -2.52% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.1288  ratios 0.500/0.500/0.129
+  Update: w 4.78e-04  t1 4.34e-05  t2 1.16e-04  t3 9.15e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.435,4.614]  std 1.135  mono 0.71  curve 0.0158
+  TFT2[th] [-0.947,0.809]  std 0.634  mono 0.58  curve 0.0257
+  TFT3[rl] [-0.282,2.397]  std 0.811  mono 0.64  curve 0.0162
+  TFT1 input [-7.02,4.18]  std 0.93  cov 99.8%
+  TFT2 input [-12.88,18.52]  std 1.40  cov 96.8%
+  TFT3 input [-12.61,6.67]  std 1.68  cov 95.3%
+
+TFT-1.5 training:  40%|████      | 810/2000 [1:09:58<1:44:02,  5.25s/it]
+Epoch 810 | Loss 1.9669 | Train 26.66% | Val 29.36% | Gap -2.70% | Best 90.57%
+  LR  : w 1.080e-05 ×1.000  t1 1.080e-05  t2 1.080e-05  t3 1.080e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.1296  ratios 0.500/0.500/0.130
+  Update: w 4.71e-04  t1 4.13e-05  t2 1.12e-04  t3 9.65e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.433,4.612]  std 1.134  mono 0.72  curve 0.0156
+  TFT2[th] [-0.966,0.797]  std 0.623  mono 0.58  curve 0.0258
+  TFT3[rl] [-0.277,2.382]  std 0.804  mono 0.64  curve 0.0163
+  TFT1 input [-7.06,4.44]  std 0.92  cov 99.9%
+  TFT2 input [-12.17,18.34]  std 1.42  cov 96.8%
+  TFT3 input [-13.00,6.08]  std 1.73  cov 95.4%
+
+TFT-1.5 training:  41%|████      | 820/2000 [1:10:49<1:41:51,  5.18s/it]
+Epoch 820 | Loss 1.9359 | Train 27.98% | Val 30.04% | Gap -2.06% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.1307  ratios 0.500/0.500/0.131
+  Update: w 4.60e-04  t1 4.17e-05  t2 1.05e-04  t3 8.82e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.431,4.609]  std 1.134  mono 0.72  curve 0.0157
+  TFT2[th] [-0.986,0.784]  std 0.613  mono 0.58  curve 0.0258
+  TFT3[rl] [-0.271,2.367]  std 0.798  mono 0.64  curve 0.0163
+  TFT1 input [-7.32,5.00]  std 0.92  cov 99.9%
+  TFT2 input [-11.89,19.18]  std 1.43  cov 96.8%
+  TFT3 input [-13.09,6.64]  std 1.75  cov 95.4%
+
+TFT-1.5 training:  42%|████▏     | 830/2000 [1:11:40<1:40:34,  5.16s/it]
+Epoch 830 | Loss 1.9160 | Train 28.79% | Val 30.53% | Gap -1.74% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.1343  ratios 0.500/0.500/0.134
+  Update: w 4.72e-04  t1 4.17e-05  t2 1.05e-04  t3 8.99e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.429,4.606]  std 1.133  mono 0.73  curve 0.0157
+  TFT2[th] [-1.005,0.774]  std 0.603  mono 0.58  curve 0.0260
+  TFT3[rl] [-0.265,2.352]  std 0.791  mono 0.63  curve 0.0164
+  TFT1 input [-6.90,5.26]  std 0.94  cov 99.9%
+  TFT2 input [-11.74,20.69]  std 1.42  cov 96.6%
+  TFT3 input [-12.79,7.13]  std 1.73  cov 95.0%
+
+TFT-1.5 training:  42%|████▏     | 840/2000 [1:12:31<1:40:37,  5.20s/it]
+Epoch 840 | Loss 1.8855 | Train 29.93% | Val 31.60% | Gap -1.67% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.1356  ratios 0.500/0.500/0.136
+  Update: w 4.71e-04  t1 4.24e-05  t2 9.66e-05  t3 8.38e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.427,4.601]  std 1.133  mono 0.72  curve 0.0156
+  TFT2[th] [-1.024,0.764]  std 0.594  mono 0.58  curve 0.0260
+  TFT3[rl] [-0.261,2.337]  std 0.785  mono 0.63  curve 0.0163
+  TFT1 input [-7.20,5.59]  std 0.92  cov 99.9%
+  TFT2 input [-11.23,19.05]  std 1.39  cov 96.6%
+  TFT3 input [-13.41,7.83]  std 1.78  cov 94.6%
+
+TFT-1.5 training:  42%|████▎     | 850/2000 [1:13:23<1:40:07,  5.22s/it]
+Epoch 850 | Loss 1.8630 | Train 30.65% | Val 33.24% | Gap -2.59% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.1319  ratios 0.500/0.500/0.132
+  Update: w 4.80e-04  t1 4.39e-05  t2 9.69e-05  t3 8.48e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.426,4.593]  std 1.133  mono 0.71  curve 0.0154
+  TFT2[th] [-1.042,0.755]  std 0.585  mono 0.57  curve 0.0261
+  TFT3[rl] [-0.257,2.323]  std 0.779  mono 0.62  curve 0.0164
+  TFT1 input [-7.17,5.76]  std 0.92  cov 99.9%
+  TFT2 input [-11.95,18.04]  std 1.40  cov 96.5%
+  TFT3 input [-12.83,7.80]  std 1.79  cov 94.4%
+
+TFT-1.5 training:  43%|████▎     | 860/2000 [1:14:15<1:39:12,  5.22s/it]
+Epoch 860 | Loss 1.8438 | Train 31.47% | Val 33.44% | Gap -1.97% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.1297  ratios 0.500/0.500/0.130
+  Update: w 5.00e-04  t1 4.61e-05  t2 1.07e-04  t3 8.84e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.425,4.582]  std 1.132  mono 0.73  curve 0.0154
+  TFT2[th] [-1.062,0.747]  std 0.576  mono 0.57  curve 0.0262
+  TFT3[rl] [-0.254,2.308]  std 0.773  mono 0.62  curve 0.0164
+  TFT1 input [-6.11,5.45]  std 0.93  cov 99.8%
+  TFT2 input [-11.52,17.94]  std 1.39  cov 96.3%
+  TFT3 input [-12.48,8.04]  std 1.81  cov 94.2%
+
+TFT-1.5 training:  44%|████▎     | 870/2000 [1:15:06<1:37:29,  5.18s/it]
+Epoch 870 | Loss 1.8165 | Train 32.69% | Val 34.39% | Gap -1.70% | Best 90.57%
+  LR  : w 1.125e-05 ×1.000  t1 1.125e-05  t2 1.125e-05  t3 1.125e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.1304  ratios 0.500/0.500/0.130
+  Update: w 5.20e-04  t1 4.85e-05  t2 1.13e-04  t3 9.07e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.425,4.571]  std 1.131  mono 0.75  curve 0.0153
+  TFT2[th] [-1.081,0.737]  std 0.566  mono 0.58  curve 0.0262
+  TFT3[rl] [-0.253,2.292]  std 0.767  mono 0.61  curve 0.0164
+  TFT1 input [-6.41,5.25]  std 0.93  cov 99.9%
+  TFT2 input [-12.42,16.51]  std 1.43  cov 96.2%
+  TFT3 input [-13.47,7.27]  std 1.77  cov 94.2%
+
+TFT-1.5 training:  44%|████▍     | 880/2000 [1:15:57<1:37:43,  5.24s/it]
+Epoch 880 | Loss 1.7875 | Train 34.05% | Val 36.68% | Gap -2.63% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.1321  ratios 0.500/0.500/0.132
+  Update: w 5.03e-04  t1 4.88e-05  t2 1.09e-04  t3 8.78e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.425,4.563]  std 1.130  mono 0.73  curve 0.0154
+  TFT2[th] [-1.100,0.746]  std 0.556  mono 0.59  curve 0.0264
+  TFT3[rl] [-0.252,2.277]  std 0.762  mono 0.61  curve 0.0165
+  TFT1 input [-6.26,4.81]  std 0.92  cov 99.8%
+  TFT2 input [-11.64,18.98]  std 1.38  cov 96.2%
+  TFT3 input [-12.91,7.34]  std 1.73  cov 94.2%
+
+TFT-1.5 training:  44%|████▍     | 890/2000 [1:16:49<1:36:50,  5.24s/it]
+Epoch 890 | Loss 1.7647 | Train 34.99% | Val 36.21% | Gap -1.22% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.1298  ratios 0.500/0.500/0.130
+  Update: w 4.87e-04  t1 4.68e-05  t2 1.03e-04  t3 8.18e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.425,4.558]  std 1.129  mono 0.73  curve 0.0154
+  TFT2[th] [-1.119,0.758]  std 0.547  mono 0.58  curve 0.0264
+  TFT3[rl] [-0.252,2.262]  std 0.756  mono 0.61  curve 0.0165
+  TFT1 input [-5.95,4.64]  std 0.92  cov 99.8%
+  TFT2 input [-12.07,19.00]  std 1.39  cov 96.1%
+  TFT3 input [-12.41,7.15]  std 1.73  cov 94.4%
+
+TFT-1.5 training:  45%|████▌     | 900/2000 [1:17:41<1:35:27,  5.21s/it]
+Epoch 900 | Loss 1.7365 | Train 36.15% | Val 37.30% | Gap -1.15% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.1294  ratios 0.500/0.500/0.129
+  Update: w 4.86e-04  t1 4.46e-05  t2 1.04e-04  t3 8.29e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.424,4.554]  std 1.127  mono 0.73  curve 0.0153
+  TFT2[th] [-1.138,0.770]  std 0.538  mono 0.60  curve 0.0264
+  TFT3[rl] [-0.254,2.247]  std 0.751  mono 0.61  curve 0.0166
+  TFT1 input [-5.67,4.62]  std 0.93  cov 99.8%
+  TFT2 input [-13.49,16.90]  std 1.37  cov 96.1%
+  TFT3 input [-12.27,6.51]  std 1.70  cov 94.6%
+
+TFT-1.5 training:  46%|████▌     | 910/2000 [1:18:33<1:36:13,  5.30s/it]
+Epoch 910 | Loss 1.7279 | Train 36.53% | Val 37.67% | Gap -1.14% | Best 90.57%
+  LR  : w 1.082e-05 ×1.000  t1 1.082e-05  t2 1.082e-05  t3 1.082e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.1286  ratios 0.500/0.500/0.129
+  Update: w 5.17e-04  t1 4.47e-05  t2 1.07e-04  t3 8.59e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.423,4.552]  std 1.126  mono 0.73  curve 0.0153
+  TFT2[th] [-1.157,0.782]  std 0.529  mono 0.60  curve 0.0265
+  TFT3[rl] [-0.260,2.233]  std 0.745  mono 0.60  curve 0.0167
+  TFT1 input [-5.47,4.42]  std 0.93  cov 99.8%
+  TFT2 input [-14.60,17.94]  std 1.39  cov 96.0%
+  TFT3 input [-11.88,5.94]  std 1.72  cov 94.5%
+
+TFT-1.5 training:  46%|████▌     | 920/2000 [1:19:24<1:33:42,  5.21s/it]
+Epoch 920 | Loss 1.7035 | Train 37.77% | Val 39.08% | Gap -1.30% | Best 90.57%
+  LR  : w 1.162e-05 ×1.000  t1 1.162e-05  t2 1.162e-05  t3 1.162e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.1291  ratios 0.500/0.500/0.129
+  Update: w 5.90e-04  t1 5.10e-05  t2 1.23e-04  t3 1.01e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.424,4.550]  std 1.125  mono 0.73  curve 0.0153
+  TFT2[th] [-1.180,0.794]  std 0.519  mono 0.61  curve 0.0267
+  TFT3[rl] [-0.268,2.216]  std 0.738  mono 0.60  curve 0.0167
+  TFT1 input [-5.54,4.43]  std 0.92  cov 99.8%
+  TFT2 input [-13.48,16.77]  std 1.36  cov 95.9%
+  TFT3 input [-12.39,6.28]  std 1.76  cov 94.3%
+
+TFT-1.5 training:  46%|████▋     | 930/2000 [1:20:15<1:33:25,  5.24s/it]
+Epoch 930 | Loss 1.6776 | Train 38.66% | Val 40.62% | Gap -1.95% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.1229  ratios 0.500/0.500/0.123
+  Update: w 4.72e-04  t1 4.23e-05  t2 9.77e-05  t3 8.06e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.425,4.549]  std 1.125  mono 0.72  curve 0.0153
+  TFT2[th] [-1.199,0.806]  std 0.510  mono 0.60  curve 0.0268
+  TFT3[rl] [-0.274,2.201]  std 0.732  mono 0.60  curve 0.0168
+  TFT1 input [-5.77,4.52]  std 0.92  cov 99.8%
+  TFT2 input [-12.58,18.08]  std 1.37  cov 95.9%
+  TFT3 input [-11.78,7.78]  std 1.72  cov 94.3%
+
+TFT-1.5 training:  47%|████▋     | 940/2000 [1:21:07<1:31:48,  5.20s/it]
+Epoch 940 | Loss 1.6798 | Train 38.84% | Val 39.98% | Gap -1.14% | Best 90.57%
+  LR  : w 1.125e-05 ×1.000  t1 1.125e-05  t2 1.125e-05  t3 1.125e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.1218  ratios 0.500/0.500/0.122
+  Update: w 5.15e-04  t1 4.51e-05  t2 1.00e-04  t3 9.18e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.426,4.548]  std 1.124  mono 0.72  curve 0.0153
+  TFT2[th] [-1.218,0.817]  std 0.502  mono 0.62  curve 0.0270
+  TFT3[rl] [-0.280,2.187]  std 0.725  mono 0.60  curve 0.0168
+  TFT1 input [-5.99,4.55]  std 0.91  cov 99.9%
+  TFT2 input [-13.97,16.17]  std 1.35  cov 95.9%
+  TFT3 input [-12.00,8.37]  std 1.76  cov 94.5%
+
+TFT-1.5 training:  48%|████▊     | 950/2000 [1:21:57<1:30:26,  5.17s/it]
+Epoch 950 | Loss 1.6814 | Train 38.94% | Val 40.17% | Gap -1.24% | Best 90.57%
+  LR  : w 1.537e-05 ×1.000  t1 1.537e-05  t2 1.537e-05  t3 1.537e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.1291  ratios 0.500/0.500/0.129
+  Update: w 7.00e-04  t1 5.70e-05  t2 1.41e-04  t3 1.31e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.426,4.547]  std 1.124  mono 0.73  curve 0.0153
+  TFT2[th] [-1.242,0.833]  std 0.492  mono 0.61  curve 0.0271
+  TFT3[rl] [-0.286,2.168]  std 0.717  mono 0.59  curve 0.0169
+  TFT1 input [-5.98,4.84]  std 0.93  cov 99.8%
+  TFT2 input [-13.42,15.69]  std 1.38  cov 95.8%
+  TFT3 input [-12.35,8.95]  std 1.77  cov 94.3%
+
+TFT-1.5 training:  48%|████▊     | 960/2000 [1:22:49<1:30:45,  5.24s/it]
+Epoch 960 | Loss 1.6995 | Train 38.18% | Val 39.59% | Gap -1.41% | Best 90.57%
+  LR  : w 2.100e-05 ×1.000  t1 2.100e-05  t2 2.100e-05  t3 2.100e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.1436  ratios 0.500/0.500/0.144
+  Update: w 9.85e-04  t1 8.57e-05  t2 1.96e-04  t3 1.82e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.426,4.547]  std 1.124  mono 0.74  curve 0.0152
+  TFT2[th] [-1.275,0.853]  std 0.478  mono 0.61  curve 0.0272
+  TFT3[rl] [-0.293,2.141]  std 0.705  mono 0.60  curve 0.0171
+  TFT1 input [-6.24,4.89]  std 0.92  cov 99.9%
+  TFT2 input [-16.28,17.46]  std 1.43  cov 95.7%
+  TFT3 input [-13.85,9.06]  std 1.80  cov 94.1%
+
+TFT-1.5 training:  48%|████▊     | 970/2000 [1:23:40<1:29:28,  5.21s/it]
+Epoch 970 | Loss 1.6431 | Train 40.08% | Val 42.31% | Gap -2.23% | Best 90.57%
+  LR  : w 1.775e-05 ×1.000  t1 1.775e-05  t2 1.775e-05  t3 1.775e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.1083  ratios 0.500/0.500/0.108
+  Update: w 9.12e-04  t1 6.89e-05  t2 1.74e-04  t3 1.38e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.424,4.551]  std 1.124  mono 0.73  curve 0.0152
+  TFT2[th] [-1.313,0.882]  std 0.461  mono 0.61  curve 0.0274
+  TFT3[rl] [-0.294,2.117]  std 0.694  mono 0.60  curve 0.0171
+  TFT1 input [-6.83,5.31]  std 0.91  cov 99.9%
+  TFT2 input [-15.21,17.69]  std 1.43  cov 95.7%
+  TFT3 input [-14.54,7.74]  std 1.81  cov 94.0%
+
+TFT-1.5 training:  49%|████▉     | 980/2000 [1:24:33<1:28:55,  5.23s/it]
+Epoch 980 | Loss 1.6118 | Train 41.32% | Val 43.10% | Gap -1.78% | Best 90.57%
+  LR  : w 1.180e-05 ×1.000  t1 1.180e-05  t2 1.180e-05  t3 1.180e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0995  ratios 0.500/0.500/0.100
+  Update: w 5.84e-04  t1 4.66e-05  t2 1.07e-04  t3 8.83e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.423,4.550]  std 1.124  mono 0.73  curve 0.0150
+  TFT2[th] [-1.339,0.903]  std 0.450  mono 0.60  curve 0.0275
+  TFT3[rl] [-0.299,2.100]  std 0.687  mono 0.61  curve 0.0172
+  TFT1 input [-6.82,5.10]  std 0.91  cov 99.9%
+  TFT2 input [-15.17,16.76]  std 1.43  cov 95.8%
+  TFT3 input [-14.49,7.48]  std 1.82  cov 94.0%
+
+TFT-1.5 training:  50%|████▉     | 990/2000 [1:25:24<1:28:01,  5.23s/it]
+Epoch 990 | Loss 1.6010 | Train 41.58% | Val 43.07% | Gap -1.49% | Best 90.57%
+  LR  : w 1.171e-05 ×1.000  t1 1.171e-05  t2 1.171e-05  t3 1.171e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0949  ratios 0.500/0.500/0.095
+  Update: w 5.31e-04  t1 4.20e-05  t2 9.43e-05  t3 8.28e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.422,4.548]  std 1.124  mono 0.74  curve 0.0150
+  TFT2[th] [-1.359,0.919]  std 0.443  mono 0.61  curve 0.0276
+  TFT3[rl] [-0.303,2.086]  std 0.681  mono 0.60  curve 0.0173
+  TFT1 input [-6.76,5.17]  std 0.90  cov 99.9%
+  TFT2 input [-15.27,18.55]  std 1.44  cov 95.9%
+  TFT3 input [-14.57,7.25]  std 1.84  cov 94.2%
+
+TFT-1.5 training:  50%|█████     | 1000/2000 [1:26:16<1:28:53,  5.33s/it]
+Epoch 1000 | Loss 1.5791 | Train 41.76% | Val 43.89% | Gap -2.13% | Best 90.57%
+  LR  : w 1.161e-05 ×1.000  t1 1.161e-05  t2 1.161e-05  t3 1.161e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0865  ratios 0.500/0.500/0.086
+  Update: w 5.74e-04  t1 4.44e-05  t2 9.71e-05  t3 8.27e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.421,4.549]  std 1.124  mono 0.75  curve 0.0149
+  TFT2[th] [-1.380,0.936]  std 0.435  mono 0.62  curve 0.0278
+  TFT3[rl] [-0.311,2.072]  std 0.675  mono 0.61  curve 0.0173
+  TFT1 input [-6.92,4.77]  std 0.91  cov 99.9%
+  TFT2 input [-15.87,18.60]  std 1.45  cov 95.9%
+  TFT3 input [-14.15,7.30]  std 1.93  cov 94.0%
+
+TFT-1.5 training:  50%|█████     | 1010/2000 [1:27:08<1:26:24,  5.24s/it]
+Epoch 1010 | Loss 1.5537 | Train 42.98% | Val 44.51% | Gap -1.52% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0808  ratios 0.500/0.500/0.081
+  Update: w 4.65e-04  t1 3.79e-05  t2 7.51e-05  t3 6.93e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.421,4.551]  std 1.124  mono 0.76  curve 0.0149
+  TFT2[th] [-1.397,0.949]  std 0.430  mono 0.64  curve 0.0280
+  TFT3[rl] [-0.317,2.060]  std 0.670  mono 0.61  curve 0.0174
+  TFT1 input [-7.00,4.32]  std 0.90  cov 99.9%
+  TFT2 input [-14.70,19.07]  std 1.43  cov 95.9%
+  TFT3 input [-14.59,7.73]  std 1.91  cov 94.0%
+
+TFT-1.5 training:  51%|█████     | 1020/2000 [1:28:00<1:25:28,  5.23s/it]
+Epoch 1020 | Loss 1.5388 | Train 43.52% | Val 45.04% | Gap -1.52% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0765  ratios 0.500/0.500/0.077
+  Update: w 4.69e-04  t1 3.78e-05  t2 7.03e-05  t3 6.82e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.421,4.554]  std 1.124  mono 0.76  curve 0.0149
+  TFT2[th] [-1.412,0.961]  std 0.425  mono 0.63  curve 0.0280
+  TFT3[rl] [-0.324,2.050]  std 0.666  mono 0.60  curve 0.0176
+  TFT1 input [-7.02,4.16]  std 0.91  cov 99.9%
+  TFT2 input [-16.58,18.82]  std 1.49  cov 95.7%
+  TFT3 input [-14.35,7.85]  std 1.93  cov 93.9%
+
+TFT-1.5 training:  52%|█████▏    | 1030/2000 [1:28:51<1:24:14,  5.21s/it]
+Epoch 1030 | Loss 1.5184 | Train 44.56% | Val 46.90% | Gap -2.34% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0747  ratios 0.500/0.500/0.075
+  Update: w 4.65e-04  t1 3.91e-05  t2 6.77e-05  t3 6.88e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.421,4.558]  std 1.124  mono 0.76  curve 0.0149
+  TFT2[th] [-1.427,0.972]  std 0.420  mono 0.64  curve 0.0281
+  TFT3[rl] [-0.330,2.039]  std 0.662  mono 0.61  curve 0.0175
+  TFT1 input [-7.46,4.12]  std 0.91  cov 99.9%
+  TFT2 input [-16.11,20.46]  std 1.52  cov 95.5%
+  TFT3 input [-15.15,9.42]  std 2.00  cov 93.8%
+
+TFT-1.5 training:  52%|█████▏    | 1040/2000 [1:29:43<1:23:33,  5.22s/it]
+Epoch 1040 | Loss 1.4617 | Train 47.92% | Val 50.14% | Gap -2.23% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0759  ratios 0.500/0.500/0.076
+  Update: w 4.75e-04  t1 3.87e-05  t2 6.37e-05  t3 7.15e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.422,4.563]  std 1.124  mono 0.75  curve 0.0149
+  TFT2[th] [-1.440,0.985]  std 0.416  mono 0.64  curve 0.0280
+  TFT3[rl] [-0.338,2.030]  std 0.658  mono 0.61  curve 0.0176
+  TFT1 input [-7.07,4.16]  std 0.90  cov 99.9%
+  TFT2 input [-15.60,17.67]  std 1.45  cov 95.4%
+  TFT3 input [-15.41,8.73]  std 1.94  cov 93.7%
+
+TFT-1.5 training:  52%|█████▎    | 1050/2000 [1:30:35<1:23:26,  5.27s/it]
+Epoch 1050 | Loss 1.3947 | Train 51.12% | Val 54.63% | Gap -3.51% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0968  ratios 0.500/0.500/0.097
+  Update: w 4.85e-04  t1 4.02e-05  t2 7.09e-05  t3 7.35e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.422,4.568]  std 1.124  mono 0.76  curve 0.0150
+  TFT2[th] [-1.454,1.000]  std 0.412  mono 0.64  curve 0.0281
+  TFT3[rl] [-0.347,2.017]  std 0.655  mono 0.61  curve 0.0176
+  TFT1 input [-7.09,4.36]  std 0.90  cov 99.9%
+  TFT2 input [-15.27,19.60]  std 1.50  cov 94.9%
+  TFT3 input [-15.93,9.32]  std 1.95  cov 93.1%
+
+TFT-1.5 training:  53%|█████▎    | 1060/2000 [1:31:27<1:22:21,  5.26s/it]
+Epoch 1060 | Loss 1.3370 | Train 52.41% | Val 54.27% | Gap -1.87% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0987  ratios 0.500/0.500/0.099
+  Update: w 4.91e-04  t1 3.79e-05  t2 6.83e-05  t3 7.02e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.422,4.571]  std 1.124  mono 0.75  curve 0.0150
+  TFT2[th] [-1.468,1.015]  std 0.407  mono 0.64  curve 0.0281
+  TFT3[rl] [-0.356,2.006]  std 0.653  mono 0.61  curve 0.0178
+  TFT1 input [-7.10,4.41]  std 0.89  cov 99.9%
+  TFT2 input [-14.63,15.13]  std 1.45  cov 94.8%
+  TFT3 input [-15.26,9.20]  std 1.88  cov 93.2%
+
+TFT-1.5 training:  54%|█████▎    | 1070/2000 [1:32:19<1:21:51,  5.28s/it]
+Epoch 1070 | Loss 1.2974 | Train 53.91% | Val 56.27% | Gap -2.35% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.1009  ratios 0.500/0.500/0.101
+  Update: w 4.98e-04  t1 3.80e-05  t2 6.24e-05  t3 7.39e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.422,4.572]  std 1.124  mono 0.75  curve 0.0149
+  TFT2[th] [-1.478,1.031]  std 0.402  mono 0.63  curve 0.0283
+  TFT3[rl] [-0.363,1.994]  std 0.650  mono 0.61  curve 0.0178
+  TFT1 input [-7.31,4.29]  std 0.90  cov 99.9%
+  TFT2 input [-14.04,14.45]  std 1.48  cov 94.3%
+  TFT3 input [-16.05,9.28]  std 1.93  cov 93.0%
+
+TFT-1.5 training:  54%|█████▍    | 1080/2000 [1:33:11<1:21:05,  5.29s/it]
+Epoch 1080 | Loss 1.2410 | Train 56.66% | Val 58.77% | Gap -2.11% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0959  ratios 0.500/0.500/0.096
+  Update: w 4.92e-04  t1 3.88e-05  t2 6.08e-05  t3 8.00e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.421,4.573]  std 1.123  mono 0.76  curve 0.0149
+  TFT2[th] [-1.489,1.042]  std 0.399  mono 0.61  curve 0.0283
+  TFT3[rl] [-0.369,1.983]  std 0.646  mono 0.60  curve 0.0179
+  TFT1 input [-7.18,4.37]  std 0.91  cov 99.9%
+  TFT2 input [-14.20,15.19]  std 1.52  cov 93.6%
+  TFT3 input [-15.52,8.05]  std 1.99  cov 92.3%
+
+TFT-1.5 training:  55%|█████▍    | 1090/2000 [1:34:03<1:19:36,  5.25s/it]
+Epoch 1090 | Loss 1.1621 | Train 59.62% | Val 62.38% | Gap -2.76% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0914  ratios 0.500/0.500/0.091
+  Update: w 4.93e-04  t1 3.79e-05  t2 5.51e-05  t3 7.89e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.419,4.573]  std 1.123  mono 0.76  curve 0.0150
+  TFT2[th] [-1.498,1.055]  std 0.396  mono 0.62  curve 0.0285
+  TFT3[rl] [-0.379,1.971]  std 0.643  mono 0.61  curve 0.0179
+  TFT1 input [-7.23,4.13]  std 0.90  cov 99.9%
+  TFT2 input [-12.49,14.32]  std 1.57  cov 92.8%
+  TFT3 input [-12.95,6.55]  std 2.03  cov 91.4%
+
+TFT-1.5 training:  55%|█████▌    | 1100/2000 [1:34:54<1:17:35,  5.17s/it]
+Epoch 1100 | Loss 1.0700 | Train 62.69% | Val 64.85% | Gap -2.16% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0834  ratios 0.500/0.500/0.083
+  Update: w 4.82e-04  t1 3.78e-05  t2 4.77e-05  t3 7.36e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.418,4.574]  std 1.122  mono 0.76  curve 0.0150
+  TFT2[th] [-1.503,1.069]  std 0.393  mono 0.62  curve 0.0286
+  TFT3[rl] [-0.389,1.961]  std 0.639  mono 0.60  curve 0.0180
+  TFT1 input [-7.43,4.15]  std 0.90  cov 99.9%
+  TFT2 input [-12.34,15.12]  std 1.62  cov 92.2%
+  TFT3 input [-13.68,6.76]  std 2.08  cov 91.0%
+
+TFT-1.5 training:  56%|█████▌    | 1110/2000 [1:35:46<1:17:22,  5.22s/it]
+Epoch 1110 | Loss 1.0178 | Train 64.34% | Val 66.39% | Gap -2.05% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0746  ratios 0.500/0.500/0.075
+  Update: w 4.80e-04  t1 3.84e-05  t2 4.73e-05  t3 6.90e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.417,4.576]  std 1.122  mono 0.76  curve 0.0149
+  TFT2[th] [-1.505,1.082]  std 0.391  mono 0.62  curve 0.0287
+  TFT3[rl] [-0.398,1.951]  std 0.636  mono 0.60  curve 0.0181
+  TFT1 input [-6.93,4.29]  std 0.90  cov 99.9%
+  TFT2 input [-12.63,16.75]  std 1.64  cov 92.1%
+  TFT3 input [-13.11,6.99]  std 2.09  cov 90.9%
+
+TFT-1.5 training:  56%|█████▌    | 1120/2000 [1:36:37<1:15:57,  5.18s/it]
+Epoch 1120 | Loss 0.9735 | Train 65.99% | Val 67.73% | Gap -1.75% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0695  ratios 0.500/0.500/0.069
+  Update: w 4.77e-04  t1 3.77e-05  t2 4.52e-05  t3 6.90e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.416,4.577]  std 1.122  mono 0.75  curve 0.0150
+  TFT2[th] [-1.505,1.094]  std 0.390  mono 0.64  curve 0.0287
+  TFT3[rl] [-0.407,1.964]  std 0.633  mono 0.60  curve 0.0182
+  TFT1 input [-7.33,4.10]  std 0.90  cov 99.9%
+  TFT2 input [-14.06,18.70]  std 1.69  cov 91.9%
+  TFT3 input [-13.18,7.12]  std 2.13  cov 90.6%
+
+TFT-1.5 training:  56%|█████▋    | 1130/2000 [1:37:28<1:14:42,  5.15s/it]
+Epoch 1130 | Loss 0.9354 | Train 67.65% | Val 68.79% | Gap -1.15% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0669  ratios 0.500/0.500/0.067
+  Update: w 4.74e-04  t1 3.97e-05  t2 4.39e-05  t3 7.05e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.414,4.578]  std 1.122  mono 0.76  curve 0.0150
+  TFT2[th] [-1.502,1.106]  std 0.389  mono 0.63  curve 0.0288
+  TFT3[rl] [-0.415,1.979]  std 0.630  mono 0.59  curve 0.0183
+  TFT1 input [-7.04,4.04]  std 0.90  cov 99.9%
+  TFT2 input [-12.88,17.93]  std 1.67  cov 91.9%
+  TFT3 input [-13.08,7.07]  std 2.09  cov 90.5%
+
+TFT-1.5 training:  57%|█████▋    | 1140/2000 [1:38:19<1:14:36,  5.21s/it]
+Epoch 1140 | Loss 0.9111 | Train 70.02% | Val 72.99% | Gap -2.97% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0651  ratios 0.500/0.500/0.065
+  Update: w 4.98e-04  t1 3.99e-05  t2 4.69e-05  t3 6.68e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.413,4.580]  std 1.122  mono 0.78  curve 0.0150
+  TFT2[th] [-1.499,1.119]  std 0.388  mono 0.63  curve 0.0287
+  TFT3[rl] [-0.422,1.995]  std 0.627  mono 0.59  curve 0.0183
+  TFT1 input [-7.06,3.83]  std 0.89  cov 99.9%
+  TFT2 input [-12.00,17.03]  std 1.69  cov 91.7%
+  TFT3 input [-12.96,7.93]  std 2.09  cov 90.6%
+
+TFT-1.5 training:  57%|█████▊    | 1150/2000 [1:39:11<1:14:31,  5.26s/it]
+Epoch 1150 | Loss 0.8922 | Train 70.80% | Val 73.03% | Gap -2.23% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0680  ratios 0.500/0.500/0.068
+  Update: w 4.93e-04  t1 4.11e-05  t2 4.53e-05  t3 6.97e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.412,4.581]  std 1.122  mono 0.78  curve 0.0151
+  TFT2[th] [-1.499,1.131]  std 0.386  mono 0.63  curve 0.0286
+  TFT3[rl] [-0.427,2.011]  std 0.624  mono 0.59  curve 0.0183
+  TFT1 input [-7.40,3.92]  std 0.89  cov 99.9%
+  TFT2 input [-12.37,17.95]  std 1.73  cov 91.5%
+  TFT3 input [-13.79,8.44]  std 2.13  cov 90.5%
+
+TFT-1.5 training:  58%|█████▊    | 1160/2000 [1:40:03<1:13:34,  5.26s/it]
+Epoch 1160 | Loss 0.8892 | Train 71.02% | Val 72.71% | Gap -1.69% | Best 90.57%
+  LR  : w 1.040e-05 ×1.000  t1 1.040e-05  t2 1.040e-05  t3 1.040e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0758  ratios 0.500/0.500/0.076
+  Update: w 4.85e-04  t1 4.10e-05  t2 4.40e-05  t3 7.27e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.410,4.584]  std 1.122  mono 0.78  curve 0.0150
+  TFT2[th] [-1.496,1.144]  std 0.385  mono 0.63  curve 0.0287
+  TFT3[rl] [-0.433,2.029]  std 0.621  mono 0.59  curve 0.0185
+  TFT1 input [-6.93,4.02]  std 0.90  cov 99.9%
+  TFT2 input [-13.58,19.52]  std 1.76  cov 91.5%
+  TFT3 input [-14.46,7.92]  std 2.16  cov 90.5%
+
+TFT-1.5 training:  58%|█████▊    | 1170/2000 [1:40:54<1:12:07,  5.21s/it]
+Epoch 1170 | Loss 0.8746 | Train 71.70% | Val 72.76% | Gap -1.06% | Best 90.57%
+  LR  : w 1.213e-05 ×1.000  t1 1.213e-05  t2 1.213e-05  t3 1.213e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0707  ratios 0.500/0.500/0.071
+  Update: w 6.05e-04  t1 5.39e-05  t2 5.43e-05  t3 8.38e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.409,4.588]  std 1.123  mono 0.78  curve 0.0151
+  TFT2[th] [-1.489,1.163]  std 0.383  mono 0.63  curve 0.0288
+  TFT3[rl] [-0.438,2.049]  std 0.619  mono 0.59  curve 0.0186
+  TFT1 input [-6.88,4.32]  std 0.90  cov 99.9%
+  TFT2 input [-14.62,20.87]  std 1.87  cov 91.4%
+  TFT3 input [-16.56,7.90]  std 2.24  cov 90.2%
+
+TFT-1.5 training:  59%|█████▉    | 1180/2000 [1:41:45<1:10:47,  5.18s/it]
+Epoch 1180 | Loss 0.8619 | Train 72.11% | Val 73.73% | Gap -1.62% | Best 90.57%
+  LR  : w 1.203e-05 ×1.000  t1 1.203e-05  t2 1.203e-05  t3 1.203e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0777  ratios 0.500/0.500/0.078
+  Update: w 6.01e-04  t1 5.18e-05  t2 5.89e-05  t3 8.21e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.407,4.593]  std 1.123  mono 0.79  curve 0.0150
+  TFT2[th] [-1.484,1.180]  std 0.382  mono 0.61  curve 0.0289
+  TFT3[rl] [-0.448,2.070]  std 0.616  mono 0.59  curve 0.0187
+  TFT1 input [-7.24,4.46]  std 0.91  cov 99.9%
+  TFT2 input [-14.95,18.92]  std 1.86  cov 91.4%
+  TFT3 input [-16.08,8.54]  std 2.23  cov 90.2%
+
+TFT-1.5 training:  60%|█████▉    | 1190/2000 [1:42:36<1:10:05,  5.19s/it]
+Epoch 1190 | Loss 0.8220 | Train 73.59% | Val 74.22% | Gap -0.62% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0573  ratios 0.500/0.500/0.057
+  Update: w 4.73e-04  t1 4.13e-05  t2 4.11e-05  t3 6.43e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.406,4.594]  std 1.123  mono 0.78  curve 0.0149
+  TFT2[th] [-1.484,1.192]  std 0.380  mono 0.62  curve 0.0290
+  TFT3[rl] [-0.456,2.084]  std 0.614  mono 0.60  curve 0.0188
+  TFT1 input [-7.15,4.41]  std 0.90  cov 99.9%
+  TFT2 input [-14.75,18.49]  std 1.82  cov 91.4%
+  TFT3 input [-15.33,8.55]  std 2.23  cov 90.1%
+
+TFT-1.5 training:  60%|██████    | 1200/2000 [1:43:27<1:08:58,  5.17s/it]
+Epoch 1200 | Loss 0.7991 | Train 74.23% | Val 74.71% | Gap -0.48% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0512  ratios 0.500/0.500/0.051
+  Update: w 4.76e-04  t1 4.05e-05  t2 3.83e-05  t3 6.61e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.405,4.593]  std 1.123  mono 0.79  curve 0.0149
+  TFT2[th] [-1.480,1.204]  std 0.380  mono 0.62  curve 0.0290
+  TFT3[rl] [-0.464,2.097]  std 0.613  mono 0.60  curve 0.0188
+  TFT1 input [-6.86,4.54]  std 0.91  cov 99.9%
+  TFT2 input [-15.37,17.36]  std 1.85  cov 91.2%
+  TFT3 input [-15.32,6.83]  std 2.22  cov 90.1%
+
+TFT-1.5 training:  60%|██████    | 1210/2000 [1:44:19<1:09:42,  5.29s/it]
+Epoch 1210 | Loss 0.7859 | Train 74.27% | Val 74.83% | Gap -0.55% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0504  ratios 0.500/0.500/0.050
+  Update: w 4.88e-04  t1 4.35e-05  t2 4.03e-05  t3 6.37e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.404,4.591]  std 1.123  mono 0.79  curve 0.0149
+  TFT2[th] [-1.474,1.216]  std 0.379  mono 0.63  curve 0.0290
+  TFT3[rl] [-0.471,2.109]  std 0.611  mono 0.60  curve 0.0188
+  TFT1 input [-6.54,4.52]  std 0.90  cov 99.9%
+  TFT2 input [-15.07,16.89]  std 1.84  cov 91.1%
+  TFT3 input [-15.23,6.64]  std 2.24  cov 90.1%
+
+TFT-1.5 training:  61%|██████    | 1220/2000 [1:45:11<1:08:49,  5.29s/it]
+Epoch 1220 | Loss 0.7649 | Train 75.08% | Val 75.33% | Gap -0.25% | Best 90.57%
+  LR  : w 1.040e-05 ×1.000  t1 1.040e-05  t2 1.040e-05  t3 1.040e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0484  ratios 0.500/0.500/0.048
+  Update: w 4.71e-04  t1 4.10e-05  t2 3.90e-05  t3 6.28e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.402,4.591]  std 1.123  mono 0.78  curve 0.0148
+  TFT2[th] [-1.469,1.227]  std 0.379  mono 0.64  curve 0.0291
+  TFT3[rl] [-0.477,2.122]  std 0.609  mono 0.60  curve 0.0188
+  TFT1 input [-6.28,4.66]  std 0.91  cov 99.9%
+  TFT2 input [-14.45,18.00]  std 1.87  cov 90.9%
+  TFT3 input [-15.14,6.79]  std 2.25  cov 89.9%
+
+TFT-1.5 training:  62%|██████▏   | 1230/2000 [1:46:03<1:06:32,  5.18s/it]
+Epoch 1230 | Loss 0.7567 | Train 75.30% | Val 75.89% | Gap -0.59% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0479  ratios 0.500/0.500/0.048
+  Update: w 4.65e-04  t1 4.12e-05  t2 3.86e-05  t3 6.13e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.400,4.589]  std 1.123  mono 0.80  curve 0.0147
+  TFT2[th] [-1.464,1.238]  std 0.379  mono 0.63  curve 0.0289
+  TFT3[rl] [-0.483,2.133]  std 0.607  mono 0.59  curve 0.0188
+  TFT1 input [-6.49,4.67]  std 0.91  cov 99.9%
+  TFT2 input [-14.91,18.36]  std 1.91  cov 90.7%
+  TFT3 input [-15.00,6.98]  std 2.29  cov 89.9%
+
+TFT-1.5 training:  62%|██████▏   | 1240/2000 [1:46:54<1:05:08,  5.14s/it]
+Epoch 1240 | Loss 0.7388 | Train 75.84% | Val 76.17% | Gap -0.33% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0453  ratios 0.500/0.500/0.045
+  Update: w 4.62e-04  t1 4.15e-05  t2 3.84e-05  t3 6.11e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.399,4.588]  std 1.123  mono 0.80  curve 0.0147
+  TFT2[th] [-1.460,1.247]  std 0.378  mono 0.63  curve 0.0290
+  TFT3[rl] [-0.489,2.145]  std 0.605  mono 0.60  curve 0.0189
+  TFT1 input [-6.43,4.79]  std 0.92  cov 99.9%
+  TFT2 input [-14.02,18.80]  std 1.90  cov 90.7%
+  TFT3 input [-14.83,7.15]  std 2.25  cov 89.9%
+
+TFT-1.5 training:  62%|██████▎   | 1250/2000 [1:47:45<1:05:04,  5.21s/it]
+Epoch 1250 | Loss 0.7355 | Train 75.99% | Val 76.41% | Gap -0.42% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0449  ratios 0.500/0.500/0.045
+  Update: w 4.82e-04  t1 4.36e-05  t2 3.97e-05  t3 6.04e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.398,4.588]  std 1.123  mono 0.80  curve 0.0146
+  TFT2[th] [-1.456,1.256]  std 0.378  mono 0.64  curve 0.0291
+  TFT3[rl] [-0.495,2.157]  std 0.603  mono 0.60  curve 0.0190
+  TFT1 input [-6.33,4.63]  std 0.91  cov 99.9%
+  TFT2 input [-14.11,17.95]  std 1.90  cov 90.6%
+  TFT3 input [-14.58,7.74]  std 2.25  cov 89.9%
+
+TFT-1.5 training:  63%|██████▎   | 1260/2000 [1:48:37<1:04:32,  5.23s/it]
+Epoch 1260 | Loss 0.7226 | Train 76.36% | Val 76.60% | Gap -0.24% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0456  ratios 0.500/0.500/0.046
+  Update: w 4.69e-04  t1 4.12e-05  t2 3.73e-05  t3 5.84e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.396,4.587]  std 1.123  mono 0.80  curve 0.0146
+  TFT2[th] [-1.452,1.265]  std 0.378  mono 0.63  curve 0.0290
+  TFT3[rl] [-0.501,2.168]  std 0.601  mono 0.59  curve 0.0190
+  TFT1 input [-6.00,4.78]  std 0.91  cov 99.9%
+  TFT2 input [-14.77,18.64]  std 1.93  cov 90.3%
+  TFT3 input [-14.35,7.61]  std 2.23  cov 89.7%
+
+TFT-1.5 training:  64%|██████▎   | 1270/2000 [1:49:28<1:03:09,  5.19s/it]
+Epoch 1270 | Loss 0.7080 | Train 76.88% | Val 77.10% | Gap -0.22% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0456  ratios 0.500/0.500/0.046
+  Update: w 4.61e-04  t1 4.04e-05  t2 3.90e-05  t3 6.05e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.394,4.586]  std 1.123  mono 0.80  curve 0.0146
+  TFT2[th] [-1.449,1.273]  std 0.377  mono 0.63  curve 0.0291
+  TFT3[rl] [-0.507,2.180]  std 0.599  mono 0.59  curve 0.0190
+  TFT1 input [-6.04,4.72]  std 0.91  cov 99.9%
+  TFT2 input [-14.13,17.78]  std 1.92  cov 90.3%
+  TFT3 input [-14.16,7.62]  std 2.21  cov 89.7%
+
+TFT-1.5 training:  64%|██████▍   | 1280/2000 [1:50:20<1:02:24,  5.20s/it]
+Epoch 1280 | Loss 0.6973 | Train 77.24% | Val 77.55% | Gap -0.31% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0455  ratios 0.500/0.500/0.046
+  Update: w 4.69e-04  t1 4.35e-05  t2 3.93e-05  t3 6.10e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.393,4.585]  std 1.122  mono 0.80  curve 0.0146
+  TFT2[th] [-1.445,1.280]  std 0.377  mono 0.64  curve 0.0292
+  TFT3[rl] [-0.512,2.192]  std 0.597  mono 0.59  curve 0.0190
+  TFT1 input [-6.02,4.77]  std 0.91  cov 99.9%
+  TFT2 input [-14.26,17.51]  std 1.95  cov 90.1%
+  TFT3 input [-14.48,8.84]  std 2.23  cov 89.4%
+
+TFT-1.5 training:  64%|██████▍   | 1290/2000 [1:51:12<1:03:16,  5.35s/it]
+Epoch 1290 | Loss 0.6863 | Train 77.68% | Val 77.78% | Gap -0.09% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0448  ratios 0.500/0.500/0.045
+  Update: w 4.71e-04  t1 4.20e-05  t2 3.88e-05  t3 5.71e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.391,4.584]  std 1.122  mono 0.80  curve 0.0145
+  TFT2[th] [-1.442,1.287]  std 0.377  mono 0.65  curve 0.0292
+  TFT3[rl] [-0.517,2.204]  std 0.595  mono 0.59  curve 0.0191
+  TFT1 input [-6.01,4.71]  std 0.92  cov 99.9%
+  TFT2 input [-13.53,16.97]  std 1.94  cov 90.0%
+  TFT3 input [-15.98,9.60]  std 2.22  cov 89.4%
+
+TFT-1.5 training:  65%|██████▌   | 1300/2000 [1:52:05<1:01:27,  5.27s/it]
+Epoch 1300 | Loss 0.6711 | Train 78.17% | Val 78.53% | Gap -0.35% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0454  ratios 0.500/0.500/0.045
+  Update: w 4.69e-04  t1 4.14e-05  t2 3.75e-05  t3 5.70e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.389,4.583]  std 1.122  mono 0.80  curve 0.0146
+  TFT2[th] [-1.439,1.294]  std 0.377  mono 0.64  curve 0.0294
+  TFT3[rl] [-0.521,2.216]  std 0.592  mono 0.58  curve 0.0191
+  TFT1 input [-6.04,4.86]  std 0.92  cov 99.9%
+  TFT2 input [-14.08,16.60]  std 1.97  cov 89.7%
+  TFT3 input [-16.49,10.41]  std 2.26  cov 89.1%
+
+TFT-1.5 training:  66%|██████▌   | 1310/2000 [1:52:57<1:00:48,  5.29s/it]
+Epoch 1310 | Loss 0.6628 | Train 78.53% | Val 78.88% | Gap -0.34% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0451  ratios 0.500/0.500/0.045
+  Update: w 4.68e-04  t1 4.15e-05  t2 3.87e-05  t3 5.67e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.388,4.583]  std 1.122  mono 0.81  curve 0.0145
+  TFT2[th] [-1.438,1.300]  std 0.376  mono 0.64  curve 0.0293
+  TFT3[rl] [-0.525,2.229]  std 0.590  mono 0.58  curve 0.0191
+  TFT1 input [-5.65,4.94]  std 0.91  cov 99.9%
+  TFT2 input [-13.67,15.63]  std 1.98  cov 89.5%
+  TFT3 input [-18.31,12.44]  std 2.26  cov 89.1%
+
+TFT-1.5 training:  66%|██████▌   | 1320/2000 [1:53:49<59:17,  5.23s/it]
+Epoch 1320 | Loss 0.6557 | Train 79.01% | Val 79.33% | Gap -0.33% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0465  ratios 0.500/0.500/0.046
+  Update: w 4.62e-04  t1 4.14e-05  t2 3.84e-05  t3 5.68e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.386,4.582]  std 1.121  mono 0.81  curve 0.0145
+  TFT2[th] [-1.437,1.305]  std 0.375  mono 0.64  curve 0.0293
+  TFT3[rl] [-0.529,2.242]  std 0.588  mono 0.58  curve 0.0191
+  TFT1 input [-6.23,5.02]  std 0.92  cov 99.9%
+  TFT2 input [-13.23,14.61]  std 2.00  cov 89.4%
+  TFT3 input [-15.22,11.64]  std 2.27  cov 89.1%
+
+TFT-1.5 training:  66%|██████▋   | 1330/2000 [1:54:40<58:05,  5.20s/it]
+Epoch 1330 | Loss 0.6382 | Train 79.43% | Val 79.89% | Gap -0.46% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0461  ratios 0.500/0.500/0.046
+  Update: w 4.66e-04  t1 4.24e-05  t2 3.69e-05  t3 5.42e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.385,4.582]  std 1.121  mono 0.81  curve 0.0146
+  TFT2[th] [-1.437,1.310]  std 0.375  mono 0.65  curve 0.0293
+  TFT3[rl] [-0.534,2.254]  std 0.586  mono 0.58  curve 0.0190
+  TFT1 input [-6.01,5.04]  std 0.92  cov 99.9%
+  TFT2 input [-13.38,13.80]  std 1.99  cov 89.2%
+  TFT3 input [-15.94,10.60]  std 2.27  cov 88.9%
+
+TFT-1.5 training:  67%|██████▋   | 1340/2000 [1:55:32<57:52,  5.26s/it]
+Epoch 1340 | Loss 0.6229 | Train 80.27% | Val 81.19% | Gap -0.92% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0452  ratios 0.500/0.500/0.045
+  Update: w 4.72e-04  t1 4.05e-05  t2 3.89e-05  t3 5.74e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.384,4.581]  std 1.120  mono 0.82  curve 0.0145
+  TFT2[th] [-1.437,1.314]  std 0.375  mono 0.64  curve 0.0294
+  TFT3[rl] [-0.539,2.266]  std 0.584  mono 0.58  curve 0.0192
+  TFT1 input [-6.03,5.06]  std 0.93  cov 99.9%
+  TFT2 input [-13.88,14.03]  std 2.02  cov 89.0%
+  TFT3 input [-15.96,10.19]  std 2.27  cov 88.7%
+
+TFT-1.5 training:  68%|██████▊   | 1350/2000 [1:56:24<56:40,  5.23s/it]
+Epoch 1350 | Loss 0.6043 | Train 81.01% | Val 82.23% | Gap -1.22% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0452  ratios 0.500/0.500/0.045
+  Update: w 4.68e-04  t1 4.08e-05  t2 3.86e-05  t3 5.53e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.383,4.582]  std 1.120  mono 0.81  curve 0.0145
+  TFT2[th] [-1.438,1.317]  std 0.374  mono 0.62  curve 0.0294
+  TFT3[rl] [-0.545,2.280]  std 0.583  mono 0.58  curve 0.0193
+  TFT1 input [-6.16,5.18]  std 0.93  cov 99.9%
+  TFT2 input [-14.35,14.36]  std 2.03  cov 88.8%
+  TFT3 input [-16.81,10.59]  std 2.28  cov 88.6%
+
+TFT-1.5 training:  68%|██████▊   | 1360/2000 [1:57:16<55:49,  5.23s/it]
+Epoch 1360 | Loss 0.5932 | Train 81.48% | Val 82.57% | Gap -1.08% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0432  ratios 0.500/0.500/0.043
+  Update: w 4.65e-04  t1 4.09e-05  t2 3.80e-05  t3 5.33e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.381,4.582]  std 1.120  mono 0.80  curve 0.0145
+  TFT2[th] [-1.439,1.321]  std 0.373  mono 0.64  curve 0.0296
+  TFT3[rl] [-0.550,2.293]  std 0.582  mono 0.58  curve 0.0194
+  TFT1 input [-5.95,5.27]  std 0.92  cov 99.9%
+  TFT2 input [-13.38,13.93]  std 2.02  cov 88.7%
+  TFT3 input [-16.26,7.73]  std 2.28  cov 88.9%
+
+TFT-1.5 training:  68%|██████▊   | 1370/2000 [1:58:07<54:37,  5.20s/it]
+Epoch 1370 | Loss 0.5854 | Train 81.81% | Val 82.84% | Gap -1.03% | Best 90.57%
+  LR  : w 1.170e-05 ×1.000  t1 1.170e-05  t2 1.170e-05  t3 1.170e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0433  ratios 0.500/0.500/0.043
+  Update: w 5.26e-04  t1 4.72e-05  t2 4.38e-05  t3 6.12e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.379,4.583]  std 1.120  mono 0.80  curve 0.0144
+  TFT2[th] [-1.440,1.323]  std 0.373  mono 0.64  curve 0.0297
+  TFT3[rl] [-0.553,2.305]  std 0.580  mono 0.58  curve 0.0195
+  TFT1 input [-6.11,5.35]  std 0.92  cov 99.9%
+  TFT2 input [-13.39,13.89]  std 2.01  cov 88.7%
+  TFT3 input [-17.06,8.91]  std 2.29  cov 89.0%
+
+TFT-1.5 training:  69%|██████▉   | 1380/2000 [1:58:59<54:26,  5.27s/it]
+Epoch 1380 | Loss 0.5793 | Train 82.28% | Val 82.87% | Gap -0.59% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0429  ratios 0.500/0.500/0.043
+  Update: w 4.64e-04  t1 4.11e-05  t2 3.89e-05  t3 5.30e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.377,4.584]  std 1.119  mono 0.82  curve 0.0144
+  TFT2[th] [-1.442,1.326]  std 0.372  mono 0.65  curve 0.0297
+  TFT3[rl] [-0.556,2.319]  std 0.578  mono 0.57  curve 0.0194
+  TFT1 input [-5.99,5.30]  std 0.93  cov 99.9%
+  TFT2 input [-13.37,14.80]  std 2.04  cov 88.6%
+  TFT3 input [-15.86,8.03]  std 2.29  cov 89.0%
+
+TFT-1.5 training:  70%|██████▉   | 1390/2000 [1:59:52<54:39,  5.38s/it]
+Epoch 1390 | Loss 0.5687 | Train 82.53% | Val 83.42% | Gap -0.90% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0410  ratios 0.500/0.500/0.041
+  Update: w 4.68e-04  t1 3.99e-05  t2 3.84e-05  t3 5.23e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.376,4.584]  std 1.119  mono 0.82  curve 0.0143
+  TFT2[th] [-1.443,1.329]  std 0.372  mono 0.64  curve 0.0297
+  TFT3[rl] [-0.558,2.330]  std 0.576  mono 0.58  curve 0.0195
+  TFT1 input [-5.90,5.42]  std 0.93  cov 99.9%
+  TFT2 input [-14.21,14.40]  std 2.07  cov 88.4%
+  TFT3 input [-15.31,8.14]  std 2.31  cov 88.9%
+
+TFT-1.5 training:  70%|███████   | 1400/2000 [2:00:44<51:56,  5.19s/it]
+Epoch 1400 | Loss 0.5607 | Train 82.60% | Val 83.65% | Gap -1.05% | Best 90.57%
+  LR  : w 1.038e-05 ×1.000  t1 1.038e-05  t2 1.038e-05  t3 1.038e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0410  ratios 0.500/0.500/0.041
+  Update: w 5.07e-04  t1 4.30e-05  t2 4.12e-05  t3 5.49e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.378,4.584]  std 1.119  mono 0.81  curve 0.0142
+  TFT2[th] [-1.443,1.332]  std 0.371  mono 0.66  curve 0.0297
+  TFT3[rl] [-0.561,2.341]  std 0.575  mono 0.57  curve 0.0197
+  TFT1 input [-5.83,5.40]  std 0.93  cov 99.9%
+  TFT2 input [-14.42,15.96]  std 2.05  cov 88.5%
+  TFT3 input [-16.05,8.18]  std 2.32  cov 89.1%
+
+TFT-1.5 training:  70%|███████   | 1410/2000 [2:01:36<52:00,  5.29s/it]
+Epoch 1410 | Loss 0.5518 | Train 83.01% | Val 83.95% | Gap -0.94% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0402  ratios 0.500/0.500/0.040
+  Update: w 4.66e-04  t1 4.02e-05  t2 4.03e-05  t3 4.87e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.385,4.584]  std 1.118  mono 0.82  curve 0.0142
+  TFT2[th] [-1.443,1.336]  std 0.371  mono 0.66  curve 0.0297
+  TFT3[rl] [-0.562,2.351]  std 0.573  mono 0.57  curve 0.0197
+  TFT1 input [-6.09,5.59]  std 0.94  cov 99.8%
+  TFT2 input [-15.14,15.28]  std 2.10  cov 88.1%
+  TFT3 input [-16.30,7.97]  std 2.34  cov 89.0%
+
+TFT-1.5 training:  71%|███████   | 1420/2000 [2:02:29<50:49,  5.26s/it]
+Epoch 1420 | Loss 0.5453 | Train 83.19% | Val 83.93% | Gap -0.75% | Best 90.57%
+  LR  : w 1.040e-05 ×1.000  t1 1.040e-05  t2 1.040e-05  t3 1.040e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0395  ratios 0.500/0.500/0.040
+  Update: w 4.69e-04  t1 4.00e-05  t2 3.83e-05  t3 4.95e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.392,4.583]  std 1.118  mono 0.83  curve 0.0142
+  TFT2[th] [-1.443,1.339]  std 0.370  mono 0.66  curve 0.0299
+  TFT3[rl] [-0.564,2.361]  std 0.571  mono 0.56  curve 0.0197
+  TFT1 input [-5.89,5.47]  std 0.93  cov 99.8%
+  TFT2 input [-13.94,16.14]  std 2.07  cov 88.3%
+  TFT3 input [-17.85,8.98]  std 2.34  cov 88.9%
+
+TFT-1.5 training:  72%|███████▏  | 1430/2000 [2:03:20<49:22,  5.20s/it]
+Epoch 1430 | Loss 0.5373 | Train 83.51% | Val 84.22% | Gap -0.71% | Best 90.57%
+  LR  : w 1.040e-05 ×1.000  t1 1.040e-05  t2 1.040e-05  t3 1.040e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0393  ratios 0.500/0.500/0.039
+  Update: w 4.70e-04  t1 4.01e-05  t2 3.90e-05  t3 5.13e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.398,4.582]  std 1.118  mono 0.84  curve 0.0143
+  TFT2[th] [-1.443,1.342]  std 0.370  mono 0.66  curve 0.0299
+  TFT3[rl] [-0.566,2.370]  std 0.569  mono 0.56  curve 0.0198
+  TFT1 input [-5.38,5.86]  std 0.94  cov 99.8%
+  TFT2 input [-15.02,16.52]  std 2.15  cov 87.9%
+  TFT3 input [-16.94,8.11]  std 2.36  cov 88.7%
+
+TFT-1.5 training:  72%|███████▏  | 1440/2000 [2:04:12<48:46,  5.23s/it]
+Epoch 1440 | Loss 0.5325 | Train 83.79% | Val 84.11% | Gap -0.32% | Best 90.57%
+  LR  : w 1.000e-05 ×1.000  t1 1.000e-05  t2 1.000e-05  t3 1.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0382  ratios 0.500/0.500/0.038
+  Update: w 4.87e-04  t1 4.17e-05  t2 3.95e-05  t3 5.05e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.405,4.581]  std 1.117  mono 0.83  curve 0.0141
+  TFT2[th] [-1.444,1.344]  std 0.369  mono 0.65  curve 0.0300
+  TFT3[rl] [-0.567,2.379]  std 0.568  mono 0.56  curve 0.0198
+  TFT1 input [-5.69,5.51]  std 0.93  cov 99.8%
+  TFT2 input [-13.11,15.77]  std 2.09  cov 88.2%
+  TFT3 input [-16.89,8.19]  std 2.32  cov 89.0%
+
+TFT-1.5 training:  72%|███████▎  | 1450/2000 [2:05:03<48:12,  5.26s/it]
+Epoch 1450 | Loss 0.5257 | Train 83.99% | Val 84.20% | Gap -0.21% | Best 90.57%
+  LR  : w 1.040e-05 ×1.000  t1 1.040e-05  t2 1.040e-05  t3 1.040e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0389  ratios 0.500/0.500/0.039
+  Update: w 4.66e-04  t1 3.92e-05  t2 3.85e-05  t3 5.12e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.412,4.580]  std 1.117  mono 0.83  curve 0.0141
+  TFT2[th] [-1.445,1.346]  std 0.369  mono 0.66  curve 0.0300
+  TFT3[rl] [-0.568,2.388]  std 0.566  mono 0.56  curve 0.0198
+  TFT1 input [-5.34,5.55]  std 0.92  cov 99.9%
+  TFT2 input [-12.50,16.35]  std 2.09  cov 88.1%
+  TFT3 input [-14.69,7.91]  std 2.31  cov 89.2%
+
+TFT-1.5 training:  73%|███████▎  | 1460/2000 [2:05:56<47:55,  5.32s/it]
+Epoch 1460 | Loss 0.5209 | Train 84.13% | Val 84.42% | Gap -0.29% | Best 90.57%
+  LR  : w 1.211e-05 ×1.000  t1 1.211e-05  t2 1.211e-05  t3 1.211e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0390  ratios 0.500/0.500/0.039
+  Update: w 5.84e-04  t1 4.90e-05  t2 4.80e-05  t3 6.21e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.419,4.579]  std 1.117  mono 0.83  curve 0.0141
+  TFT2[th] [-1.446,1.348]  std 0.369  mono 0.66  curve 0.0301
+  TFT3[rl] [-0.570,2.397]  std 0.564  mono 0.55  curve 0.0199
+  TFT1 input [-5.38,5.60]  std 0.93  cov 99.8%
+  TFT2 input [-14.51,17.02]  std 2.14  cov 87.8%
+  TFT3 input [-15.23,8.64]  std 2.34  cov 89.1%
+
+TFT-1.5 training:  74%|███████▎  | 1470/2000 [2:06:48<46:20,  5.25s/it]
+Epoch 1470 | Loss 0.5139 | Train 84.37% | Val 84.92% | Gap -0.56% | Best 90.57%
+  LR  : w 1.040e-05 ×1.000  t1 1.040e-05  t2 1.040e-05  t3 1.040e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0393  ratios 0.500/0.500/0.039
+  Update: w 4.65e-04  t1 3.90e-05  t2 3.85e-05  t3 5.04e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.424,4.578]  std 1.116  mono 0.83  curve 0.0141
+  TFT2[th] [-1.448,1.350]  std 0.368  mono 0.66  curve 0.0301
+  TFT3[rl] [-0.573,2.406]  std 0.562  mono 0.55  curve 0.0199
+  TFT1 input [-5.29,5.69]  std 0.94  cov 99.8%
+  TFT2 input [-15.75,16.58]  std 2.16  cov 87.5%
+  TFT3 input [-14.50,8.61]  std 2.33  cov 89.0%
+
+TFT-1.5 training:  74%|███████▍  | 1480/2000 [2:07:40<45:28,  5.25s/it]
+Epoch 1480 | Loss 0.5107 | Train 84.70% | Val 85.23% | Gap -0.54% | Best 90.57%
+  LR  : w 1.213e-05 ×1.000  t1 1.213e-05  t2 1.213e-05  t3 1.213e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0380  ratios 0.500/0.500/0.038
+  Update: w 5.88e-04  t1 4.86e-05  t2 4.79e-05  t3 6.24e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.430,4.576]  std 1.116  mono 0.83  curve 0.0142
+  TFT2[th] [-1.449,1.351]  std 0.368  mono 0.66  curve 0.0301
+  TFT3[rl] [-0.575,2.414]  std 0.560  mono 0.56  curve 0.0200
+  TFT1 input [-5.05,5.55]  std 0.94  cov 99.8%
+  TFT2 input [-14.24,15.53]  std 2.14  cov 87.5%
+  TFT3 input [-15.79,8.72]  std 2.31  cov 89.0%
+
+TFT-1.5 training:  74%|███████▍  | 1490/2000 [2:08:32<45:26,  5.35s/it]
+Epoch 1490 | Loss 0.5111 | Train 84.81% | Val 85.46% | Gap -0.65% | Best 90.57%
+  LR  : w 1.111e-05 ×1.000  t1 1.111e-05  t2 1.111e-05  t3 1.111e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0371  ratios 0.500/0.500/0.037
+  Update: w 5.33e-04  t1 4.57e-05  t2 4.34e-05  t3 6.08e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.435,4.575]  std 1.116  mono 0.83  curve 0.0142
+  TFT2[th] [-1.450,1.353]  std 0.367  mono 0.66  curve 0.0301
+  TFT3[rl] [-0.576,2.422]  std 0.558  mono 0.56  curve 0.0202
+  TFT1 input [-4.87,5.74]  std 0.94  cov 99.8%
+  TFT2 input [-14.79,15.25]  std 2.19  cov 87.2%
+  TFT3 input [-15.33,8.46]  std 2.31  cov 88.9%
+
+TFT-1.5 training:  75%|███████▌  | 1500/2000 [2:09:23<43:56,  5.27s/it]
+Epoch 1500 | Loss 0.5076 | Train 84.97% | Val 85.71% | Gap -0.73% | Best 90.57%
+  LR  : w 1.215e-05 ×1.000  t1 1.215e-05  t2 1.215e-05  t3 1.215e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0382  ratios 0.500/0.500/0.038
+  Update: w 5.42e-04  t1 4.46e-05  t2 4.37e-05  t3 6.13e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.441,4.572]  std 1.115  mono 0.82  curve 0.0141
+  TFT2[th] [-1.450,1.355]  std 0.367  mono 0.67  curve 0.0301
+  TFT3[rl] [-0.577,2.429]  std 0.557  mono 0.55  curve 0.0202
+  TFT1 input [-4.79,5.89]  std 0.95  cov 99.8%
+  TFT2 input [-14.69,14.98]  std 2.21  cov 87.1%
+  TFT3 input [-16.83,8.75]  std 2.31  cov 89.1%
+
+TFT-1.5 training:  76%|███████▌  | 1510/2000 [2:10:15<42:51,  5.25s/it]
+Epoch 1510 | Loss 0.5044 | Train 85.17% | Val 85.80% | Gap -0.62% | Best 90.57%
+  LR  : w 1.305e-05 ×1.000  t1 1.305e-05  t2 1.305e-05  t3 1.305e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0374  ratios 0.500/0.500/0.037
+  Update: w 6.31e-04  t1 5.28e-05  t2 5.09e-05  t3 6.92e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.447,4.569]  std 1.115  mono 0.82  curve 0.0139
+  TFT2[th] [-1.450,1.357]  std 0.366  mono 0.66  curve 0.0302
+  TFT3[rl] [-0.578,2.437]  std 0.555  mono 0.55  curve 0.0202
+  TFT1 input [-4.73,5.79]  std 0.94  cov 99.8%
+  TFT2 input [-13.74,15.11]  std 2.20  cov 87.1%
+  TFT3 input [-15.69,8.51]  std 2.33  cov 89.0%
+
+TFT-1.5 training:  76%|███████▌  | 1520/2000 [2:11:08<43:22,  5.42s/it]
+Epoch 1520 | Loss 0.4937 | Train 85.33% | Val 85.87% | Gap -0.54% | Best 90.57%
+  LR  : w 1.195e-05 ×1.000  t1 1.195e-05  t2 1.195e-05  t3 1.195e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0372  ratios 0.500/0.500/0.037
+  Update: w 5.77e-04  t1 4.97e-05  t2 4.64e-05  t3 6.30e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.452,4.567]  std 1.115  mono 0.82  curve 0.0140
+  TFT2[th] [-1.449,1.360]  std 0.366  mono 0.66  curve 0.0302
+  TFT3[rl] [-0.579,2.446]  std 0.553  mono 0.55  curve 0.0202
+  TFT1 input [-4.99,5.80]  std 0.95  cov 99.8%
+  TFT2 input [-14.27,16.76]  std 2.27  cov 86.9%
+  TFT3 input [-15.29,8.39]  std 2.30  cov 89.0%
+
+TFT-1.5 training:  76%|███████▋  | 1530/2000 [2:12:01<41:43,  5.33s/it]
+Epoch 1530 | Loss 0.4838 | Train 85.51% | Val 86.08% | Gap -0.57% | Best 90.57%
+  LR  : w 1.392e-05 ×1.000  t1 1.392e-05  t2 1.392e-05  t3 1.392e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0369  ratios 0.500/0.500/0.037
+  Update: w 6.69e-04  t1 5.58e-05  t2 5.36e-05  t3 7.16e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.458,4.564]  std 1.114  mono 0.82  curve 0.0141
+  TFT2[th] [-1.449,1.362]  std 0.366  mono 0.66  curve 0.0303
+  TFT3[rl] [-0.579,2.456]  std 0.551  mono 0.55  curve 0.0204
+  TFT1 input [-4.72,5.76]  std 0.94  cov 99.8%
+  TFT2 input [-13.92,16.57]  std 2.26  cov 86.8%
+  TFT3 input [-13.16,8.43]  std 2.32  cov 88.9%
+
+TFT-1.5 training:  77%|███████▋  | 1540/2000 [2:12:52<40:15,  5.25s/it]
+Epoch 1540 | Loss 0.4764 | Train 85.91% | Val 86.27% | Gap -0.35% | Best 90.57%
+  LR  : w 1.040e-05 ×1.000  t1 1.040e-05  t2 1.040e-05  t3 1.040e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0368  ratios 0.500/0.500/0.037
+  Update: w 4.66e-04  t1 3.86e-05  t2 3.72e-05  t3 5.08e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.462,4.562]  std 1.114  mono 0.82  curve 0.0140
+  TFT2[th] [-1.449,1.364]  std 0.365  mono 0.67  curve 0.0303
+  TFT3[rl] [-0.580,2.464]  std 0.549  mono 0.55  curve 0.0204
+  TFT1 input [-4.95,5.66]  std 0.94  cov 99.8%
+  TFT2 input [-13.60,16.68]  std 2.29  cov 86.7%
+  TFT3 input [-13.04,8.51]  std 2.29  cov 89.0%
+
+TFT-1.5 training:  78%|███████▊  | 1550/2000 [2:13:45<39:32,  5.27s/it]
+Epoch 1550 | Loss 0.4703 | Train 86.08% | Val 86.53% | Gap -0.45% | Best 90.57%
+  LR  : w 1.082e-05 ×1.000  t1 1.082e-05  t2 1.082e-05  t3 1.082e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0344  ratios 0.500/0.500/0.034
+  Update: w 4.83e-04  t1 4.15e-05  t2 4.02e-05  t3 5.14e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.467,4.559]  std 1.114  mono 0.82  curve 0.0140
+  TFT2[th] [-1.448,1.366]  std 0.365  mono 0.67  curve 0.0303
+  TFT3[rl] [-0.581,2.472]  std 0.548  mono 0.55  curve 0.0204
+  TFT1 input [-4.75,5.86]  std 0.94  cov 99.8%
+  TFT2 input [-14.69,16.11]  std 2.30  cov 86.5%
+  TFT3 input [-13.36,8.46]  std 2.33  cov 88.9%
+
+TFT-1.5 training:  78%|███████▊  | 1560/2000 [2:14:37<39:09,  5.34s/it]
+Epoch 1560 | Loss 0.4671 | Train 86.24% | Val 86.48% | Gap -0.25% | Best 90.57%
+  LR  : w 1.166e-05 ×1.000  t1 1.166e-05  t2 1.166e-05  t3 1.166e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0367  ratios 0.500/0.500/0.037
+  Update: w 5.20e-04  t1 4.41e-05  t2 4.19e-05  t3 5.70e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.471,4.558]  std 1.114  mono 0.82  curve 0.0141
+  TFT2[th] [-1.448,1.368]  std 0.364  mono 0.67  curve 0.0302
+  TFT3[rl] [-0.584,2.479]  std 0.546  mono 0.55  curve 0.0205
+  TFT1 input [-4.96,5.86]  std 0.95  cov 99.8%
+  TFT2 input [-13.25,17.82]  std 2.30  cov 86.6%
+  TFT3 input [-13.31,8.12]  std 2.33  cov 88.9%
+
+TFT-1.5 training:  78%|███████▊  | 1570/2000 [2:15:30<38:26,  5.37s/it]
+Epoch 1570 | Loss 0.4630 | Train 86.39% | Val 86.82% | Gap -0.42% | Best 90.57%
+  LR  : w 1.358e-05 ×1.000  t1 1.358e-05  t2 1.358e-05  t3 1.358e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0350  ratios 0.500/0.500/0.035
+  Update: w 6.06e-04  t1 5.11e-05  t2 4.79e-05  t3 6.53e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.475,4.556]  std 1.114  mono 0.82  curve 0.0141
+  TFT2[th] [-1.448,1.371]  std 0.364  mono 0.68  curve 0.0303
+  TFT3[rl] [-0.586,2.489]  std 0.545  mono 0.55  curve 0.0205
+  TFT1 input [-5.01,5.85]  std 0.95  cov 99.8%
+  TFT2 input [-14.65,17.75]  std 2.35  cov 86.3%
+  TFT3 input [-13.11,8.18]  std 2.33  cov 88.7%
+
+TFT-1.5 training:  79%|███████▉  | 1580/2000 [2:16:23<36:55,  5.27s/it]
+Epoch 1580 | Loss 0.4583 | Train 86.57% | Val 86.95% | Gap -0.38% | Best 90.57%
+  LR  : w 1.712e-05 ×1.000  t1 1.712e-05  t2 1.712e-05  t3 1.712e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0345  ratios 0.500/0.500/0.034
+  Update: w 8.36e-04  t1 7.07e-05  t2 6.87e-05  t3 8.48e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.481,4.553]  std 1.114  mono 0.82  curve 0.0141
+  TFT2[th] [-1.447,1.375]  std 0.363  mono 0.69  curve 0.0304
+  TFT3[rl] [-0.588,2.500]  std 0.543  mono 0.55  curve 0.0206
+  TFT1 input [-5.07,5.97]  std 0.96  cov 99.8%
+  TFT2 input [-16.38,19.45]  std 2.41  cov 86.0%
+  TFT3 input [-13.46,7.74]  std 2.35  cov 88.7%
+
+TFT-1.5 training:  80%|███████▉  | 1590/2000 [2:17:15<36:14,  5.30s/it]
+Epoch 1590 | Loss 0.4571 | Train 86.68% | Val 87.03% | Gap -0.36% | Best 90.57%
+  LR  : w 1.840e-05 ×1.000  t1 1.840e-05  t2 1.840e-05  t3 1.840e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0352  ratios 0.500/0.500/0.035
+  Update: w 8.20e-04  t1 6.90e-05  t2 6.69e-05  t3 8.95e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.487,4.552]  std 1.113  mono 0.80  curve 0.0143
+  TFT2[th] [-1.445,1.380]  std 0.363  mono 0.69  curve 0.0306
+  TFT3[rl] [-0.590,2.513]  std 0.541  mono 0.55  curve 0.0207
+  TFT1 input [-4.93,5.94]  std 0.96  cov 99.8%
+  TFT2 input [-16.40,19.24]  std 2.39  cov 86.0%
+  TFT3 input [-13.37,7.26]  std 2.35  cov 88.7%
+
+TFT-1.5 training:  80%|████████  | 1600/2000 [2:18:07<34:56,  5.24s/it]
+Epoch 1600 | Loss 0.4562 | Train 86.71% | Val 87.17% | Gap -0.45% | Best 90.57%
+  LR  : w 2.515e-05 ×1.000  t1 2.515e-05  t2 2.515e-05  t3 2.515e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0367  ratios 0.500/0.500/0.037
+  Update: w 1.12e-03  t1 9.29e-05  t2 9.19e-05  t3 1.25e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.494,4.552]  std 1.113  mono 0.80  curve 0.0145
+  TFT2[th] [-1.442,1.386]  std 0.362  mono 0.69  curve 0.0305
+  TFT3[rl] [-0.592,2.529]  std 0.538  mono 0.54  curve 0.0210
+  TFT1 input [-5.10,6.08]  std 0.96  cov 99.7%
+  TFT2 input [-15.36,18.40]  std 2.40  cov 85.7%
+  TFT3 input [-13.85,7.06]  std 2.37  cov 88.6%
+
+TFT-1.5 training:  80%|████████  | 1610/2000 [2:18:59<34:40,  5.33s/it]
+Epoch 1610 | Loss 0.4507 | Train 86.91% | Val 87.08% | Gap -0.17% | Best 90.57%
+  LR  : w 2.928e-05 ×1.000  t1 2.928e-05  t2 2.928e-05  t3 2.928e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0361  ratios 0.500/0.500/0.036
+  Update: w 1.31e-03  t1 1.12e-04  t2 1.05e-04  t3 1.39e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.503,4.551]  std 1.113  mono 0.80  curve 0.0145
+  TFT2[th] [-1.439,1.392]  std 0.362  mono 0.70  curve 0.0310
+  TFT3[rl] [-0.593,2.549]  std 0.534  mono 0.53  curve 0.0216
+  TFT1 input [-4.84,6.01]  std 0.96  cov 99.7%
+  TFT2 input [-15.31,18.56]  std 2.45  cov 85.3%
+  TFT3 input [-14.49,8.18]  std 2.39  cov 88.6%
+
+TFT-1.5 training:  81%|████████  | 1620/2000 [2:19:52<33:26,  5.28s/it]
+Epoch 1620 | Loss 0.4401 | Train 87.26% | Val 87.39% | Gap -0.13% | Best 90.57%
+  LR  : w 2.904e-05 ×1.000  t1 2.904e-05  t2 2.904e-05  t3 2.904e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0342  ratios 0.500/0.500/0.034
+  Update: w 1.40e-03  t1 1.18e-04  t2 1.09e-04  t3 1.49e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.512,4.548]  std 1.112  mono 0.79  curve 0.0146
+  TFT2[th] [-1.432,1.399]  std 0.362  mono 0.70  curve 0.0313
+  TFT3[rl] [-0.593,2.567]  std 0.530  mono 0.54  curve 0.0219
+  TFT1 input [-4.76,6.16]  std 0.96  cov 99.7%
+  TFT2 input [-16.25,18.83]  std 2.47  cov 85.1%
+  TFT3 input [-13.44,8.04]  std 2.40  cov 88.5%
+
+TFT-1.5 training:  82%|████████▏ | 1630/2000 [2:20:44<32:24,  5.26s/it]
+Epoch 1630 | Loss 0.4377 | Train 87.44% | Val 87.68% | Gap -0.25% | Best 90.57%
+  LR  : w 2.881e-05 ×1.000  t1 2.881e-05  t2 2.881e-05  t3 2.881e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0351  ratios 0.500/0.500/0.035
+  Update: w 1.40e-03  t1 1.16e-04  t2 1.14e-04  t3 1.56e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.519,4.548]  std 1.111  mono 0.80  curve 0.0149
+  TFT2[th] [-1.426,1.407]  std 0.361  mono 0.69  curve 0.0318
+  TFT3[rl] [-0.591,2.585]  std 0.527  mono 0.53  curve 0.0224
+  TFT1 input [-5.00,6.48]  std 0.97  cov 99.7%
+  TFT2 input [-16.68,19.61]  std 2.55  cov 84.5%
+  TFT3 input [-15.26,8.23]  std 2.44  cov 88.2%
+
+TFT-1.5 training:  82%|████████▏ | 1640/2000 [2:21:36<31:18,  5.22s/it]
+Epoch 1640 | Loss 0.4318 | Train 87.62% | Val 87.58% | Gap +0.04% | Best 90.57%
+  LR  : w 3.634e-05 ×1.000  t1 3.634e-05  t2 3.634e-05  t3 3.634e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0343  ratios 0.500/0.500/0.034
+  Update: w 1.76e-03  t1 1.49e-04  t2 1.48e-04  t3 2.04e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.530,4.547]  std 1.110  mono 0.79  curve 0.0150
+  TFT2[th] [-1.420,1.420]  std 0.361  mono 0.69  curve 0.0318
+  TFT3[rl] [-0.590,2.603]  std 0.524  mono 0.54  curve 0.0227
+  TFT1 input [-5.03,6.53]  std 0.98  cov 99.6%
+  TFT2 input [-14.97,17.60]  std 2.59  cov 84.3%
+  TFT3 input [-14.61,8.61]  std 2.42  cov 87.9%
+
+TFT-1.5 training:  82%|████████▎ | 1650/2000 [2:22:28<30:25,  5.22s/it]
+Epoch 1650 | Loss 0.4278 | Train 87.76% | Val 87.94% | Gap -0.18% | Best 90.57%
+  LR  : w 3.605e-05 ×1.000  t1 3.605e-05  t2 3.605e-05  t3 3.605e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0327  ratios 0.500/0.500/0.033
+  Update: w 1.75e-03  t1 1.47e-04  t2 1.43e-04  t3 1.91e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.540,4.545]  std 1.109  mono 0.80  curve 0.0151
+  TFT2[th] [-1.414,1.429]  std 0.360  mono 0.69  curve 0.0319
+  TFT3[rl] [-0.587,2.620]  std 0.519  mono 0.52  curve 0.0229
+  TFT1 input [-5.19,6.57]  std 0.99  cov 99.6%
+  TFT2 input [-16.58,18.60]  std 2.69  cov 83.5%
+  TFT3 input [-14.74,8.93]  std 2.46  cov 87.7%
+
+TFT-1.5 training:  83%|████████▎ | 1660/2000 [2:23:20<29:34,  5.22s/it]
+Epoch 1660 | Loss 0.4523 | Train 87.09% | Val 87.67% | Gap -0.58% | Best 90.57%
+  LR  : w 3.430e-05 ×1.000  t1 3.430e-05  t2 3.430e-05  t3 3.430e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0408  ratios 0.500/0.500/0.041
+  Update: w 1.88e-03  t1 1.58e-04  t2 1.50e-04  t3 3.09e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.549,4.546]  std 1.109  mono 0.80  curve 0.0151
+  TFT2[th] [-1.412,1.432]  std 0.360  mono 0.70  curve 0.0320
+  TFT3[rl] [-0.591,2.634]  std 0.515  mono 0.52  curve 0.0233
+  TFT1 input [-5.27,6.92]  std 1.00  cov 99.6%
+  TFT2 input [-16.50,21.03]  std 2.69  cov 83.0%
+  TFT3 input [-15.30,12.44]  std 2.48  cov 87.3%
+
+TFT-1.5 training:  84%|████████▎ | 1670/2000 [2:24:11<29:03,  5.28s/it]
+Epoch 1670 | Loss 0.4633 | Train 86.89% | Val 87.85% | Gap -0.96% | Best 90.57%
+  LR  : w 1.902e-05 ×1.000  t1 2.000e-05  t2 2.000e-05  t3 2.000e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0614  ratios 0.500/0.500/0.061
+  Update: w 9.43e-04  t1 8.18e-05  t2 9.74e-05  t3 1.12e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.533,4.566]  std 1.109  mono 0.80  curve 0.0150
+  TFT2[th] [-1.459,1.395]  std 0.356  mono 0.69  curve 0.0321
+  TFT3[rl] [-0.591,2.680]  std 0.505  mono 0.52  curve 0.0238
+  TFT1 input [-5.19,6.78]  std 0.99  cov 99.6%
+  TFT2 input [-17.88,19.50]  std 2.71  cov 82.0%
+  TFT3 input [-13.73,9.74]  std 2.53  cov 84.1%
+
+TFT-1.5 training:  84%|████████▍ | 1680/2000 [2:25:02<27:32,  5.16s/it]
+Epoch 1680 | Loss 0.4189 | Train 88.16% | Val 88.20% | Gap -0.04% | Best 90.57%
+  LR  : w 1.265e-05 ×1.000  t1 1.330e-05  t2 1.330e-05  t3 1.330e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0411  ratios 0.500/0.500/0.041
+  Update: w 6.14e-04  t1 5.30e-05  t2 5.65e-05  t3 7.35e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.536,4.563]  std 1.108  mono 0.79  curve 0.0149
+  TFT2[th] [-1.468,1.389]  std 0.355  mono 0.69  curve 0.0322
+  TFT3[rl] [-0.586,2.687]  std 0.501  mono 0.51  curve 0.0239
+  TFT1 input [-5.03,6.79]  std 1.00  cov 99.6%
+  TFT2 input [-17.60,18.32]  std 2.73  cov 81.6%
+  TFT3 input [-14.21,11.20]  std 2.56  cov 84.3%
+
+TFT-1.5 training:  84%|████████▍ | 1690/2000 [2:25:53<26:37,  5.15s/it]
+Epoch 1690 | Loss 0.4010 | Train 88.57% | Val 88.26% | Gap +0.31% | Best 90.57%
+  LR  : w 1.255e-05 ×1.000  t1 1.319e-05  t2 1.319e-05  t3 1.319e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0391  ratios 0.500/0.500/0.039
+  Update: w 5.60e-04  t1 4.79e-05  t2 4.94e-05  t3 5.97e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.541,4.559]  std 1.107  mono 0.80  curve 0.0149
+  TFT2[th] [-1.474,1.387]  std 0.354  mono 0.69  curve 0.0323
+  TFT3[rl] [-0.583,2.691]  std 0.498  mono 0.51  curve 0.0239
+  TFT1 input [-5.00,7.14]  std 1.00  cov 99.5%
+  TFT2 input [-16.42,18.28]  std 2.73  cov 81.9%
+  TFT3 input [-14.57,11.11]  std 2.51  cov 85.2%
+
+TFT-1.5 training:  85%|████████▌ | 1700/2000 [2:26:44<25:27,  5.09s/it]
+Epoch 1700 | Loss 0.3979 | Train 88.54% | Val 88.49% | Gap +0.05% | Best 90.57%
+  LR  : w 1.245e-05 ×1.000  t1 1.309e-05  t2 1.309e-05  t3 1.309e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0360  ratios 0.500/0.500/0.036
+  Update: w 5.54e-04  t1 4.89e-05  t2 4.72e-05  t3 5.67e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.545,4.557]  std 1.107  mono 0.80  curve 0.0148
+  TFT2[th] [-1.477,1.387]  std 0.354  mono 0.70  curve 0.0323
+  TFT3[rl] [-0.581,2.692]  std 0.496  mono 0.51  curve 0.0240
+  TFT1 input [-5.15,6.76]  std 1.01  cov 99.5%
+  TFT2 input [-16.65,17.64]  std 2.74  cov 81.7%
+  TFT3 input [-14.76,11.33]  std 2.53  cov 85.2%
+
+TFT-1.5 training:  86%|████████▌ | 1710/2000 [2:27:35<24:33,  5.08s/it]
+Epoch 1710 | Loss 0.3854 | Train 88.98% | Val 88.75% | Gap +0.23% | Best 90.57%
+  LR  : w 1.449e-05 ×1.000  t1 1.524e-05  t2 1.524e-05  t3 1.524e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0305  ratios 0.500/0.500/0.030
+  Update: w 7.01e-04  t1 6.24e-05  t2 6.04e-05  t3 6.85e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.551,4.554]  std 1.106  mono 0.79  curve 0.0146
+  TFT2[th] [-1.479,1.387]  std 0.353  mono 0.70  curve 0.0323
+  TFT3[rl] [-0.581,2.693]  std 0.493  mono 0.50  curve 0.0240
+  TFT1 input [-4.97,7.07]  std 1.01  cov 99.5%
+  TFT2 input [-18.23,18.22]  std 2.77  cov 81.4%
+  TFT3 input [-16.05,11.06]  std 2.55  cov 85.2%
+
+TFT-1.5 training:  86%|████████▌ | 1720/2000 [2:28:25<23:48,  5.10s/it]
+Epoch 1720 | Loss 0.3754 | Train 89.37% | Val 88.70% | Gap +0.67% | Best 90.57%
+  LR  : w 1.687e-05 ×1.000  t1 1.774e-05  t2 1.774e-05  t3 1.774e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0313  ratios 0.500/0.500/0.031
+  Update: w 8.21e-04  t1 7.31e-05  t2 7.10e-05  t3 7.84e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.557,4.550]  std 1.105  mono 0.80  curve 0.0146
+  TFT2[th] [-1.478,1.390]  std 0.353  mono 0.70  curve 0.0325
+  TFT3[rl] [-0.577,2.695]  std 0.491  mono 0.50  curve 0.0243
+  TFT1 input [-4.98,6.92]  std 1.00  cov 99.5%
+  TFT2 input [-16.34,17.54]  std 2.75  cov 81.4%
+  TFT3 input [-15.54,10.49]  std 2.54  cov 85.5%
+
+TFT-1.5 training:  86%|████████▋ | 1730/2000 [2:29:17<24:07,  5.36s/it]
+Epoch 1730 | Loss 0.3762 | Train 89.32% | Val 88.71% | Gap +0.61% | Best 90.57%
+  LR  : w 1.964e-05 ×1.000  t1 2.065e-05  t2 2.065e-05  t3 2.065e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0304  ratios 0.500/0.500/0.030
+  Update: w 8.80e-04  t1 7.53e-05  t2 7.40e-05  t3 9.04e-05
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.562,4.546]  std 1.104  mono 0.80  curve 0.0147
+  TFT2[th] [-1.476,1.392]  std 0.353  mono 0.71  curve 0.0326
+  TFT3[rl] [-0.574,2.698]  std 0.488  mono 0.50  curve 0.0245
+  TFT1 input [-5.13,6.71]  std 1.01  cov 99.5%
+  TFT2 input [-17.27,17.53]  std 2.80  cov 81.0%
+  TFT3 input [-14.61,10.67]  std 2.57  cov 85.2%
+
+TFT-1.5 training:  87%|████████▋ | 1740/2000 [2:30:09<22:41,  5.24s/it]
+Epoch 1740 | Loss 0.3731 | Train 89.38% | Val 88.62% | Gap +0.75% | Best 90.57%
+  LR  : w 2.684e-05 ×1.000  t1 2.822e-05  t2 2.822e-05  t3 2.822e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0294  ratios 0.500/0.500/0.029
+  Update: w 1.20e-03  t1 1.04e-04  t2 1.03e-04  t3 1.19e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.569,4.545]  std 1.103  mono 0.81  curve 0.0146
+  TFT2[th] [-1.474,1.395]  std 0.352  mono 0.69  curve 0.0327
+  TFT3[rl] [-0.573,2.701]  std 0.484  mono 0.50  curve 0.0245
+  TFT1 input [-5.23,6.77]  std 1.01  cov 99.5%
+  TFT2 input [-17.88,16.97]  std 2.88  cov 80.7%
+  TFT3 input [-15.07,11.48]  std 2.56  cov 85.4%
+
+TFT-1.5 training:  88%|████████▊ | 1750/2000 [2:31:00<21:46,  5.22s/it]
+Epoch 1750 | Loss 0.3658 | Train 89.56% | Val 88.62% | Gap +0.94% | Best 90.57%
+  LR  : w 3.667e-05 ×1.000  t1 3.856e-05  t2 3.856e-05  t3 3.856e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0291  ratios 0.500/0.500/0.029
+  Update: w 1.65e-03  t1 1.38e-04  t2 1.36e-04  t3 1.63e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.576,4.541]  std 1.102  mono 0.80  curve 0.0149
+  TFT2[th] [-1.469,1.400]  std 0.352  mono 0.69  curve 0.0327
+  TFT3[rl] [-0.569,2.705]  std 0.480  mono 0.51  curve 0.0249
+  TFT1 input [-5.90,6.95]  std 1.02  cov 99.4%
+  TFT2 input [-17.70,17.24]  std 2.86  cov 80.5%
+  TFT3 input [-15.32,11.40]  std 2.56  cov 85.4%
+
+TFT-1.5 training:  88%|████████▊ | 1760/2000 [2:31:52<20:55,  5.23s/it]
+Epoch 1760 | Loss 0.3675 | Train 89.59% | Val 88.55% | Gap +1.04% | Best 90.57%
+  LR  : w 4.270e-05 ×1.000  t1 4.489e-05  t2 4.489e-05  t3 4.489e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0294  ratios 0.500/0.500/0.029
+  Update: w 1.90e-03  t1 1.63e-04  t2 1.58e-04  t3 1.88e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.582,4.536]  std 1.101  mono 0.80  curve 0.0154
+  TFT2[th] [-1.463,1.403]  std 0.352  mono 0.69  curve 0.0332
+  TFT3[rl] [-0.569,2.706]  std 0.475  mono 0.50  curve 0.0249
+  TFT1 input [-5.37,6.81]  std 1.03  cov 99.4%
+  TFT2 input [-20.34,18.05]  std 2.99  cov 79.7%
+  TFT3 input [-12.88,9.88]  std 2.57  cov 84.7%
+
+TFT-1.5 training:  88%|████████▊ | 1770/2000 [2:32:44<20:04,  5.24s/it]
+Epoch 1770 | Loss 0.3681 | Train 89.62% | Val 88.80% | Gap +0.82% | Best 90.57%
+  LR  : w 4.589e-05 ×1.000  t1 4.825e-05  t2 4.825e-05  t3 4.825e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0305  ratios 0.500/0.500/0.030
+  Update: w 2.22e-03  t1 1.88e-04  t2 1.85e-04  t3 2.38e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.588,4.531]  std 1.100  mono 0.80  curve 0.0155
+  TFT2[th] [-1.452,1.410]  std 0.352  mono 0.69  curve 0.0337
+  TFT3[rl] [-0.566,2.704]  std 0.467  mono 0.51  curve 0.0261
+  TFT1 input [-5.19,7.02]  std 1.03  cov 99.4%
+  TFT2 input [-17.87,16.60]  std 2.98  cov 79.1%
+  TFT3 input [-12.86,11.47]  std 2.58  cov 84.6%
+
+TFT-1.5 training:  89%|████████▉ | 1780/2000 [2:33:36<19:20,  5.28s/it]
+Epoch 1780 | Loss 0.3562 | Train 89.82% | Val 88.83% | Gap +0.99% | Best 90.57%
+  LR  : w 4.552e-05 ×1.000  t1 4.786e-05  t2 4.786e-05  t3 4.786e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0271  ratios 0.500/0.500/0.027
+  Update: w 2.21e-03  t1 1.86e-04  t2 1.88e-04  t3 2.16e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.595,4.528]  std 1.098  mono 0.80  curve 0.0161
+  TFT2[th] [-1.441,1.417]  std 0.352  mono 0.71  curve 0.0341
+  TFT3[rl] [-0.557,2.697]  std 0.460  mono 0.51  curve 0.0263
+  TFT1 input [-5.97,9.70]  std 1.04  cov 99.4%
+  TFT2 input [-17.88,17.01]  std 3.07  cov 78.1%
+  TFT3 input [-13.01,10.01]  std 2.60  cov 84.1%
+
+TFT-1.5 training:  90%|████████▉ | 1790/2000 [2:34:28<18:24,  5.26s/it]
+Epoch 1790 | Loss 0.3465 | Train 90.14% | Val 88.95% | Gap +1.19% | Best 90.57%
+  LR  : w 5.300e-05 ×1.000  t1 5.572e-05  t2 5.572e-05  t3 5.572e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0272  ratios 0.500/0.500/0.027
+  Update: w 2.55e-03  t1 2.18e-04  t2 2.23e-04  t3 2.57e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.602,4.525]  std 1.096  mono 0.79  curve 0.0162
+  TFT2[th] [-1.430,1.418]  std 0.353  mono 0.68  curve 0.0347
+  TFT3[rl] [-0.553,2.690]  std 0.452  mono 0.50  curve 0.0273
+  TFT1 input [-6.56,10.84]  std 1.05  cov 99.3%
+  TFT2 input [-19.08,17.33]  std 3.14  cov 77.1%
+  TFT3 input [-12.15,10.38]  std 2.64  cov 83.8%
+
+TFT-1.5 training:  90%|█████████ | 1800/2000 [2:35:20<17:40,  5.30s/it]
+Epoch 1800 | Loss 0.3413 | Train 90.20% | Val 88.79% | Gap +1.41% | Best 90.57%
+  LR  : w 6.685e-05 ×1.000  t1 7.028e-05  t2 7.028e-05  t3 7.028e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0277  ratios 0.500/0.500/0.028
+  Update: w 2.96e-03  t1 2.52e-04  t2 2.55e-04  t3 2.91e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.611,4.520]  std 1.095  mono 0.78  curve 0.0166
+  TFT2[th] [-1.408,1.419]  std 0.355  mono 0.69  curve 0.0345
+  TFT3[rl] [-0.549,2.682]  std 0.443  mono 0.49  curve 0.0276
+  TFT1 input [-7.23,10.88]  std 1.06  cov 99.2%
+  TFT2 input [-18.99,17.78]  std 3.29  cov 75.7%
+  TFT3 input [-13.14,10.97]  std 2.68  cov 83.5%
+
+TFT-1.5 training:  90%|█████████ | 1810/2000 [2:36:12<16:32,  5.23s/it]
+Epoch 1810 | Loss 0.3386 | Train 90.22% | Val 89.03% | Gap +1.19% | Best 90.57%
+  LR  : w 7.783e-05 ×1.000  t1 8.183e-05  t2 8.183e-05  t3 8.183e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0276  ratios 0.500/0.500/0.028
+  Update: w 3.50e-03  t1 2.91e-04  t2 2.93e-04  t3 3.61e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.613,4.513]  std 1.092  mono 0.79  curve 0.0176
+  TFT2[th] [-1.375,1.417]  std 0.358  mono 0.70  curve 0.0348
+  TFT3[rl] [-0.543,2.671]  std 0.432  mono 0.49  curve 0.0295
+  TFT1 input [-7.61,10.14]  std 1.07  cov 99.2%
+  TFT2 input [-19.19,16.97]  std 3.32  cov 74.0%
+  TFT3 input [-14.06,11.11]  std 2.70  cov 83.4%
+
+TFT-1.5 training:  91%|█████████ | 1820/2000 [2:37:03<15:37,  5.21s/it]
+Epoch 1820 | Loss 0.3336 | Train 90.53% | Val 89.12% | Gap +1.41% | Best 90.57%
+  LR  : w 6.072e-05 ×1.000  t1 6.385e-05  t2 6.385e-05  t3 6.385e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0275  ratios 0.500/0.500/0.027
+  Update: w 2.93e-03  t1 2.48e-04  t2 2.40e-04  t3 3.00e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.614,4.511]  std 1.091  mono 0.80  curve 0.0183
+  TFT2[th] [-1.339,1.417]  std 0.361  mono 0.69  curve 0.0360
+  TFT3[rl] [-0.534,2.662]  std 0.422  mono 0.51  curve 0.0298
+  TFT1 input [-7.10,10.18]  std 1.08  cov 99.1%
+  TFT2 input [-19.13,19.68]  std 3.43  cov 72.4%
+  TFT3 input [-13.79,10.88]  std 2.74  cov 83.3%
+
+TFT-1.5 training:  92%|█████████▏| 1830/2000 [2:37:56<15:00,  5.30s/it]
+Epoch 1830 | Loss 0.3281 | Train 90.64% | Val 89.12% | Gap +1.52% | Best 90.57%
+  LR  : w 7.070e-05 ×1.000  t1 7.433e-05  t2 7.433e-05  t3 7.433e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0269  ratios 0.500/0.500/0.027
+  Update: w 3.14e-03  t1 2.67e-04  t2 2.70e-04  t3 3.23e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.616,4.509]  std 1.089  mono 0.80  curve 0.0185
+  TFT2[th] [-1.305,1.413]  std 0.364  mono 0.68  curve 0.0374
+  TFT3[rl] [-0.532,2.655]  std 0.415  mono 0.51  curve 0.0307
+  TFT1 input [-7.00,9.70]  std 1.09  cov 99.1%
+  TFT2 input [-20.71,18.23]  std 3.60  cov 70.3%
+  TFT3 input [-13.19,10.18]  std 2.80  cov 82.8%
+
+TFT-1.5 training:  92%|█████████▏| 1840/2000 [2:38:48<14:01,  5.26s/it]
+Epoch 1840 | Loss 0.3232 | Train 90.72% | Val 89.18% | Gap +1.54% | Best 90.57%
+  LR  : w 7.598e-05 ×1.000  t1 7.989e-05  t2 7.989e-05  t3 7.989e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0264  ratios 0.500/0.500/0.026
+  Update: w 3.65e-03  t1 3.12e-04  t2 3.10e-04  t3 3.52e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.609,4.507]  std 1.087  mono 0.79  curve 0.0185
+  TFT2[th] [-1.259,1.407]  std 0.368  mono 0.68  curve 0.0375
+  TFT3[rl] [-0.553,2.640]  std 0.405  mono 0.53  curve 0.0311
+  TFT1 input [-8.64,10.16]  std 1.10  cov 99.1%
+  TFT2 input [-20.93,18.72]  std 3.65  cov 69.0%
+  TFT3 input [-12.54,10.99]  std 2.83  cov 82.9%
+
+TFT-1.5 training:  92%|█████████▎| 1850/2000 [2:39:40<13:17,  5.32s/it]
+Epoch 1850 | Loss 0.3221 | Train 90.66% | Val 89.18% | Gap +1.48% | Best 90.57%
+  LR  : w 9.583e-05 ×1.000  t1 9.968e-05  t2 9.968e-05  t3 9.968e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0253  ratios 0.500/0.500/0.025
+  Update: w 4.20e-03  t1 3.61e-04  t2 3.66e-04  t3 3.94e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.606,4.497]  std 1.085  mono 0.78  curve 0.0191
+  TFT2[th] [-1.213,1.385]  std 0.373  mono 0.69  curve 0.0382
+  TFT3[rl] [-0.618,2.623]  std 0.395  mono 0.54  curve 0.0324
+  TFT1 input [-10.35,9.99]  std 1.10  cov 99.0%
+  TFT2 input [-22.28,19.24]  std 3.77  cov 67.6%
+  TFT3 input [-13.24,10.21]  std 2.88  cov 82.7%
+
+TFT-1.5 training:  93%|█████████▎| 1860/2000 [2:40:33<12:22,  5.30s/it]
+Epoch 1860 | Loss 0.3256 | Train 90.71% | Val 89.07% | Gap +1.64% | Best 90.57%
+  LR  : w 1.116e-04 ×1.000  t1 1.000e-04  t2 1.000e-04  t3 1.000e-04 ×1.000  [div 3.68e-02]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0284  ratios 0.500/0.500/0.028
+  Update: w 4.92e-03  t1 3.73e-04  t2 3.75e-04  t3 4.21e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.600,4.486]  std 1.083  mono 0.78  curve 0.0199
+  TFT2[th] [-1.156,1.361]  std 0.380  mono 0.64  curve 0.0398
+  TFT3[rl] [-0.678,2.602]  std 0.386  mono 0.51  curve 0.0341
+  TFT1 input [-11.91,11.96]  std 1.13  cov 98.9%
+  TFT2 input [-22.92,17.88]  std 3.90  cov 65.4%
+  TFT3 input [-13.07,10.78]  std 2.92  cov 82.2%
+
+TFT-1.5 training:  94%|█████████▎| 1870/2000 [2:41:25<11:16,  5.20s/it]
+Epoch 1870 | Loss 0.3151 | Train 90.80% | Val 89.08% | Gap +1.73% | Best 90.57%
+  LR  : w 9.431e-05 ×1.000  t1 8.453e-05  t2 8.453e-05  t3 8.453e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0273  ratios 0.500/0.500/0.027
+  Update: w 4.48e-03  t1 3.22e-04  t2 3.31e-04  t3 3.62e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.597,4.474]  std 1.082  mono 0.77  curve 0.0194
+  TFT2[th] [-1.110,1.335]  std 0.385  mono 0.64  curve 0.0398
+  TFT3[rl] [-0.730,2.589]  std 0.378  mono 0.50  curve 0.0342
+  TFT1 input [-11.94,10.64]  std 1.13  cov 98.9%
+  TFT2 input [-23.32,17.21]  std 4.05  cov 63.4%
+  TFT3 input [-13.08,11.06]  std 2.98  cov 81.8%
+
+TFT-1.5 training:  94%|█████████▍| 1880/2000 [2:42:16<10:26,  5.22s/it]
+Epoch 1880 | Loss 0.3083 | Train 91.09% | Val 89.41% | Gap +1.68% | Best 90.57%
+  LR  : w 8.636e-05 ×1.000  t1 7.740e-05  t2 7.740e-05  t3 7.740e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0258  ratios 0.500/0.500/0.026
+  Update: w 4.18e-03  t1 3.05e-04  t2 3.10e-04  t3 3.22e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.593,4.465]  std 1.081  mono 0.78  curve 0.0188
+  TFT2[th] [-1.068,1.309]  std 0.389  mono 0.65  curve 0.0394
+  TFT3[rl] [-0.776,2.578]  std 0.372  mono 0.51  curve 0.0355
+  TFT1 input [-12.57,10.08]  std 1.14  cov 98.9%
+  TFT2 input [-21.54,17.32]  std 4.14  cov 62.3%
+  TFT3 input [-13.08,11.53]  std 3.00  cov 82.0%
+
+TFT-1.5 training:  94%|█████████▍| 1890/2000 [2:43:08<09:38,  5.26s/it]
+Epoch 1890 | Loss 0.3070 | Train 91.11% | Val 89.33% | Gap +1.79% | Best 90.57%
+  LR  : w 9.259e-05 ×1.000  t1 8.338e-05  t2 8.338e-05  t3 8.338e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0269  ratios 0.500/0.500/0.027
+  Update: w 4.09e-03  t1 3.00e-04  t2 3.02e-04  t3 3.36e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.594,4.456]  std 1.081  mono 0.78  curve 0.0182
+  TFT2[th] [-1.029,1.280]  std 0.393  mono 0.65  curve 0.0403
+  TFT3[rl] [-0.821,2.566]  std 0.365  mono 0.50  curve 0.0358
+  TFT1 input [-12.73,9.60]  std 1.13  cov 98.9%
+  TFT2 input [-20.49,18.62]  std 4.23  cov 60.8%
+  TFT3 input [-13.36,11.71]  std 3.04  cov 81.6%
+
+TFT-1.5 training:  95%|█████████▌| 1900/2000 [2:44:00<08:46,  5.26s/it]
+Epoch 1900 | Loss 0.3051 | Train 91.13% | Val 89.42% | Gap +1.71% | Best 90.57%
+  LR  : w 1.078e-04 ×1.000  t1 9.708e-05  t2 9.708e-05  t3 9.708e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0258  ratios 0.500/0.500/0.026
+  Update: w 4.73e-03  t1 3.46e-04  t2 3.45e-04  t3 3.66e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.579,4.446]  std 1.081  mono 0.78  curve 0.0182
+  TFT2[th] [-0.991,1.264]  std 0.396  mono 0.65  curve 0.0407
+  TFT3[rl] [-0.862,2.552]  std 0.358  mono 0.52  curve 0.0359
+  TFT1 input [-13.38,9.38]  std 1.15  cov 98.8%
+  TFT2 input [-20.75,18.99]  std 4.38  cov 58.8%
+  TFT3 input [-13.62,11.62]  std 3.10  cov 81.6%
+
+TFT-1.5 training:  96%|█████████▌| 1910/2000 [2:44:52<07:51,  5.24s/it]
+Epoch 1910 | Loss 0.3173 | Train 90.71% | Val 89.15% | Gap +1.56% | Best 90.57%
+  LR  : w 1.069e-04 ×1.000  t1 9.569e-05  t2 9.569e-05  t3 9.569e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0274  ratios 0.500/0.500/0.027
+  Update: w 4.76e-03  t1 3.44e-04  t2 3.53e-04  t3 3.64e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.568,4.433]  std 1.081  mono 0.79  curve 0.0182
+  TFT2[th] [-0.984,1.240]  std 0.399  mono 0.66  curve 0.0420
+  TFT3[rl] [-0.905,2.535]  std 0.349  mono 0.53  curve 0.0368
+  TFT1 input [-14.32,9.93]  std 1.15  cov 98.8%
+  TFT2 input [-21.81,18.42]  std 4.62  cov 56.8%
+  TFT3 input [-13.34,11.82]  std 3.17  cov 81.3%
+
+TFT-1.5 training:  96%|█████████▌| 1920/2000 [2:45:44<07:04,  5.31s/it]
+Epoch 1920 | Loss 0.3162 | Train 90.79% | Val 89.17% | Gap +1.61% | Best 90.57%
+  LR  : w 1.194e-04 ×1.000  t1 9.179e-05  t2 9.179e-05  t3 9.179e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0276  ratios 0.500/0.500/0.028
+  Update: w 5.28e-03  t1 3.29e-04  t2 3.17e-04  t3 3.47e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.553,4.418]  std 1.082  mono 0.76  curve 0.0191
+  TFT2[th] [-0.985,1.228]  std 0.401  mono 0.64  curve 0.0429
+  TFT3[rl] [-0.942,2.520]  std 0.341  mono 0.55  curve 0.0372
+  TFT1 input [-15.37,11.22]  std 1.16  cov 98.7%
+  TFT2 input [-21.37,21.92]  std 4.71  cov 56.2%
+  TFT3 input [-14.05,12.90]  std 3.22  cov 81.4%
+
+TFT-1.5 training:  96%|█████████▋| 1930/2000 [2:46:36<06:10,  5.29s/it]
+Epoch 1930 | Loss 0.3255 | Train 90.40% | Val 89.13% | Gap +1.27% | Best 90.57%
+  LR  : w 1.390e-04 ×1.000  t1 9.600e-05  t2 9.600e-05  t3 9.600e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0282  ratios 0.500/0.500/0.028
+  Update: w 6.59e-03  t1 3.66e-04  t2 3.80e-04  t3 3.91e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.534,4.404]  std 1.082  mono 0.77  curve 0.0192
+  TFT2[th] [-0.984,1.221]  std 0.401  mono 0.65  curve 0.0438
+  TFT3[rl] [-0.964,2.504]  std 0.333  mono 0.53  curve 0.0379
+  TFT1 input [-16.22,9.10]  std 1.17  cov 98.6%
+  TFT2 input [-22.46,23.51]  std 4.94  cov 54.5%
+  TFT3 input [-14.37,13.77]  std 3.29  cov 80.9%
+
+TFT-1.5 training:  97%|█████████▋| 1940/2000 [2:47:28<05:18,  5.30s/it]
+Epoch 1940 | Loss 0.3302 | Train 90.25% | Val 89.01% | Gap +1.24% | Best 90.57%
+  LR  : w 1.754e-04 ×1.000  t1 1.000e-04  t2 1.000e-04  t3 1.000e-04 ×1.000  [div 3.84e-02]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0290  ratios 0.500/0.500/0.029
+  Update: w 7.73e-03  t1 3.80e-04  t2 3.81e-04  t3 3.86e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.519,4.389]  std 1.083  mono 0.77  curve 0.0188
+  TFT2[th] [-0.970,1.214]  std 0.400  mono 0.64  curve 0.0438
+  TFT3[rl] [-0.978,2.491]  std 0.325  mono 0.54  curve 0.0388
+  TFT1 input [-15.36,9.21]  std 1.17  cov 98.5%
+  TFT2 input [-24.99,24.11]  std 5.18  cov 52.7%
+  TFT3 input [-14.78,12.91]  std 3.30  cov 80.2%
+
+TFT-1.5 training:  98%|█████████▊| 1950/2000 [2:48:20<04:23,  5.27s/it]
+Epoch 1950 | Loss 0.3352 | Train 90.06% | Val 88.92% | Gap +1.15% | Best 90.57%
+  LR  : w 1.990e-04 ×1.000  t1 9.952e-05  t2 9.952e-05  t3 9.952e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0288  ratios 0.500/0.500/0.029
+  Update: w 8.81e-03  t1 3.54e-04  t2 3.62e-04  t3 3.69e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.514,4.368]  std 1.084  mono 0.78  curve 0.0187
+  TFT2[th] [-0.958,1.211]  std 0.396  mono 0.62  curve 0.0438
+  TFT3[rl] [-0.983,2.479]  std 0.318  mono 0.51  curve 0.0393
+  TFT1 input [-15.26,9.27]  std 1.18  cov 98.5%
+  TFT2 input [-26.02,25.12]  std 5.45  cov 50.8%
+  TFT3 input [-14.46,14.29]  std 3.40  cov 79.9%
+
+TFT-1.5 training:  98%|█████████▊| 1960/2000 [2:49:12<03:29,  5.25s/it]
+Epoch 1960 | Loss 0.3394 | Train 89.99% | Val 89.21% | Gap +0.78% | Best 90.57%
+  LR  : w 1.914e-04 ×1.000  t1 9.569e-05  t2 9.569e-05  t3 9.569e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0322  ratios 0.500/0.500/0.032
+  Update: w 9.02e-03  t1 3.68e-04  t2 3.81e-04  t3 3.97e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.500,4.349]  std 1.084  mono 0.79  curve 0.0187
+  TFT2[th] [-0.944,1.203]  std 0.391  mono 0.62  curve 0.0439
+  TFT3[rl] [-0.990,2.465]  std 0.312  mono 0.52  curve 0.0409
+  TFT1 input [-15.72,9.09]  std 1.20  cov 98.4%
+  TFT2 input [-28.53,35.78]  std 5.63  cov 49.5%
+  TFT3 input [-16.06,16.82]  std 3.51  cov 79.6%
+
+TFT-1.5 training:  98%|█████████▊| 1970/2000 [2:50:04<02:38,  5.29s/it]
+Epoch 1970 | Loss 0.3336 | Train 90.06% | Val 89.01% | Gap +1.05% | Best 90.57%
+  LR  : w 1.920e-04 ×1.000  t1 9.600e-05  t2 9.600e-05  t3 9.600e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0321  ratios 0.500/0.500/0.032
+  Update: w 9.09e-03  t1 3.68e-04  t2 3.75e-04  t3 3.84e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.489,4.331]  std 1.085  mono 0.78  curve 0.0189
+  TFT2[th] [-0.925,1.210]  std 0.386  mono 0.62  curve 0.0446
+  TFT3[rl] [-0.994,2.450]  std 0.307  mono 0.51  curve 0.0416
+  TFT1 input [-15.62,9.97]  std 1.20  cov 98.4%
+  TFT2 input [-34.59,39.24]  std 5.93  cov 48.1%
+  TFT3 input [-16.65,17.08]  std 3.62  cov 78.7%
+
+TFT-1.5 training:  99%|█████████▉| 1980/2000 [2:50:57<01:45,  5.26s/it]
+Epoch 1980 | Loss 0.3337 | Train 89.99% | Val 89.05% | Gap +0.94% | Best 90.57%
+  LR  : w 1.987e-04 ×1.000  t1 9.936e-05  t2 9.936e-05  t3 9.936e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0323  ratios 0.500/0.500/0.032
+  Update: w 8.76e-03  t1 3.57e-04  t2 3.74e-04  t3 3.76e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.489,4.308]  std 1.086  mono 0.79  curve 0.0190
+  TFT2[th] [-0.905,1.206]  std 0.381  mono 0.59  curve 0.0448
+  TFT3[rl] [-0.996,2.428]  std 0.300  mono 0.49  curve 0.0424
+  TFT1 input [-15.67,10.81]  std 1.21  cov 98.3%
+  TFT2 input [-39.21,41.94]  std 6.28  cov 45.2%
+  TFT3 input [-18.81,18.86]  std 3.65  cov 77.7%
+
+TFT-1.5 training: 100%|█████████▉| 1990/2000 [2:51:48<00:52,  5.28s/it]
+Epoch 1990 | Loss 0.3203 | Train 90.44% | Val 89.08% | Gap +1.36% | Best 90.57%
+  LR  : w 1.559e-04 ×1.000  t1 7.796e-05  t2 7.796e-05  t3 7.796e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0308  ratios 0.500/0.500/0.031
+  Update: w 6.86e-03  t1 2.74e-04  t2 2.87e-04  t3 2.97e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.493,4.282]  std 1.085  mono 0.79  curve 0.0185
+  TFT2[th] [-0.889,1.206]  std 0.377  mono 0.60  curve 0.0453
+  TFT3[rl] [-1.001,2.408]  std 0.294  mono 0.51  curve 0.0421
+  TFT1 input [-15.21,11.32]  std 1.20  cov 98.4%
+  TFT2 input [-37.78,43.93]  std 6.43  cov 43.8%
+  TFT3 input [-16.53,17.22]  std 3.76  cov 76.8%
+
+TFT-1.5 training: 100%|██████████| 2000/2000 [2:52:40<00:00,  5.18s/it]
+
+Epoch 2000 | Loss 0.3154 | Train 90.70% | Val 89.42% | Gap +1.27% | Best 90.57%
+  LR  : w 1.428e-04 ×1.000  t1 7.139e-05  t2 7.139e-05  t3 7.139e-05 ×1.000  [LOCKED]
+  GradN: w 1.0000  t1 0.5000  t2 0.5000  t3 0.0311  ratios 0.500/0.500/0.031
+  Update: w 6.40e-03  t1 2.54e-04  t2 2.50e-04  t3 2.60e-04
+  Delta(mean): t1 0.0000  t2 0.0000  t3 0.0000  [max 0.02]
+  TFT1[lr] [-0.504,4.256]  std 1.084  mono 0.79  curve 0.0171
+  TFT2[th] [-0.873,1.205]  std 0.375  mono 0.63  curve 0.0454
+  TFT3[rl] [-1.007,2.390]  std 0.289  mono 0.52  curve 0.0413
+  TFT1 input [-16.21,9.39]  std 1.21  cov 98.3%
+  TFT2 input [-40.10,42.48]  std 6.74  cov 41.3%
+  TFT3 input [-17.23,19.13]  std 3.86  cov 75.3%
+
+
+============================================================
+  Final Test Accuracy (TFT Phase 1.5) : 89.24%
+  Best Val  Accuracy (TFT Phase 1.5)  : 90.57%
+============================================================
+
+
+Process finished with exit code 0
